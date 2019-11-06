@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    x:Class="CBLPOS.Views.CustomerPage"
+    x:Name="CustomerPage"
+    Title="Customer">
+
+    <ContentPage.Content>
+    
+       
+       
+        <Grid>
+
+            <Grid.RowDefinitions>
+
+                <RowDefinition
+                    Height="3*" />
+                <RowDefinition
+                    Height="250" />
+
+            </Grid.RowDefinitions>
+            <StackLayout
+                Grid.Row="0">
+
+                <SearchBar
+                    TextChanged="SearchBar_TextChanged">
+
+
+                </SearchBar>
+                <ListView
+                    x:Name="CustomerListView"
+                    ItemsSource="{Binding Customer}"
+                    ItemSelected="Handle_ItemSelected"
+                    >
+
+                    <ListView.ItemTemplate>
+
+                        <DataTemplate>
+                           
+                                <TextCell
+                                Text="{Binding Customer_Fname}"
+                                Detail="{Binding Customer_Tel}"/>
+               
+       
+                            
+
+                           
+                        </DataTemplate>
+
+                    </ListView.ItemTemplate>
+
+                </ListView>
+
+            </StackLayout>
+            <Frame
+                Margin="10"
+                Grid.Row="1"
+                BackgroundColor="#99CCCC"
+                CornerRadius="10">
+
+                 <StackLayout>
+
+                    <StackLayout
+                        Orientation="Horizontal">
+
+                        <Label
+                            Text="Code      : " TextColor="#f35e20"  FontAttributes="Bold"/>
+                        <Label
+                            Text="{Binding Customer_code}"
+                            TextColor="#FF6633"
+                        x:Name="lblcus_Code"/>
+
+                    </StackLayout>
+                    <StackLayout
+                        Orientation="Horizontal">
+
+                        <Label
+                            Text="Name     : "  TextColor="#f35e20"  FontAttributes="Bold"/>
+                        <Label
+                            TextColor="#FF6633"
+                         x:Name="lblcus_name"/>
+
+                    </StackLayout>
+                    <StackLayout
+                        Orientation="Horizontal">
+
+                        <Label
+                            Text="ID Card  : " TextColor="#f35e20"  FontAttributes="Bold" />
+                        <Label
+                            Text="{Binding Customer_IDCard}"
+                            TextColor="#FF6633"
+                        x:Name="lblcus_IDCard"/>
+
+                    </StackLayout>
+                    <StackLayout
+                        Orientation="Horizontal">
+
+                        <Label
+                            Text="E-mail    : " TextColor="#f35e20"  FontAttributes="Bold"/>
+                        <Label
+                            Text="{Binding Customer_Email}"
+                            TextColor="#FF6633"
+                        x:Name="lblcus_Email"/>
+
+                    </StackLayout>
+                    <StackLayout
+                        Orientation="Horizontal">
+
+                        <Label
+                            Text="Tel          : " TextColor="#f35e20"  FontAttributes="Bold"/>
+                        <Label
+                            Text="{Binding Customer_Tel}"
+                            TextColor="#FF6633"
+                        x:Name="lblcus_Tel"/>
+
+                    </StackLayout>
+                    <StackLayout
+                        Orientation="Horizontal">
+
+                        <Label
+                            Text="Region   : " TextColor="#f35e20"  FontAttributes="Bold"/>
+                        <Label
+                            Text="{Binding Customer_region}"
+                            TextColor="#FF6633" 
+                        x:Name="lblcus_Region"/>
+
+                    </StackLayout>
+                    <Button x:Name="btnselect" Text="Select" TextColor=" Black" BackgroundColor="#00CC99" VerticalOptions="CenterAndExpand" HorizontalOptions="Center" WidthRequest="100" />
+                </StackLayout>
+
+            </Frame>
+
+        </Grid>
+
+    </ContentPage.Content>
+
+</ContentPage>

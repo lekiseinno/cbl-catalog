@@ -1,0 +1,84 @@
+﻿<Properties StartupConfiguration="{8CF2B8DA-C02E-48B6-BFD2-077B0B58A27E}|Default" NuGet.AddPackagesDialog.IncludePrerelease="True">
+  <MonoDevelop.Ide.ItemProperties.CBLPOS.Android AndroidDesignerPreferredTheme="Theme.DeviceDefault.NoActionBar.Fullscreen" PreferredExecutionTarget="Android.Android_Accelerated_Oreo" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="CBLPOS/Helpers/Service.cs">
+    <Files>
+      <File FileName="CBLPOS/Helpers/Service.cs" Line="16" Column="52" IsPinned="True" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="CBLPOS" expanded="True">
+            <Node name="CBLPOS" expanded="True">
+              <Node name="Dependencies" expanded="True" />
+              <Node name="ContentView" expanded="True" />
+              <Node name="Helpers" expanded="True">
+                <Node name="Service.cs" selected="True" />
+              </Node>
+              <Node name="ViewModels" expanded="True" />
+              <Node name="Views" expanded="True">
+                <Node name="CartPage.xaml" expanded="True" />
+                <Node name="IndexPage.xaml" expanded="True" />
+                <Node name="LoginPage.xaml" expanded="True" />
+                <Node name="MainPage.xaml" expanded="True" />
+                <Node name="MasterPage.xaml" expanded="True" />
+              </Node>
+            </Node>
+            <Node name="CBLPOS.Android" expanded="True" />
+            <Node name="CBLPOS.iOS" expanded="True">
+              <Node name="References" expanded="True" />
+              <Node name="Properties" expanded="True" />
+              <Node name="Service" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.CBLPOS.iOS automaticSigning="False" PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.FACCC720-ADAF-47D2-8861-8ADD9AF0A312" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="/Users/chonnikanbutbumrung/Projects/CBLPOS/CBLPOS/Views/CartPage.xaml" relfile="CBLPOS/Views/CartPage.xaml" line="239" column="1" />
+      <Breakpoint file="/Users/chonnikanbutbumrung/Projects/CBLPOS/CBLPOS/Models/GalleryInfoRepository.cs" relfile="CBLPOS/Models/GalleryInfoRepository.cs" line="64" column="1" />
+      <Breakpoint file="/Users/chonnikanbutbumrung/Projects/CBLPOS/CBLPOS/Models/GalleryInfoRepository.cs" relfile="CBLPOS/Models/GalleryInfoRepository.cs" line="57" column="1" />
+      <Breakpoint file="/Users/chonnikanbutbumrung/Projects/CBLPOS/CBLPOS/ContentView/NavigationBarViewxaml.xaml" relfile="CBLPOS/ContentView/NavigationBarViewxaml.xaml" line="26" column="1" />
+      <Breakpoint file="/Users/chonnikanbutbumrung/Projects/CBLPOS/CBLPOS/Views/CustomPage.xaml.cs" relfile="CBLPOS/Views/CustomPage.xaml.cs" line="62" column="1" />
+      <Breakpoint file="/Users/chonnikanbutbumrung/Projects/CBLPOS/CBLPOS/Views/OrderPage.xaml" relfile="CBLPOS/Views/OrderPage.xaml" line="12" column="1" />
+      <Breakpoint file="/Users/chonnikanbutbumrung/Projects/CBLPOS/CBLPOS/ViewModels/CartPageViewModel.cs" relfile="CBLPOS/ViewModels/CartPageViewModel.cs" line="108" column="1" />
+      <Breakpoint file="/Users/chonnikanbutbumrung/Projects/CBLPOS/CBLPOS/Views/CartDetailPage.xaml.cs" relfile="CBLPOS/Views/CartDetailPage.xaml.cs" line="116" column="1" />
+      <Breakpoint file="/Users/chonnikanbutbumrung/Projects/CBLPOS/CBLPOS/Views/CartPage.xaml.cs" relfile="CBLPOS/Views/CartPage.xaml.cs" line="61" column="1" />
+      <Breakpoint file="/Users/chonnikanbutbumrung/Projects/CBLPOS/CBLPOS/Views/CartPage.xaml.cs" relfile="CBLPOS/Views/CartPage.xaml.cs" line="123" column="1" />
+      <Breakpoint file="/Users/chonnikanbutbumrung/Projects/CBLPOS/CBLPOS/Views/CartPage.xaml.cs" relfile="CBLPOS/Views/CartPage.xaml.cs" line="125" column="1" />
+      <Breakpoint file="/Users/chonnikanbutbumrung/Projects/CBLPOS/CBLPOS/Helpers/Service.cs" relfile="CBLPOS/Helpers/Service.cs" line="51" column="1" />
+      <Breakpoint file="/Users/chonnikanbutbumrung/Projects/CBLPOS/CBLPOS/Helpers/Service.cs" relfile="CBLPOS/Helpers/Service.cs" line="47" column="1" />
+      <Breakpoint file="/Users/chonnikanbutbumrung/Projects/CBLPOS/CBLPOS/Helpers/Service.cs" relfile="CBLPOS/Helpers/Service.cs" line="46" column="1" />
+      <Breakpoint file="/Users/chonnikanbutbumrung/Projects/CBLPOS/CBLPOS/Helpers/Service.cs" relfile="CBLPOS/Helpers/Service.cs" line="43" column="1" />
+      <Breakpoint file="/Users/chonnikanbutbumrung/Projects/CBLPOS/CBLPOS/Views/CartPage.xaml.cs" relfile="CBLPOS/Views/CartPage.xaml.cs" line="87" column="1" />
+      <Breakpoint file="/Users/chonnikanbutbumrung/Projects/CBLPOS/CBLPOS/Views/CartPage.xaml.cs" relfile="CBLPOS/Views/CartPage.xaml.cs" line="119" column="1" />
+      <Breakpoint file="/Users/chonnikanbutbumrung/Projects/CBLPOS/CBLPOS/Views/CartPage.xaml.cs" relfile="CBLPOS/Views/CartPage.xaml.cs" line="147" column="1" />
+      <Breakpoint file="/Users/chonnikanbutbumrung/Projects/CBLPOS/CBLPOS/Views/CartPage.xaml.cs" relfile="CBLPOS/Views/CartPage.xaml.cs" line="115" column="1" />
+      <Breakpoint file="/Users/chonnikanbutbumrung/Projects/CBLPOS/CBLPOS/Views/CartPage.xaml.cs" relfile="CBLPOS/Views/CartPage.xaml.cs" line="238" column="1" />
+      <Breakpoint file="/Users/chonnikanbutbumrung/Projects/CBLPOS/CBLPOS/Views/CartPage.xaml.cs" relfile="CBLPOS/Views/CartPage.xaml.cs" line="193" column="1" />
+      <Breakpoint file="/Users/chonnikanbutbumrung/Projects/CBLPOS/.vs/CBLPOS/xs/UserPrefs.xml" relfile=".vs/CBLPOS/xs/UserPrefs.xml" line="53" column="1" />
+      <Breakpoint file="/Users/chonnikanbutbumrung/Projects/CBLPOS/.vs/CBLPOS/xs/UserPrefs.xml" relfile=".vs/CBLPOS/xs/UserPrefs.xml" line="55" column="1" />
+      <Breakpoint file="/Users/chonnikanbutbumrung/Projects/CBLPOS/.vs/CBLPOS/xs/UserPrefs.xml" relfile=".vs/CBLPOS/xs/UserPrefs.xml" line="58" column="1" />
+      <Breakpoint file="/Users/chonnikanbutbumrung/Projects/CBLPOS/.vs/CBLPOS/xs/UserPrefs.xml" relfile=".vs/CBLPOS/xs/UserPrefs.xml" line="64" column="1" />
+      <Breakpoint file="/Users/chonnikanbutbumrung/Projects/CBLPOS/.vs/CBLPOS/xs/UserPrefs.xml" relfile=".vs/CBLPOS/xs/UserPrefs.xml" line="69" column="1" />
+      <Breakpoint file="/Users/chonnikanbutbumrung/Projects/CBLPOS/.vs/CBLPOS/xs/UserPrefs.xml" relfile=".vs/CBLPOS/xs/UserPrefs.xml" line="66" column="1" />
+      <Breakpoint file="/Users/chonnikanbutbumrung/Projects/CBLPOS/.vs/CBLPOS/xs/UserPrefs.xml" relfile=".vs/CBLPOS/xs/UserPrefs.xml" line="11" column="1" />
+      <Breakpoint file="/Users/chonnikanbutbumrung/Projects/CBLPOS/CBLPOS/Helpers/Service.cs" relfile="CBLPOS/Helpers/Service.cs" line="333" column="1" />
+      <Breakpoint file="/Users/chonnikanbutbumrung/Projects/CBLPOS/CBLPOS/Helpers/Service.cs" relfile="CBLPOS/Helpers/Service.cs" line="343" column="1" />
+      <Breakpoint file="/Users/chonnikanbutbumrung/Projects/CBLPOS/CBLPOS/Helpers/Service.cs" relfile="CBLPOS/Helpers/Service.cs" line="356" column="1" />
+      <Breakpoint file="/Users/chonnikanbutbumrung/Projects/CBLPOS/CBLPOS/Helpers/Service.cs" relfile="CBLPOS/Helpers/Service.cs" line="353" column="1" />
+      <Breakpoint file="/Users/chonnikanbutbumrung/Projects/CBLPOS/CBLPOS/Helpers/Service.cs" relfile="CBLPOS/Helpers/Service.cs" line="350" column="1" />
+      <Breakpoint file="/Users/chonnikanbutbumrung/Projects/CBLPOS/CBLPOS/Helpers/Service.cs" relfile="CBLPOS/Helpers/Service.cs" line="351" column="1" />
+      <Breakpoint file="/Users/chonnikanbutbumrung/Projects/CBLPOS/CBLPOS/Helpers/Service.cs" relfile="CBLPOS/Helpers/Service.cs" line="345" column="1" />
+      <Breakpoint file="/Users/chonnikanbutbumrung/Projects/CBLPOS/CBLPOS/Helpers/Service.cs" relfile="CBLPOS/Helpers/Service.cs" line="346" column="1" />
+      <Breakpoint file="/Users/chonnikanbutbumrung/Projects/CBLPOS/CBLPOS/Helpers/Service.cs" relfile="CBLPOS/Helpers/Service.cs" line="347" column="1" />
+      <Breakpoint file="/Users/chonnikanbutbumrung/Projects/CBLPOS/CBLPOS/Helpers/Service.cs" relfile="CBLPOS/Helpers/Service.cs" line="349" column="1" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+  <AuthorInfo Name="chonnikanbutbumrung" Email="" Copyright="" Company="" Trademark="" />
+</Properties>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="CBLPOS.Views.MasterPage"
+             xmlns:local="using:CBLPOS.Models"
+             x:Name="masterPage"
+             xmlns:localpages="clr-namespace:CBLPOS.Views"
+             Icon="slideout.png"
+             Title="Shopping carts">
+    <ContentPage.Content>
+        <Grid >
+            <Grid.RowDefinitions>
+                <RowDefinition Height="300"/>
+                <RowDefinition Height="600"/>
+                 <RowDefinition />
+            </Grid.RowDefinitions>
+            
+            <BoxView Color=" #808080"/>
+            <StackLayout VerticalOptions="End" Padding="20">
+                <Image Source="dp" WidthRequest="100" HeightRequest="100" Margin="15,0,0,10" HorizontalOptions="Start" VerticalOptions="Center" />
+                <Label Text="{Binding MyStringProperty}" TextColor="White" FontSize="Large" FontAttributes="Bold, Italic" Margin="10,0,0,0" VerticalOptions="Center" />
+            </StackLayout>
+            <StackLayout Grid.Row="1">
+                 <ListView  
+                       x:Name="listView" 
+                       RowHeight="70"
+                      SeparatorVisibility="None">
+                
+         
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <ImageCell  Text="{Binding Title}" 
+                                    ImageSource="{Binding ImageName}">
+                           
+                        </ImageCell>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+                
+            </StackLayout>
+           
+            <StackLayout VerticalOptions="End" BackgroundColor="#808080" Grid.Row="2">
+                <Label Text="Copyright © 2017 Innovation LKG, all rights reserved" FontSize="Small" HorizontalOptions="Center" FontAttributes="Bold" TextColor="White" />
+            </StackLayout>
+        </Grid>
+    </ContentPage.Content>
+</ContentPage>

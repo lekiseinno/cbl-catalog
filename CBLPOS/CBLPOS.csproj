@@ -1,0 +1,64 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <RunWithWarnings>true</RunWithWarnings>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="12.0.2" />
+    <PackageReference Include="Xamarin.Forms" Version="3.0.0.550146" />
+    <PackageReference Include="Xam.Plugins.Settings" Version="3.1.1" />
+    <PackageReference Include="Refractored.MvvmHelpers" Version="1.3.0" />
+    <PackageReference Include="Xamarin.FFImageLoading.Forms" Version="2.4.3.840" />
+    <PackageReference Include="Xamarin.FFImageLoading.Svg.Forms" Version="2.4.3.840" />
+    <PackageReference Include="Xamarin.FFImageLoading.Transformations" Version="2.4.3.840" />
+    <PackageReference Include="Xam.Plugin.Connectivity" Version="3.2.0" />
+    <PackageReference Include="Microsoft.AppCenter.Analytics" Version="1.8.0" />
+    <PackageReference Include="DLToolkit.Forms.Controls.FlowListView" Version="2.0.11" />
+    <PackageReference Include="Xamarin.FFImageLoading" Version="2.4.3.840" />
+    <PackageReference Include="Xamvvm.Forms" Version="1.0.5" />
+    <PackageReference Include="XamarinForms.CardView" Version="1.1.1.5" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Remove="DetailPage.cs" />
+    <Compile Remove="View\CartDetailPage.xaml.cs" />
+    <Compile Remove="Views\LoginPage.cs" />
+    <Compile Remove="MyPage.cs" />
+    <Compile Remove="Service\IToolbarItemBadgeService.cs" />
+    <Compile Remove="ViewModels\HomeViewModel.cs" />
+    <Compile Remove="Views\MyPage.xaml.cs" />
+    <Compile Remove="Views\MenuPage.xaml.cs" />
+    <Compile Remove="Views\newMainPage.xaml.cs" />
+    <Compile Remove="Views\MaintoPage.xaml.cs" />
+    <Compile Remove="ViewModels\ViewModel.cs" />
+    <Compile Remove="Models\GalleryInfoRepository.cs" />
+    <Compile Remove="Models\GalleryInfo.cs" />
+    <Compile Remove="Views\ScreenPage.cs" />
+    <Compile Remove="ContentView\NavigationBarViewxaml.xaml.cs" />
+    <Compile Remove="Models\Country.cs" />
+    <Compile Remove="Views\ItemDetailPage.xaml.cs" />
+    <Compile Remove="Views\CustomPage.xaml.cs" />
+    <Compile Remove="ViewModels\ItemDetailPageViewModel.cs" />
+    <Compile Remove="ViewModels\RandomIntegerViewModel.cs" />
+    <Compile Remove="Service\ServiceImplementation\ProdectDetailService.cs" />
+    <Compile Remove="Service\ServiceInterface\IItemService.cs" />
+    <Compile Remove="Service\ServiceInterface\IProductDetailService.cs" />
+    <Compile Remove="Behaviors\AnimateSizeBehavior.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Views\" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Remove="View\CartPage.xaml" />
+    <EmbeddedResource Remove="Views\MyPage.xaml" />
+    <EmbeddedResource Remove="Views\MenuPage.xaml" />
+    <EmbeddedResource Remove="Views\newMainPage.xaml" />
+    <EmbeddedResource Remove="Views\MaintoPage.xaml" />
+    <EmbeddedResource Remove="ContentView\NavigationBarViewxaml.xaml" />
+    <EmbeddedResource Remove="Views\ItemDetailPage.xaml" />
+    <EmbeddedResource Remove="Views\CustomPage.xaml" />
+  </ItemGroup>
+</Project>

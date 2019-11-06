@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+               xmlns:local="clr-namespace:CBLPOS.Controls;assembly=CBLPOS"
+             x:Class="CBLPOS.Views.LoginPage">
+    <ContentPage.Content>
+        
+         <Grid>
+            <Image Source="bgcaballo" Aspect="Fill"/>
+        <Frame
+            VerticalOptions="Center"
+            Margin="40"
+            BackgroundColor="#A0FFFFFF"
+            CornerRadius="20">
+            <StackLayout
+                Orientation="Vertical">
+                <Label
+                    x:Name="titleLabel"
+                    Text="CABALLO  POS"
+                    HorizontalTextAlignment="Center"
+                    FontSize="20"
+                    FontAttributes="Bold" />
+                <Entry
+                    Placeholder="Username"
+                    x:Name="usernameEntry"
+                    Text="{Binding Username}" 
+                    BackgroundColor="#A0FFFFFF"/>
+                <Entry
+                    Placeholder="Password"
+                    x:Name="passwordEntry"
+                    Text="{Binding Password}"
+                    IsPassword="true"
+                    BackgroundColor="#A0FFFFFF" />
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition />
+                        <ColumnDefinition />
+                    </Grid.ColumnDefinitions>
+                   
+                    <Button
+                        Text="Login"
+                        BackgroundColor="#00CC99"
+                        TextColor="White"
+                        Grid.Column="1" 
+                        x:Name="loginButton"/>
+                    <ActivityIndicator
+                        x:Name="indicator"
+                        IsRunning="true"
+                        Grid.Column="1"
+                        IsVisible="false"/>
+                </Grid>
+            </StackLayout>
+        </Frame>
+    </Grid>
+      <!--  <Grid >
+           <Image Source="bgcaballo" Aspect="Fill"/>
+          
+            <Frame VerticalOptions="FillAndExpand"
+                   Margin="40"
+                   BackgroundColor="#A0FFFFFF"
+                   CornerRadius="20">
+                
+                <StackLayout Orientation="Vertical" VerticalOptions="Center">
+                   
+                    <Entry Placeholder="Username"
+                           x:Name="usernameEntry"
+                           BackgroundColor="#A0FFFFFF"/>
+                     <Entry Placeholder="Password"
+                           x:Name="passwordEntry"
+                            IsPassword="true"
+                           BackgroundColor="#A0FFFFFF"/>
+                   
+                        <Button Text="LOGIN"
+                                BackgroundColor="Green"
+                                WidthRequest="50"
+                                VerticalOptions="Center"
+                                TextColor="White"/>
+                    
+                    <local:CustomSwitch   
+       SwitchThumbColor="White" 
+       SwitchOnColor="Red" 
+       SwitchOffColor="Gray"
+       SwitchOnText="TH"
+       SwitchOffText="EN"
+       HorizontalOptions="Center" 
+       VerticalOptions="Center" />
+            
+      
+                         <ActivityIndicator IsRunning="true"
+                                            IsVisible="false"
+                                            x:Name="indicator">
+                         </ActivityIndicator>
+                    
+                    
+                    
+                    
+                    </StackLayout>
+            </Frame>
+        </Grid>-->
+    </ContentPage.Content>
+</ContentPage>

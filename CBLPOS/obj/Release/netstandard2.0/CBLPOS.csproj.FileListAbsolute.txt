@@ -1,0 +1,46 @@
+/Users/chonnikanbutbumrung/Projects/CBLPOS/CBLPOS/bin/Release/netstandard2.0/CBLPOS.deps.json
+/Users/chonnikanbutbumrung/Projects/CBLPOS/CBLPOS/bin/Release/netstandard2.0/CBLPOS.dll
+/Users/chonnikanbutbumrung/Projects/CBLPOS/CBLPOS/bin/Release/netstandard2.0/CBLPOS.pdb
+/Users/chonnikanbutbumrung/Projects/CBLPOS/CBLPOS/obj/Release/netstandard2.0/App.xaml.g.cs
+/Users/chonnikanbutbumrung/Projects/CBLPOS/CBLPOS/obj/Release/netstandard2.0/ContentView/CustomNavigationBar.xaml.g.cs
+/Users/chonnikanbutbumrung/Projects/CBLPOS/CBLPOS/obj/Release/netstandard2.0/Controls/CheckBox.xaml.g.cs
+/Users/chonnikanbutbumrung/Projects/CBLPOS/CBLPOS/obj/Release/netstandard2.0/Views/CartDetailPage.xaml.g.cs
+/Users/chonnikanbutbumrung/Projects/CBLPOS/CBLPOS/obj/Release/netstandard2.0/Views/CartPage.xaml.g.cs
+/Users/chonnikanbutbumrung/Projects/CBLPOS/CBLPOS/obj/Release/netstandard2.0/Views/CatalogPage.xaml.g.cs
+/Users/chonnikanbutbumrung/Projects/CBLPOS/CBLPOS/obj/Release/netstandard2.0/Views/CoverPage.xaml.g.cs
+/Users/chonnikanbutbumrung/Projects/CBLPOS/CBLPOS/obj/Release/netstandard2.0/Views/CustomerPage.xaml.g.cs
+/Users/chonnikanbutbumrung/Projects/CBLPOS/CBLPOS/obj/Release/netstandard2.0/Views/IndexPage.xaml.g.cs
+/Users/chonnikanbutbumrung/Projects/CBLPOS/CBLPOS/obj/Release/netstandard2.0/Views/LoginPage.xaml.g.cs
+/Users/chonnikanbutbumrung/Projects/CBLPOS/CBLPOS/obj/Release/netstandard2.0/Views/MainPage.xaml.g.cs
+/Users/chonnikanbutbumrung/Projects/CBLPOS/CBLPOS/obj/Release/netstandard2.0/Views/MasterPage.xaml.g.cs
+/Users/chonnikanbutbumrung/Projects/CBLPOS/CBLPOS/obj/Release/netstandard2.0/Views/OrderPage.xaml.g.cs
+/Users/chonnikanbutbumrung/Projects/CBLPOS/CBLPOS/obj/Release/netstandard2.0/CBLPOS.csproj.CoreCompileInputs.cache
+/Users/chonnikanbutbumrung/Projects/CBLPOS/CBLPOS/obj/Release/netstandard2.0/CBLPOS.AssemblyInfoInputs.cache
+/Users/chonnikanbutbumrung/Projects/CBLPOS/CBLPOS/obj/Release/netstandard2.0/CBLPOS.AssemblyInfo.cs
+/Users/chonnikanbutbumrung/Projects/CBLPOS/CBLPOS/obj/Release/netstandard2.0/XamlC.stamp
+/Users/chonnikanbutbumrung/Projects/CBLPOS/CBLPOS/obj/Release/netstandard2.0/CBLPOS.dll
+/Users/chonnikanbutbumrung/Projects/CBLPOS/CBLPOS/obj/Release/netstandard2.0/CBLPOS.pdb
+/Users/chonnikanbutbumrung/Projects/CBLPOS/CBLPOS/obj/Release/netstandard2.0/CBLPOS.csprojAssemblyReference.cache
+D:\Project caballo หน้าร้าน\CBLPOS\CBLPOS\bin\Release\netstandard2.0\CBLPOS.deps.json
+D:\Project caballo หน้าร้าน\CBLPOS\CBLPOS\bin\Release\netstandard2.0\CBLPOS.dll
+D:\Project caballo หน้าร้าน\CBLPOS\CBLPOS\bin\Release\netstandard2.0\CBLPOS.pdb
+D:\Project caballo หน้าร้าน\CBLPOS\CBLPOS\obj\Release\netstandard2.0\CBLPOS.csprojAssemblyReference.cache
+D:\Project caballo หน้าร้าน\CBLPOS\CBLPOS\obj\Release\netstandard2.0\App.xaml.g.cs
+D:\Project caballo หน้าร้าน\CBLPOS\CBLPOS\obj\Release\netstandard2.0\ContentView\CustomNavigationBar.xaml.g.cs
+D:\Project caballo หน้าร้าน\CBLPOS\CBLPOS\obj\Release\netstandard2.0\Controls\CheckBox.xaml.g.cs
+D:\Project caballo หน้าร้าน\CBLPOS\CBLPOS\obj\Release\netstandard2.0\Views\CartDetailPage.xaml.g.cs
+D:\Project caballo หน้าร้าน\CBLPOS\CBLPOS\obj\Release\netstandard2.0\Views\CartPage.xaml.g.cs
+D:\Project caballo หน้าร้าน\CBLPOS\CBLPOS\obj\Release\netstandard2.0\Views\CatalogPage.xaml.g.cs
+D:\Project caballo หน้าร้าน\CBLPOS\CBLPOS\obj\Release\netstandard2.0\Views\CoverPage.xaml.g.cs
+D:\Project caballo หน้าร้าน\CBLPOS\CBLPOS\obj\Release\netstandard2.0\Views\CustomerPage.xaml.g.cs
+D:\Project caballo หน้าร้าน\CBLPOS\CBLPOS\obj\Release\netstandard2.0\Views\IndexPage.xaml.g.cs
+D:\Project caballo หน้าร้าน\CBLPOS\CBLPOS\obj\Release\netstandard2.0\Views\LoginPage.xaml.g.cs
+D:\Project caballo หน้าร้าน\CBLPOS\CBLPOS\obj\Release\netstandard2.0\Views\MainPage.xaml.g.cs
+D:\Project caballo หน้าร้าน\CBLPOS\CBLPOS\obj\Release\netstandard2.0\Views\MasterPage.xaml.g.cs
+D:\Project caballo หน้าร้าน\CBLPOS\CBLPOS\obj\Release\netstandard2.0\Views\OrderPage.xaml.g.cs
+D:\Project caballo หน้าร้าน\CBLPOS\CBLPOS\obj\Release\netstandard2.0\CBLPOS.csproj.CoreCompileInputs.cache
+D:\Project caballo หน้าร้าน\CBLPOS\CBLPOS\obj\Release\netstandard2.0\CBLPOS.AssemblyInfoInputs.cache
+D:\Project caballo หน้าร้าน\CBLPOS\CBLPOS\obj\Release\netstandard2.0\CBLPOS.AssemblyInfo.cs
+D:\Project caballo หน้าร้าน\CBLPOS\CBLPOS\obj\Release\netstandard2.0\XamlC.stamp
+D:\Project caballo หน้าร้าน\CBLPOS\CBLPOS\obj\Release\netstandard2.0\CBLPOS.dll
+D:\Project caballo หน้าร้าน\CBLPOS\CBLPOS\obj\Release\netstandard2.0\CBLPOS.pdb

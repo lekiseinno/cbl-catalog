@@ -1,0 +1,140 @@
+MonoTouch: Could not install sigaction override, unexpected sigaction implementation.
+2019-05-30 13:51:53.213090+0700 CBLPOS.iOS[8020:307169] SecTaskLoadEntitlements failed error=22 cs_flags=200, pid=8020
+2019-05-30 13:51:53.213665+0700 CBLPOS.iOS[8020:307169] SecTaskCopyDebugDescription: CBLPOS.iOS[8020]/0#-1 LF=0
+2019-05-30 13:51:53.244610+0700 CBLPOS.iOS[8020:307169] libMobileGestalt MobileGestalt.c:890: MGIsDeviceOneOfType is not supported on this platform.
+2019-05-30 13:55:04.516102+0700 CBLPOS.iOS[8020:307169] SecTaskLoadEntitlements failed error=22 cs_flags=200, pid=8020
+2019-05-30 13:55:04.516513+0700 CBLPOS.iOS[8020:307169] SecTaskCopyDebugDescription: CBLPOS.iOS[8020]/0#-1 LF=0
+2019-05-30 13:55:05.820075+0700 CBLPOS.iOS[8020:307169] [Unknown process name] Error: this application, or a library it uses, has passed an invalid numeric value (NaN, or not-a-number) to CoreGraphics API and this value is being ignored. Please fix this problem.
+2019-05-30 13:55:05.820905+0700 CBLPOS.iOS[8020:307169] [Unknown process name] If you want to see the backtrace, please set CG_NUMERICS_SHOW_BACKTRACE environmental variable.
+2019-05-30 13:55:05.821008+0700 CBLPOS.iOS[8020:307169] [Unknown process name] Error: this application, or a library it uses, has passed an invalid numeric value (NaN, or not-a-number) to CoreGraphics API and this value is being ignored. Please fix this problem.
+2019-05-30 13:55:05.821233+0700 CBLPOS.iOS[8020:307169] [Unknown process name] If you want to see the backtrace, please set CG_NUMERICS_SHOW_BACKTRACE environmental variable.
+2019-05-30 13:55:05.821313+0700 CBLPOS.iOS[8020:307169] [Unknown process name] Error: this application, or a library it uses, has passed an invalid numeric value (NaN, or not-a-number) to CoreGraphics API and this value is being ignored. Please fix this problem.
+2019-05-30 13:55:05.821382+0700 CBLPOS.iOS[8020:307169] [Unknown process name] If you want to see the backtrace, please set CG_NUMERICS_SHOW_BACKTRACE environmental variable.
+2019-05-30 13:55:05.821803+0700 CBLPOS.iOS[8020:307169] [Unknown process name] Error: this application, or a library it uses, has passed an invalid numeric value (NaN, or not-a-number) to CoreGraphics API and this value is being ignored. Please fix this problem.
+2019-05-30 13:55:05.821889+0700 CBLPOS.iOS[8020:307169] [Unknown process name] If you want to see the backtrace, please set CG_NUMERICS_SHOW_BACKTRACE environmental variable.
+2019-05-30 13:55:05.821988+0700 CBLPOS.iOS[8020:307169] [Unknown process name] Error: this application, or a library it uses, has passed an invalid numeric value (NaN, or not-a-number) to CoreGraphics API and this value is being ignored. Please fix this problem.
+2019-05-30 13:55:05.822061+0700 CBLPOS.iOS[8020:307169] [Unknown process name] If you want to see the backtrace, please set CG_NUMERICS_SHOW_BACKTRACE environmental variable.
+2019-05-30 13:55:05.822137+0700 CBLPOS.iOS[8020:307169] [Unknown process name] Error: this application, or a library it uses, has passed an invalid numeric value (NaN, or not-a-number) to CoreGraphics API and this value is being ignored. Please fix this problem.
+2019-05-30 13:55:05.822211+0700 CBLPOS.iOS[8020:307169] [Unknown process name] If you want to see the backtrace, please set CG_NUMERICS_SHOW_BACKTRACE environmental variable.
+2019-05-30 13:55:05.823984+0700 CBLPOS.iOS[8020:307169] [Unknown process name] Error: this application, or a library it uses, has passed an invalid numeric value (NaN, or not-a-number) to CoreGraphics API and this value is being ignored. Please fix this problem.
+2019-05-30 13:55:05.824106+0700 CBLPOS.iOS[8020:307169] [Unknown process name] If you want to see the backtrace, please set CG_NUMERICS_SHOW_BACKTRACE environmental variable.
+2019-05-30 13:55:05.824185+0700 CBLPOS.iOS[8020:307169] [Unknown process name] Error: this application, or a library it uses, has passed an invalid numeric value (NaN, or not-a-number) to CoreGraphics API and this value is being ignored. Please fix this problem.
+2019-05-30 13:55:05.824252+0700 CBLPOS.iOS[8020:307169] [Unknown process name] If you want to see the backtrace, please set CG_NUMERICS_SHOW_BACKTRACE environmental variable.
+2019-05-30 13:55:05.824372+0700 CBLPOS.iOS[8020:307169] [Unknown process name] Error: this application, or a library it uses, has passed an invalid numeric value (NaN, or not-a-number) to CoreGraphics API and this value is being ignored. Please fix this problem.
+2019-05-30 13:55:05.824487+0700 CBLPOS.iOS[8020:307169] [Unknown process name] If you want to see the backtrace, please set CG_NUMERICS_SHOW_BACKTRACE environmental variable.
+2019-05-30 13:55:05.824575+0700 CBLPOS.iOS[8020:307169] [Unknown process name] Error: this application, or a library it uses, has passed an invalid numeric value (NaN, or not-a-number) to CoreGraphics API and this value is being ignored. Please fix this problem.
+2019-05-30 13:55:05.824664+0700 CBLPOS.iOS[8020:307169] [Unknown process name] If you want to see the backtrace, please set CG_NUMERICS_SHOW_BACKTRACE environmental variable.
+2019-05-30 13:55:05.824741+0700 CBLPOS.iOS[8020:307169] [Unknown process name] Error: this application, or a library it uses, has passed an invalid numeric value (NaN, or not-a-number) to CoreGraphics API and this value is being ignored. Please fix this problem.
+2019-05-30 13:55:05.824853+0700 CBLPOS.iOS[8020:307169] [Unknown process name] If you want to see the backtrace, please set CG_NUMERICS_SHOW_BACKTRACE environmental variable.
+2019-05-30 13:55:05.825036+0700 CBLPOS.iOS[8020:307169] [Unknown process name] Error: this application, or a library it uses, has passed an invalid numeric value (NaN, or not-a-number) to CoreGraphics API and this value is being ignored. Please fix this problem.
+2019-05-30 13:55:05.825324+0700 CBLPOS.iOS[8020:307169] [Unknown process name] If you want to see the backtrace, please set CG_NUMERICS_SHOW_BACKTRACE environmental variable.
+2019-05-30 13:55:05.831484+0700 CBLPOS.iOS[8020:307169] [Unknown process name] Error: this application, or a library it uses, has passed an invalid numeric value (NaN, or not-a-number) to CoreGraphics API and this value is being ignored. Please fix this problem.
+2019-05-30 13:55:05.831612+0700 CBLPOS.iOS[8020:307169] [Unknown process name] If you want to see the backtrace, please set CG_NUMERICS_SHOW_BACKTRACE environmental variable.
+2019-05-30 13:55:05.831680+0700 CBLPOS.iOS[8020:307169] [Unknown process name] Error: this application, or a library it uses, has passed an invalid numeric value (NaN, or not-a-number) to CoreGraphics API and this value is being ignored. Please fix this problem.
+2019-05-30 13:55:05.831801+0700 CBLPOS.iOS[8020:307169] [Unknown process name] If you want to see the backtrace, please set CG_NUMERICS_SHOW_BACKTRACE environmental variable.
+2019-05-30 13:55:05.831858+0700 CBLPOS.iOS[8020:307169] [Unknown process name] Error: this application, or a library it uses, has passed an invalid numeric value (NaN, or not-a-number) to CoreGraphics API and this value is being ignored. Please fix this problem.
+2019-05-30 13:55:05.831954+0700 CBLPOS.iOS[8020:307169] [Unknown process name] If you want to see the backtrace, please set CG_NUMERICS_SHOW_BACKTRACE environmental variable.
+2019-05-30 13:55:05.832036+0700 CBLPOS.iOS[8020:307169] [Unknown process name] Error: this application, or a library it uses, has passed an invalid numeric value (NaN, or not-a-number) to CoreGraphics API and this value is being ignored. Please fix this problem.
+2019-05-30 13:55:05.832120+0700 CBLPOS.iOS[8020:307169] [Unknown process name] If you want to see the backtrace, please set CG_NUMERICS_SHOW_BACKTRACE environmental variable.
+2019-05-30 13:55:05.832201+0700 CBLPOS.iOS[8020:307169] [Unknown process name] Error: this application, or a library it uses, has passed an invalid numeric value (NaN, or not-a-number) to CoreGraphics API and this value is being ignored. Please fix this problem.
+2019-05-30 13:55:05.832282+0700 CBLPOS.iOS[8020:307169] [Unknown process name] If you want to see the backtrace, please set CG_NUMERICS_SHOW_BACKTRACE environmental variable.
+2019-05-30 13:55:05.832363+0700 CBLPOS.iOS[8020:307169] [Unknown process name] Error: this application, or a library it uses, has passed an invalid numeric value (NaN, or not-a-number) to CoreGraphics API and this value is being ignored. Please fix this problem.
+2019-05-30 13:55:05.832461+0700 CBLPOS.iOS[8020:307169] [Unknown process name] If you want to see the backtrace, please set CG_NUMERICS_SHOW_BACKTRACE environmental variable.
+2019-05-30 13:55:06.187521+0700 CBLPOS.iOS[8020:307169] [Unknown process name] Error: this application, or a library it uses, has passed an invalid numeric value (NaN, or not-a-number) to CoreGraphics API and this value is being ignored. Please fix this problem.
+2019-05-30 13:55:06.187651+0700 CBLPOS.iOS[8020:307169] [Unknown process name] If you want to see the backtrace, please set CG_NUMERICS_SHOW_BACKTRACE environmental variable.
+2019-05-30 13:55:06.187749+0700 CBLPOS.iOS[8020:307169] [Unknown process name] Error: this application, or a library it uses, has passed an invalid numeric value (NaN, or not-a-number) to CoreGraphics API and this value is being ignored. Please fix this problem.
+2019-05-30 13:55:06.187819+0700 CBLPOS.iOS[8020:307169] [Unknown process name] If you want to see the backtrace, please set CG_NUMERICS_SHOW_BACKTRACE environmental variable.
+2019-05-30 13:55:06.187896+0700 CBLPOS.iOS[8020:307169] [Unknown process name] Error: this application, or a library it uses, has passed an invalid numeric value (NaN, or not-a-number) to CoreGraphics API and this value is being ignored. Please fix this problem.
+2019-05-30 13:55:06.187971+0700 CBLPOS.iOS[8020:307169] [Unknown process name] If you want to see the backtrace, please set CG_NUMERICS_SHOW_BACKTRACE environmental variable.
+2019-05-30 13:55:06.188045+0700 CBLPOS.iOS[8020:307169] [Unknown process name] Error: this application, or a library it uses, has passed an invalid numeric value (NaN, or not-a-number) to CoreGraphics API and this value is being ignored. Please fix this problem.
+2019-05-30 13:55:06.188121+0700 CBLPOS.iOS[8020:307169] [Unknown process name] If you want to see the backtrace, please set CG_NUMERICS_SHOW_BACKTRACE environmental variable.
+2019-05-30 13:55:06.188191+0700 CBLPOS.iOS[8020:307169] [Unknown process name] Error: this application, or a library it uses, has passed an invalid numeric value (NaN, or not-a-number) to CoreGraphics API and this value is being ignored. Please fix this problem.
+2019-05-30 13:55:06.188269+0700 CBLPOS.iOS[8020:307169] [Unknown process name] If you want to see the backtrace, please set CG_NUMERICS_SHOW_BACKTRACE environmental variable.
+2019-05-30 13:55:06.188348+0700 CBLPOS.iOS[8020:307169] [Unknown process name] Error: this application, or a library it uses, has passed an invalid numeric value (NaN, or not-a-number) to CoreGraphics API and this value is being ignored. Please fix this problem.
+2019-05-30 13:55:06.188427+0700 CBLPOS.iOS[8020:307169] [Unknown process name] If you want to see the backtrace, please set CG_NUMERICS_SHOW_BACKTRACE environmental variable.
+2019-05-30 13:55:06.188556+0700 CBLPOS.iOS[8020:307169] [Unknown process name] Error: this application, or a library it uses, has passed an invalid numeric value (NaN, or not-a-number) to CoreGraphics API and this value is being ignored. Please fix this problem.
+2019-05-30 13:55:06.188630+0700 CBLPOS.iOS[8020:307169] [Unknown process name] If you want to see the backtrace, please set CG_NUMERICS_SHOW_BACKTRACE environmental variable.
+2019-05-30 13:55:06.188707+0700 CBLPOS.iOS[8020:307169] [Unknown process name] Error: this application, or a library it uses, has passed an invalid numeric value (NaN, or not-a-number) to CoreGraphics API and this value is being ignored. Please fix this problem.
+2019-05-30 13:55:06.188780+0700 CBLPOS.iOS[8020:307169] [Unknown process name] If you want to see the backtrace, please set CG_NUMERICS_SHOW_BACKTRACE environmental variable.
+2019-05-30 13:55:06.188856+0700 CBLPOS.iOS[8020:307169] [Unknown process name] Error: this application, or a library it uses, has passed an invalid numeric value (NaN, or not-a-number) to CoreGraphics API and this value is being ignored. Please fix this problem.
+2019-05-30 13:55:06.188971+0700 CBLPOS.iOS[8020:307169] [Unknown process name] If you want to see the backtrace, please set CG_NUMERICS_SHOW_BACKTRACE environmental variable.
+2019-05-30 13:55:06.189163+0700 CBLPOS.iOS[8020:307169] [Unknown process name] Error: this application, or a library it uses, has passed an invalid numeric value (NaN, or not-a-number) to CoreGraphics API and this value is being ignored. Please fix this problem.
+2019-05-30 13:55:06.189352+0700 CBLPOS.iOS[8020:307169] [Unknown process name] If you want to see the backtrace, please set CG_NUMERICS_SHOW_BACKTRACE environmental variable.
+2019-05-30 13:55:06.189540+0700 CBLPOS.iOS[8020:307169] [Unknown process name] Error: this application, or a library it uses, has passed an invalid numeric value (NaN, or not-a-number) to CoreGraphics API and this value is being ignored. Please fix this problem.
+2019-05-30 13:55:06.189689+0700 CBLPOS.iOS[8020:307169] [Unknown process name] If you want to see the backtrace, please set CG_NUMERICS_SHOW_BACKTRACE environmental variable.
+2019-05-30 13:55:06.189843+0700 CBLPOS.iOS[8020:307169] [Unknown process name] Error: this application, or a library it uses, has passed an invalid numeric value (NaN, or not-a-number) to CoreGraphics API and this value is being ignored. Please fix this problem.
+2019-05-30 13:55:06.189992+0700 CBLPOS.iOS[8020:307169] [Unknown process name] If you want to see the backtrace, please set CG_NUMERICS_SHOW_BACKTRACE environmental variable.
+2019-05-30 13:55:06.191101+0700 CBLPOS.iOS[8020:307169] [Unknown process name] Error: this application, or a library it uses, has passed an invalid numeric value (NaN, or not-a-number) to CoreGraphics API and this value is being ignored. Please fix this problem.
+2019-05-30 13:55:06.191248+0700 CBLPOS.iOS[8020:307169] [Unknown process name] If you want to see the backtrace, please set CG_NUMERICS_SHOW_BACKTRACE environmental variable.
+2019-05-30 13:55:06.191332+0700 CBLPOS.iOS[8020:307169] [Unknown process name] Error: this application, or a library it uses, has passed an invalid numeric value (NaN, or not-a-number) to CoreGraphics API and this value is being ignored. Please fix this problem.
+2019-05-30 13:55:06.191409+0700 CBLPOS.iOS[8020:307169] [Unknown process name] If you want to see the backtrace, please set CG_NUMERICS_SHOW_BACKTRACE environmental variable.
+2019-05-30 13:55:06.191480+0700 CBLPOS.iOS[8020:307169] [Unknown process name] Error: this application, or a library it uses, has passed an invalid numeric value (NaN, or not-a-number) to CoreGraphics API and this value is being ignored. Please fix this problem.
+2019-05-30 13:55:06.191543+0700 CBLPOS.iOS[8020:307169] [Unknown process name] If you want to see the backtrace, please set CG_NUMERICS_SHOW_BACKTRACE environmental variable.
+2019-05-30 13:55:06.191605+0700 CBLPOS.iOS[8020:307169] [Unknown process name] Error: this application, or a library it uses, has passed an invalid numeric value (NaN, or not-a-number) to CoreGraphics API and this value is being ignored. Please fix this problem.
+2019-05-30 13:55:06.191685+0700 CBLPOS.iOS[8020:307169] [Unknown process name] If you want to see the backtrace, please set CG_NUMERICS_SHOW_BACKTRACE environmental variable.
+2019-05-30 13:55:06.191759+0700 CBLPOS.iOS[8020:307169] [Unknown process name] Error: this application, or a library it uses, has passed an invalid numeric value (NaN, or not-a-number) to CoreGraphics API and this value is being ignored. Please fix this problem.
+2019-05-30 13:55:06.191838+0700 CBLPOS.iOS[8020:307169] [Unknown process name] If you want to see the backtrace, please set CG_NUMERICS_SHOW_BACKTRACE environmental variable.
+2019-05-30 13:55:06.191911+0700 CBLPOS.iOS[8020:307169] [Unknown process name] Error: this application, or a library it uses, has passed an invalid numeric value (NaN, or not-a-number) to CoreGraphics API and this value is being ignored. Please fix this problem.
+2019-05-30 13:55:06.192047+0700 CBLPOS.iOS[8020:307169] [Unknown process name] If you want to see the backtrace, please set CG_NUMERICS_SHOW_BACKTRACE environmental variable.
+2019-05-30 13:55:12.026421+0700 CBLPOS.iOS[8020:307169] [LayoutConstraints] Unable to simultaneously satisfy constraints.
+	Probably at least one of the constraints in the following list is one you don't want. 
+	Try this: 
+		(1) look at each constraint and try to figure out which you don't expect; 
+		(2) find the code that added the unwanted constraint or constraints and fix it. 
+	(Note: If you're seeing NSAutoresizingMaskLayoutConstraints that you don't understand, refer to the documentation for the UIView property translatesAutoresizingMaskIntoConstraints) 
+(
+    "<NSAutoresizingMaskLayoutConstraint:0x600001684ff0 h=--& v=--& UIKeyboardAssistantBar:0x7fb4c762a8d0.height == 0   (active)>",
+    "<NSLayoutConstraint:0x6000016a45a0 V:|-(0)-[_UIButtonBarStackView:0x7fb4c7706190]   (active, names: '|':UIKeyboardAssistantBar:0x7fb4c762a8d0 )>",
+    "<NSLayoutConstraint:0x6000016a45f0 V:[_UIButtonBarStackView:0x7fb4c7706190]-(0)-|   (active, names: '|':UIKeyboardAssistantBar:0x7fb4c762a8d0 )>",
+    "<NSLayoutConstraint:0x6000016e3340 'UIButtonBar.maximumAlignmentSize' _UIButtonBarButton:0x7fb4c76444a0.height == UILayoutGuide:0x600000c9d500'UIViewLayoutMarginsGuide'.height   (active)>",
+    "<NSLayoutConstraint:0x6000016d3c00 'UIView-bottomMargin-guide-constraint' V:[UILayoutGuide:0x600000c9d500'UIViewLayoutMarginsGuide']-(9)-|   (active, names: '|':_UIButtonBarStackView:0x7fb4c7706190 )>",
+    "<NSLayoutConstraint:0x6000016d3930 'UIView-topMargin-guide-constraint' V:|-(10)-[UILayoutGuide:0x600000c9d500'UIViewLayoutMarginsGuide']   (active, names: '|':_UIButtonBarStackView:0x7fb4c7706190 )>"
+)
+
+Will attempt to recover by breaking constraint 
+<NSLayoutConstraint:0x6000016d3c00 'UIView-bottomMargin-guide-constraint' V:[UILayoutGuide:0x600000c9d500'UIViewLayoutMarginsGuide']-(9)-|   (active, names: '|':_UIButtonBarStackView:0x7fb4c7706190 )>
+
+Make a symbolic breakpoint at UIViewAlertForUnsatisfiableConstraints to catch this in the debugger.
+The methods in the UIConstraintBasedLayoutDebugging category on UIView listed in <UIKitCore/UIView.h> may also be helpful.
+2019-05-30 13:55:12.030616+0700 CBLPOS.iOS[8020:307169] [LayoutConstraints] Unable to simultaneously satisfy constraints.
+	Probably at least one of the constraints in the following list is one you don't want. 
+	Try this: 
+		(1) look at each constraint and try to figure out which you don't expect; 
+		(2) find the code that added the unwanted constraint or constraints and fix it. 
+	(Note: If you're seeing NSAutoresizingMaskLayoutConstraints that you don't understand, refer to the documentation for the UIView property translatesAutoresizingMaskIntoConstraints) 
+(
+    "<NSAutoresizingMaskLayoutConstraint:0x600001684ff0 h=--& v=--& UIKeyboardAssistantBar:0x7fb4c762a8d0.height == 0   (active)>",
+    "<NSLayoutConstraint:0x6000016a4640 V:|-(0)-[_UIButtonBarStackView:0x7fb4c75afa50]   (active, names: '|':UIKeyboardAssistantBar:0x7fb4c762a8d0 )>",
+    "<NSLayoutConstraint:0x6000016a4690 V:[_UIButtonBarStackView:0x7fb4c75afa50]-(0)-|   (active, names: '|':UIKeyboardAssistantBar:0x7fb4c762a8d0 )>",
+    "<NSLayoutConstraint:0x60000168f4d0 'UIButtonBar.maximumAlignmentSize' UIView:0x7fb4c75b0e30.height == UILayoutGuide:0x600000c9d420'UIViewLayoutMarginsGuide'.height   (active)>",
+    "<NSLayoutConstraint:0x6000016abd40 'UIView-bottomMargin-guide-constraint' V:[UILayoutGuide:0x600000c9d420'UIViewLayoutMarginsGuide']-(9)-|   (active, names: '|':_UIButtonBarStackView:0x7fb4c75afa50 )>",
+    "<NSLayoutConstraint:0x6000016abde0 'UIView-topMargin-guide-constraint' V:|-(10)-[UILayoutGuide:0x600000c9d420'UIViewLayoutMarginsGuide']   (active, names: '|':_UIButtonBarStackView:0x7fb4c75afa50 )>"
+)
+
+Will attempt to recover by breaking constraint 
+<NSLayoutConstraint:0x6000016abd40 'UIView-bottomMargin-guide-constraint' V:[UILayoutGuide:0x600000c9d420'UIViewLayoutMarginsGuide']-(9)-|   (active, names: '|':_UIButtonBarStackView:0x7fb4c75afa50 )>
+
+Make a symbolic breakpoint at UIViewAlertForUnsatisfiableConstraints to catch this in the debugger.
+The methods in the UIConstraintBasedLayoutDebugging category on UIView listed in <UIKitCore/UIView.h> may also be helpful.
+2019-05-30 13:55:12.031351+0700 CBLPOS.iOS[8020:307169] [LayoutConstraints] Unable to simultaneously satisfy constraints.
+	Probably at least one of the constraints in the following list is one you don't want. 
+	Try this: 
+		(1) look at each constraint and try to figure out which you don't expect; 
+		(2) find the code that added the unwanted constraint or constraints and fix it. 
+	(Note: If you're seeing NSAutoresizingMaskLayoutConstraints that you don't understand, refer to the documentation for the UIView property translatesAutoresizingMaskIntoConstraints) 
+(
+    "<NSAutoresizingMaskLayoutConstraint:0x600001684ff0 h=--& v=--& UIKeyboardAssistantBar:0x7fb4c762a8d0.height == 0   (active)>",
+    "<NSLayoutConstraint:0x6000016a4550 V:|-(0)-[_UIButtonBarStackView:0x7fb4c75b07e0]   (active, names: '|':UIKeyboardAssistantBar:0x7fb4c762a8d0 )>",
+    "<NSLayoutConstraint:0x6000016a46e0 V:[_UIButtonBarStackView:0x7fb4c75b07e0]-(0)-|   (active, names: '|':UIKeyboardAssistantBar:0x7fb4c762a8d0 )>",
+    "<NSLayoutConstraint:0x6000016e2fd0 'UIButtonBar.maximumAlignmentSize' _UIButtonBarButton:0x7fb4c764b1c0.height == UILayoutGuide:0x600000c9d340'UIViewLayoutMarginsGuide'.height   (active)>",
+    "<NSLayoutConstraint:0x6000016a40a0 'UIView-bottomMargin-guide-constraint' V:[UILayoutGuide:0x600000c9d340'UIViewLayoutMarginsGuide']-(9)-|   (active, names: '|':_UIButtonBarStackView:0x7fb4c75b07e0 )>",
+    "<NSLayoutConstraint:0x6000016a4000 'UIView-topMargin-guide-constraint' V:|-(10)-[UILayoutGuide:0x600000c9d340'UIViewLayoutMarginsGuide']   (active, names: '|':_UIButtonBarStackView:0x7fb4c75b07e0 )>"
+)
+
+Will attempt to recover by breaking constraint 
+<NSLayoutConstraint:0x6000016a40a0 'UIView-bottomMargin-guide-constraint' V:[UILayoutGuide:0x600000c9d340'UIViewLayoutMarginsGuide']-(9)-|   (active, names: '|':_UIButtonBarStackView:0x7fb4c75b07e0 )>
+
+Make a symbolic breakpoint at UIViewAlertForUnsatisfiableConstraints to catch this in the debugger.
+The methods in the UIConstraintBasedLayoutDebugging category on UIView listed in <UIKitCore/UIView.h> may also be helpful.
+2019-05-30 13:55:17.207788+0700 CBLPOS.iOS[8020:309524] SecTaskLoadEntitlements failed error=22 cs_flags=200, pid=8020
+2019-05-30 13:55:17.208174+0700 CBLPOS.iOS[8020:309524] SecTaskCopyDebugDescription: CBLPOS.iOS[8020]/0#-1 LF=0

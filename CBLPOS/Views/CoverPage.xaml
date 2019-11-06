@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:local="clr-namespace:CBLPOS"
+    x:Class="CBLPOS.Views.CoverPage"
+    Title="CATALOG">
+    
+    <StackLayout
+        Padding="0,10,0,0">
+        <Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition
+                    Width="*" />
+                <ColumnDefinition
+                    Width="*" />
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition
+                    Height="*" />
+                <RowDefinition
+                    Height="*" />
+                <RowDefinition
+                    Height="*" />
+            </Grid.RowDefinitions>
+            <Grid
+                Grid.Column="0"
+                Grid.Row="0">
+                <Grid.RowDefinitions>
+                    <RowDefinition
+                        Height="*" />
+                    <RowDefinition
+                        Height="Auto" />
+                </Grid.RowDefinitions>
+                <Image
+                    Source="animal"
+                    x:Name="tab1Button"
+                    Grid.RowSpan="2"
+                    Aspect="AspectFill">
+                    <Image.GestureRecognizers>
+                        <TapGestureRecognizer
+                            Tapped="TapGestureRecognizer_Tapped_1" />
+                    </Image.GestureRecognizers>
+                </Image>
+                <StackLayout
+                    Grid.Row="1"
+                    BackgroundColor="#80000000"
+                    Padding="12">
+                    <Label
+                        TextColor="White"
+                        Text="Animal"
+                        FontSize="Large"
+                        FontAttributes="Bold"
+                        HorizontalOptions="Center"
+                        VerticalOptions="CenterAndExpand" />
+                </StackLayout>
+            </Grid>
+            <Grid
+                Grid.Column="1"
+                Grid.Row="0">
+                <Grid.RowDefinitions>
+                    <RowDefinition
+                        Height="*" />
+                    <RowDefinition
+                        Height="Auto" />
+                </Grid.RowDefinitions>
+                <Image
+                    Source="dark"
+                    x:Name="tab2Button"
+                    Grid.RowSpan="2"
+                    Aspect="AspectFill">
+                    <Image.GestureRecognizers>
+                        <TapGestureRecognizer
+                            Tapped="TapGestureRecognizer_Tapped_2" />
+                    </Image.GestureRecognizers>
+                </Image>
+                <StackLayout
+                    Grid.Row="1"
+                    BackgroundColor="#80000000"
+                    Padding="12">
+                    <Label
+                        TextColor="White"
+                        Text="Dark"
+                        FontSize="Large"
+                        FontAttributes="Bold"
+                        HorizontalOptions="Center"
+                        VerticalOptions="CenterAndExpand" />
+                </StackLayout>
+            </Grid>
+            <Grid
+                Grid.Column="0"
+                Grid.Row="1">
+                <Grid.RowDefinitions>
+                    <RowDefinition
+                        Height="*" />
+                    <RowDefinition
+                        Height="Auto" />
+                </Grid.RowDefinitions>
+                <Image
+                    Source="sx"
+                    x:Name="tab3Button"
+                    Grid.RowSpan="2"
+                    Aspect="AspectFill">
+                    <Image.GestureRecognizers>
+                        <TapGestureRecognizer
+                            Tapped="TapGestureRecognizer_Tapped_3" />
+                    </Image.GestureRecognizers>
+                </Image>
+                <StackLayout
+                    Grid.Row="1"
+                    BackgroundColor="#80000000"
+                    Padding="12">
+                    <Label
+                        TextColor="White"
+                        Text="SX"
+                        FontSize="Large"
+                        FontAttributes="Bold"
+                        HorizontalOptions="Center"
+                        VerticalOptions="CenterAndExpand" />
+                </StackLayout>
+            </Grid>
+            <Grid
+                Grid.Column="1"
+                Grid.Row="1">
+                <Grid.RowDefinitions>
+                    <RowDefinition
+                        Height="*" />
+                    <RowDefinition
+                        Height="Auto" />
+                </Grid.RowDefinitions>
+                <Image
+                    Source="fantasy"
+                    x:Name="tab4Button"
+                    Grid.RowSpan="2"
+                    Aspect="AspectFill">
+                    <Image.GestureRecognizers>
+                        <TapGestureRecognizer
+                            Tapped="TapGestureRecognizer_Tapped_4" />
+                    </Image.GestureRecognizers>
+                </Image>
+                <StackLayout
+                    Grid.Row="1"
+                    BackgroundColor="#80000000"
+                    Padding="12">
+                    <Label
+                        TextColor="White"
+                        Text="Fantasy"
+                        FontSize="Large"
+                        FontAttributes="Bold"
+                        HorizontalOptions="Center"
+                        VerticalOptions="CenterAndExpand" />
+                </StackLayout>
+            </Grid>
+            <Grid
+                Grid.Column="0"
+                Grid.Row="2">
+                <Grid.RowDefinitions>
+                    <RowDefinition
+                        Height="*" />
+                    <RowDefinition
+                        Height="Auto" />
+                </Grid.RowDefinitions>
+                <Image
+                    Source="fdx"
+                    x:Name="tab5Button"
+                    Grid.RowSpan="2"
+                    Aspect="AspectFill">
+                    <Image.GestureRecognizers>
+                        <TapGestureRecognizer
+                            Tapped="TapGestureRecognizer_Tapped_5" />
+                    </Image.GestureRecognizers>
+                </Image>
+                <StackLayout
+                    Grid.Row="1"
+                    BackgroundColor="#80000000"
+                    Padding="12">
+                    <Label
+                        TextColor="White"
+                        Text="4DX"
+                        FontSize="Large"
+                        FontAttributes="Bold"
+                        HorizontalOptions="Center"
+                        VerticalOptions="CenterAndExpand" />
+                </StackLayout>
+            </Grid>
+            <Grid
+                Grid.Column="1"
+                Grid.Row="2">
+                <Grid.RowDefinitions>
+                    <RowDefinition
+                        Height="*" />
+                    <RowDefinition
+                        Height="Auto" />
+                </Grid.RowDefinitions>
+                <Image
+                    Source="bike"
+                    x:Name="tab6Button"
+                    Grid.RowSpan="2"
+                    Aspect="AspectFill">
+                    <Image.GestureRecognizers>
+                        <TapGestureRecognizer
+                            Tapped="TapGestureRecognizer_Tapped_6" />
+                    </Image.GestureRecognizers>
+                </Image>
+                <StackLayout
+                    Grid.Row="1"
+                    BackgroundColor="#80000000"
+                    Padding="12">
+                    <Label
+                        TextColor="White"
+                        Text="Bike"
+                        FontSize="Large"
+                        FontAttributes="Bold"
+                        HorizontalOptions="Center"
+                        VerticalOptions="CenterAndExpand" />
+                </StackLayout>
+            </Grid>
+        </Grid>
+        </StackLayout>
+</ContentPage>

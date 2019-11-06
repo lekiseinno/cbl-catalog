@@ -1,0 +1,2098 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Xamvvm.Core</name>
+    </assembly>
+    <members>
+        <member name="T:Xamvvm.DisableCacheAttribute">
+            <summary>
+            Disable cache attribute.
+            </summary>
+        </member>
+        <member name="T:Xamvvm.CachingExtensions">
+            <summary>
+            Caching extensions.
+            </summary>
+        </member>
+        <member name="M:Xamvvm.CachingExtensions.RemoveTypeFromCache``1(``0,System.String)">
+            <summary>
+            Removes the page type from cache if type exists in cache.
+            </summary>
+            <returns><c>true</c>, if type from cache was removed, <c>false</c> otherwise.</returns>
+            <param name="pageModel">Page model.</param>
+            <param name="cacheKey">Cache key.</param>
+            <typeparam name="TPageModel">The 1st type parameter.</typeparam>
+        </member>
+        <member name="T:Xamvvm.LoggingExtensions">
+            <summary>
+            sLogging extensions.
+            </summary>
+        </member>
+        <member name="M:Xamvvm.LoggingExtensions.LogDebug(System.Object,System.String)">
+            <summary>
+            Logs the debug.
+            </summary>
+            <param name="sender">Sender.</param>
+            <param name="message">Message.</param>
+        </member>
+        <member name="M:Xamvvm.LoggingExtensions.LogInfo(System.Object,System.String)">
+            <summary>
+            Logs the info.
+            </summary>
+            <param name="sender">Sender.</param>
+            <param name="message">Message.</param>
+        </member>
+        <member name="M:Xamvvm.LoggingExtensions.LogError(System.Object,System.Exception,System.String)">
+            <summary>
+            Logs the error.
+            </summary>
+            <param name="sender">Sender.</param>
+            <param name="ex">Ex.</param>
+            <param name="message">Message.</param>
+        </member>
+        <member name="T:Xamvvm.NavigationExtensions">
+            <summary>
+            Navigation extensions.
+            </summary>
+        </member>
+        <member name="M:Xamvvm.NavigationExtensions.PushPageAsync``2(``0,Xamvvm.IBasePage{``1},System.Action{``1},System.Boolean)">
+            <summary>
+            Pushes the page into current navigation stack.
+            </summary>
+            <returns>The page async.</returns>
+            <param name="currentPageModel">Current page model.</param>
+            <param name="pageToPush">Page to push.</param>
+            <param name="executeOnPageModel">Execute on page model.</param>
+            <param name="animated">If set to <c>true</c> animated.</param>
+            <typeparam name="TCurrentPageModel">The 1st type parameter.</typeparam>
+            <typeparam name="TPageModel">The 2nd type parameter.</typeparam>		
+        </member>
+        <member name="M:Xamvvm.NavigationExtensions.PushPageFromCacheAsync``1(Xamvvm.IBasePageModel,System.Action{``0},System.String,System.Boolean)">
+            <summary>
+            Pushes the cached page into current navigation stack.
+            </summary>
+            <returns>The page from cache async.</returns>
+            <param name="currentPageModel">Current page model.</param>
+            <param name="executeOnPageModel">Execute on page model.</param>
+            <param name="cacheKey">Cache key.</param>
+            <param name="animated">If set to <c>true</c> animated.</param>
+            <typeparam name="TPageModel">The 1st type parameter.</typeparam>
+        </member>
+        <member name="M:Xamvvm.NavigationExtensions.PushModalPageFromCacheAsync``1(Xamvvm.IBasePageModel,System.Action{``0},System.String,System.Boolean)">
+            <summary>
+            Pushes the modal cached page as current navigation stack.
+            </summary>
+            <returns>The page from cache async.</returns>
+            <param name="currentPageModel">Current page model.</param>
+            <param name="executeOnPageModel">Execute on page model.</param>
+            <param name="cacheKey">Cache key.</param>
+            <param name="animated">If set to <c>true</c> animated.</param>
+            <typeparam name="TPageModel">The 1st type parameter.</typeparam>
+        </member>
+        <member name="M:Xamvvm.NavigationExtensions.PushPageAsNewInstanceAsync``1(Xamvvm.IBasePageModel,System.Action{``0},System.Boolean)">
+            <summary>
+            Pushs the page as new instance into current navigation stack.
+            </summary>
+            <returns>The page as new instance async.</returns>
+            <param name="currentPageModel">Current page model.</param>
+            <param name="executeOnPageModel">Execute on page model.</param>
+            <param name="animated">If set to <c>true</c> animated.</param>
+            <typeparam name="TPageModel">The 1st type parameter.</typeparam>
+        </member>
+        <member name="M:Xamvvm.NavigationExtensions.PushModalPageAsNewInstanceAsync``1(Xamvvm.IBasePageModel,System.Action{``0},System.Boolean)">
+            <summary>
+            Pushs the page as new instance into current navigation stack.
+            </summary>
+            <returns>The page as new instance async.</returns>
+            <param name="currentPageModel">Current page model.</param>
+            <param name="executeOnPageModel">Execute on page model.</param>
+            <param name="animated">If set to <c>true</c> animated.</param>
+            <typeparam name="TPageModel">The 1st type parameter.</typeparam>
+        </member>
+        <member name="M:Xamvvm.NavigationExtensions.PushModalPageAsync``2(``0,Xamvvm.IBasePage{``1},System.Action{``1},System.Boolean)">
+            <summary>
+            Pushes the modal page into current navigation stack.
+            </summary>
+            <returns>The modal page async.</returns>
+            <param name="currentPageModel">Current page model.</param>
+            <param name="pageToPush">Page to push.</param>
+            <param name="executeOnPageModel">Execute on page model.</param> 
+            <param name="animated">If set to <c>true</c> animated.</param>
+            <typeparam name="TCurrentPageModel">The 1st type parameter.</typeparam>
+            <typeparam name="TPageModel">The 2nd type parameter.</typeparam>
+        </member>
+        <member name="M:Xamvvm.NavigationExtensions.PopPageAsync``1(``0,System.Boolean)">
+            <summary>
+            Pops the page from current navigation stack.
+            </summary>
+            <returns>The page async.</returns>
+            <param name="pageModel">Page model.</param>
+            <param name="animated">If set to <c>true</c> animated.</param>
+            <typeparam name="TPageModel">The 1st type parameter.</typeparam>
+        </member>
+        <member name="M:Xamvvm.NavigationExtensions.PopModalPageAsync``1(``0,System.Boolean)">
+            <summary>
+            Pops the modal page from current navigation stack.
+            </summary>
+            <returns>The modal page async.</returns>
+            <param name="pageModel">Page model.</param>
+            <param name="animated">If set to <c>true</c> animated.</param>
+            <typeparam name="TPageModel">The 1st type parameter.</typeparam>
+        </member>
+        <member name="M:Xamvvm.NavigationExtensions.RemovePageAsync``2(``0,Xamvvm.IBasePage{``1})">
+            <summary>
+            Removes the page from current navigation stack.
+            </summary>
+            <returns>The page.</returns>
+            <param name="currentPageModel">Current page model.</param>
+            <param name="pageToRemove">Page to remove.</param>
+            <typeparam name="TCurrentPageModel">The 1st type parameter.</typeparam>
+            <typeparam name="TPageModel">The 2nd type parameter.</typeparam>
+        </member>
+        <member name="M:Xamvvm.NavigationExtensions.PopPagesToRootAsync``1(``0,System.Boolean,System.Boolean)">
+            <summary>
+            Pops all pages to root in current navigation stack.
+            </summary>
+            <returns>The pages to root async.</returns>
+            <param name="currentPageModel">Current page model.</param>
+            <param name="clearCache">If set to <c>true</c> clear cache.</param>
+            <param name="animated">If set to <c>true</c> animated.</param>
+            <typeparam name="TCurrentPageModel">The 1st type parameter.</typeparam>
+        </member>
+        <member name="M:Xamvvm.NavigationExtensions.SetNewRootAndResetAsync``1(Xamvvm.IBasePageModel,System.Boolean)">
+            <summary>
+            Sets the new root and resets based on PageModel
+            </summary>
+            <param name="currentPageModel">Current page model.</param>
+            <param name="clearCache">Clear cache.</param>
+        </member>
+        <member name="T:Xamvvm.PageExtensions">
+            <summary>
+            Page extensions.
+            </summary>
+        </member>
+        <member name="M:Xamvvm.PageExtensions.GetPageModel``1(Xamvvm.IBasePage{``0})">
+            <summary>
+            Gets the page page model.
+            </summary>
+            <returns>The page model.</returns>
+            <param name="page">Page.</param>
+            <typeparam name="TPageModel">The 1st type parameter.</typeparam>
+        </member>
+        <member name="M:Xamvvm.PageExtensions.SetPageModel``1(Xamvvm.IBasePage{``0},``0)">
+            <summary>
+            Sets the page page model.
+            </summary>
+            <returns>The page model.</returns>
+            <param name="page">Page.</param>
+            <param name="newPageModel">New page model.</param>
+            <typeparam name="TPageModel">The 1st type parameter.</typeparam>
+        </member>
+        <member name="M:Xamvvm.PageExtensions.ExecuteOnPageModel``1(Xamvvm.IBasePage{``0},System.Action{``0})">
+            <summary>
+            Executes the action on the page model.
+            </summary>
+            <returns>The on page model.</returns>
+            <param name="page">Page.</param>
+            <param name="action">Action.</param>
+            <typeparam name="TPageModel">The 1st type parameter.</typeparam>
+        </member>
+        <member name="M:Xamvvm.PageExtensions.GetPageFromCache``1(Xamvvm.IBasePage{Xamvvm.IBasePageModel},``0,System.String)">
+            <summary>
+            Gets the page from cache. Creates a new page instances if not exists.
+            Optionally provide a page model (else will be set automatically)
+            </summary>
+            <returns>The page from cache.</returns>
+            <param name="setPageModel">Page model.</param>
+            <param name="currentPage">Current page.</param>
+            <param name="cacheKey">Cache key.</param>
+            <typeparam name="TPageModel">The 1st type parameter.</typeparam>
+        </member>
+        <member name="M:Xamvvm.PageExtensions.GetPageFromCache(Xamvvm.IBasePage{Xamvvm.IBasePageModel},System.Type,System.String)">
+            <summary>
+            Gets the page from cache. Creates a new page instances if not exists.
+            </summary>
+            <returns>The page from cache.</returns>
+            <param name="currentPage">Current page.</param>
+            <param name="pageModelType">Page model type.</param>
+            <param name="cacheKey">Cache key.</param>
+        </member>
+        <member name="M:Xamvvm.PageExtensions.GetPageAsNewInstance``1(Xamvvm.IBasePage{Xamvvm.IBasePageModel},``0)">
+            <summary>
+            Gets the page as new instance.
+            Optionally provide a page model (else will be set automatically)
+            </summary>
+            <returns>The page as new instance.</returns>
+            <param name="setPageModel">Page model.</param>
+            <param name="currentPage">Current page.</param>
+            <typeparam name="TPageModel">The 1st type parameter.</typeparam>
+        </member>
+        <member name="M:Xamvvm.PageExtensions.GetPageAsNewInstance(Xamvvm.IBasePage{Xamvvm.IBasePageModel},System.Type)">
+            <summary>
+            Gets the page as new instance.
+            </summary>
+            <returns>The page as new instance.</returns>
+            <param name="currentPage">Current page.</param>
+            <param name="pageModelType">Page model type.</param>
+        </member>
+        <member name="M:Xamvvm.PageExtensions.RemovePageTypeFromCache``1(Xamvvm.IBasePage{Xamvvm.IBasePageModel},System.String)">
+            <summary>
+            Removes the page type from cache.
+            </summary>
+            <returns><c>true</c>, if page type from cache was removed, <c>false</c> otherwise.</returns>
+            <param name="currentPage">Current page.</param>
+            <param name="cacheKey">Cache key.</param>
+            <typeparam name="TPageModel">The 1st type parameter.</typeparam>
+        </member>
+        <member name="M:Xamvvm.PageExtensions.ClearPageCache(Xamvvm.IBasePage{Xamvvm.IBasePageModel})">
+            <summary>
+            Clears the page cache.
+            </summary>
+            <param name="currentPage">Current page.</param>
+        </member>
+        <member name="T:Xamvvm.PageModelExtensions">
+            <summary>
+            Page model extensions.
+            </summary>
+        </member>
+        <member name="M:Xamvvm.PageModelExtensions.GetCurrentPage``1(``0)">
+            <summary>
+            Gets the current page by page model.
+            </summary>
+            <returns>The page.</returns>
+            <param name="pageModel">Page model.</param>
+            <typeparam name="TPageModel">Page model type.</typeparam>
+        </member>
+        <member name="M:Xamvvm.PageModelExtensions.GetPageFromCache``1(Xamvvm.IBasePageModel,``0,System.String)">
+            <summary>
+            Gets the page from cache. Creates a new page instances if not exists.
+            Optionally provide a page model (else will be set automatically)
+            </summary>
+            <returns>The page from cache.</returns>
+            <param name="pageModel">Page model.</param>
+            <param name="currentPageModel">Current page model.</param>
+            <param name="cacheKey">Cache key.</param>
+            <typeparam name="TPageModel">The 1st type parameter.</typeparam>
+        </member>
+        <member name="M:Xamvvm.PageModelExtensions.GetPageFromCache(Xamvvm.IBasePageModel,System.Type,System.String)">
+            <summary>
+            Gets the page from cache. Creates a new page instances if not exists.
+            </summary>
+            <returns>The page from cache.</returns>
+            <param name="currentPageModel">Current page model.</param>
+            <param name="pageModelType">Page model type.</param>
+            <param name="cacheKey">Cache key.</param>
+        </member>
+        <member name="M:Xamvvm.PageModelExtensions.GetPageAsNewInstance``1(Xamvvm.IBasePageModel,``0)">
+            <summary>
+            Gets the page as new instance.
+            Optionally provide a page model (else will be set automatically)
+            </summary>
+            <returns>The page as new instance.</returns>
+            <param name="pageModel">Page model.</param>
+            <param name="currentPageModel">Current page model.</param>
+            <typeparam name="TPageModel">The 1st type parameter.</typeparam>
+        </member>
+        <member name="M:Xamvvm.PageModelExtensions.GetPageAsNewInstance(Xamvvm.IBasePageModel,System.Type)">
+            <summary>
+            Gets the page as new instance.
+            </summary>
+            <returns>The page as new instance.</returns>
+            <param name="currentPageModel">Current page model.</param>
+            <param name="pageModelType">Page model type.</param>
+        </member>
+        <member name="M:Xamvvm.PageModelExtensions.RemovePageTypeFromCache``1(Xamvvm.IBasePageModel,System.String)">
+            <summary>
+            Removes the page type from cache.
+            </summary>
+            <returns><c>true</c>, if page type from cache was removed, <c>false</c> otherwise.</returns>
+            <param name="currentPageModel">Current page model.</param>
+            <param name="cacheKey">Cache key.</param>
+            <typeparam name="TPageModel">The 1st type parameter.</typeparam>
+        </member>
+        <member name="M:Xamvvm.PageModelExtensions.ClearPageCache(Xamvvm.IBasePageModel)">
+            <summary>
+            Clears the page cache.
+            </summary>
+            <param name="currentPageModel">Current page model.</param>
+        </member>
+        <member name="T:Xamvvm.BaseCommand`1">
+            <summary>
+            xamvvm ICommand implementation.
+            </summary>
+        </member>
+        <member name="M:Xamvvm.BaseCommand`1.#ctor(System.Action{`0})">
+            <summary>
+            Initializes a new instance of the <see cref="T:Xamvvm.BaseCommand"/> class.
+            </summary>
+            <param name="execute">Execute.</param>
+        </member>
+        <member name="M:Xamvvm.BaseCommand`1.#ctor(System.Func{`0,System.Threading.Tasks.Task})">
+            <summary>
+            Initializes a new instance of the <see cref="T:Xamvvm.BaseCommand"/> class.
+            </summary>
+            <param name="execute">Execute.</param>
+        </member>
+        <member name="M:Xamvvm.BaseCommand`1.#ctor(System.Func{`0,System.Threading.Tasks.Task},System.Func{`0,System.Boolean})">
+            <summary>
+            Initializes a new instance of the <see cref="T:Xamvvm.BaseCommand"/> class.
+            </summary>
+            <param name="execute">Execute.</param>
+            <param name="canExecute">Can execute.</param>
+        </member>
+        <member name="E:Xamvvm.BaseCommand`1.CanExecuteChanged">
+            <summary>
+            Occurs when can execute changed.
+            </summary>
+        </member>
+        <member name="M:Xamvvm.BaseCommand`1.RaiseCanExecuteChanged">
+            <summary>
+            Raises the can execute changed.
+            </summary>
+        </member>
+        <member name="M:Xamvvm.BaseCommand`1.CanExecute(System.Object)">
+            <summary>
+            Determines whether this instance can execute the specified parameter.
+            </summary>
+            <returns><c>true</c> if this instance can execute the specified parameter; otherwise, <c>false</c>.</returns>
+            <param name="parameter">Parameter.</param>
+        </member>
+        <member name="M:Xamvvm.BaseCommand`1.Execute(System.Object)">
+            <summary>
+            Execute the specified action.
+            </summary>
+            <param name="parameter">Parameter.</param>
+        </member>
+        <member name="T:Xamvvm.BaseCommand">
+            <summary>
+            xamvvm ICommand implementation.
+            </summary>
+        </member>
+        <member name="M:Xamvvm.BaseCommand.FromTask``1(System.Func{``0,System.Threading.Tasks.Task},System.Func{``0,System.Boolean})">
+            <summary>
+            Creates command from the task.
+            </summary>
+            <returns>The task.</returns>
+            <param name="taskFunc">Task func.</param>
+            <param name="canExecute">Can execute.</param>
+            <typeparam name="TParam">The 1st type parameter.</typeparam>
+        </member>
+        <member name="M:Xamvvm.BaseCommand.FromTask(System.Func{System.Object,System.Threading.Tasks.Task},System.Func{System.Boolean})">
+            <summary>
+            Creates command from the task.
+            </summary>
+            <returns>The task.</returns>
+            <param name="taskFunc">Task func.</param>
+            <param name="canExecute">Can execute.</param>
+        </member>
+        <member name="M:Xamvvm.BaseCommand.FromAction``1(System.Action{``0},System.Func{``0,System.Boolean})">
+            <summary>
+            Creates command from the action.
+            </summary>
+            <returns>The action.</returns>
+            <param name="taskFunc">Task func.</param>
+            <param name="canExecute">Can execute.</param>
+            <typeparam name="TParam">The 1st type parameter.</typeparam>
+        </member>
+        <member name="M:Xamvvm.BaseCommand.FromAction(System.Action{System.Object},System.Func{System.Boolean})">
+            <summary>
+            Creates command from the action.
+            </summary>
+            <returns>The action.</returns>
+            <param name="action">Action.</param>
+            <param name="canExecute">Can execute.</param>
+        </member>
+        <member name="M:Xamvvm.BaseCommand.#ctor(System.Action{System.Object})">
+            <summary>
+            Initializes a new instance of the <see cref="T:Xamvvm.BaseCommand"/> class.
+            </summary>
+            <param name="execute">Execute.</param>
+        </member>
+        <member name="M:Xamvvm.BaseCommand.#ctor(System.Func{System.Object,System.Threading.Tasks.Task})">
+            <summary>
+            Initializes a new instance of the <see cref="T:Xamvvm.BaseCommand"/> class.
+            </summary>
+            <param name="execute">Execute.</param>
+        </member>
+        <member name="M:Xamvvm.BaseCommand.#ctor(System.Func{System.Object,System.Threading.Tasks.Task},System.Func{System.Boolean})">
+            <summary>
+            Initializes a new instance of the <see cref="T:Xamvvm.BaseCommand"/> class.
+            </summary>
+            <param name="execute">Execute.</param>
+            <param name="canExecute">Can execute.</param>
+        </member>
+        <member name="E:Xamvvm.BaseCommand.CanExecuteChanged">
+            <summary>
+            Occurs when can execute changed.
+            </summary>
+        </member>
+        <member name="M:Xamvvm.BaseCommand.RaiseCanExecuteChanged">
+            <summary>
+            Raises the can execute changed.
+            </summary>
+        </member>
+        <member name="M:Xamvvm.BaseCommand.CanExecute(System.Object)">
+            <summary>
+            Determines whether this instance can execute the specified parameter.
+            </summary>
+            <returns><c>true</c> if this instance can execute the specified parameter; otherwise, <c>false</c>.</returns>
+            <param name="parameter">Parameter.</param>
+        </member>
+        <member name="M:Xamvvm.BaseCommand.Execute(System.Object)">
+            <summary>
+            Execute the specified action.
+            </summary>
+            <param name="parameter">Parameter.</param>
+        </member>
+        <member name="T:Xamvvm.BaseLogger">
+            <summary>
+            Base logger.
+            </summary>
+        </member>
+        <member name="M:Xamvvm.BaseLogger.LogDebug(System.Object,System.String)">
+            <summary>
+            Logs the debug.
+            </summary>
+            <param name="sender">Sender.</param>
+            <param name="message">Message.</param>
+        </member>
+        <member name="M:Xamvvm.BaseLogger.LogError(System.Object,System.Exception,System.String)">
+            <summary>
+            Logs the error.
+            </summary>
+            <param name="sender">Sender.</param>
+            <param name="ex">Ex.</param>
+            <param name="message">Message.</param>
+        </member>
+        <member name="M:Xamvvm.BaseLogger.LogInfo(System.Object,System.String)">
+            <summary>
+            Logs the info.
+            </summary>
+            <param name="sender">Sender.</param>
+            <param name="message">Message.</param>
+        </member>
+        <member name="T:Xamvvm.BaseModel">
+            <summary>
+            xamvvm IBaseModel model implementation.
+            </summary>
+        </member>
+        <member name="T:Xamvvm.BaseNotifyPropertyChanged">
+            <summary>
+            xamvvm IBaseNotifyPropertyChanged implementation.
+            </summary>
+        </member>
+        <member name="E:Xamvvm.BaseNotifyPropertyChanged.PropertyChanged">
+            <summary>
+            Occurs when property changed.
+            </summary>
+        </member>
+        <member name="M:Xamvvm.BaseNotifyPropertyChanged.OnPropertyChanged(System.String)">
+            <summary>
+            Raises the property changed event.
+            </summary>
+            <param name="propertyName">Property name.</param>
+        </member>
+        <member name="M:Xamvvm.BaseNotifyPropertyChanged.SetField``1(``0@,``0,System.Linq.Expressions.Expression{System.Func{``0}},System.Linq.Expressions.Expression{System.Func{System.Object}}[])">
+            <summary>
+            Sets the field and calls OnPropertyChanged when field value was changed. 
+            </summary>
+            <returns><c>true</c>, if field was changed, <c>false</c> otherwise.</returns>
+            <param name="field">Field.</param>
+            <param name="value">Value.</param>
+            <param name="propertyNameSelector">Property name selector expression.</param>
+            <param name="additonalPropertiesToNotify">Additonal properties names to notify when changed.</param>
+            <typeparam name="T">Property type.</typeparam>
+        </member>
+        <member name="M:Xamvvm.BaseNotifyPropertyChanged.SetField``1(``0@,``0,System.String)">
+            <summary>
+            Sets the field and calls OnPropertyChanged when field value was changed. 
+            </summary>
+            <returns><c>true</c>, if field was changed, <c>false</c> otherwise.</returns>
+            <param name="field">Field.</param>
+            <param name="value">Value.</param>
+            <param name="propertyName">Property name.</param>
+            <typeparam name="T">Property type.</typeparam>
+        </member>
+        <member name="M:Xamvvm.BaseNotifyPropertyChanged.SetField``1(``0@,``0,System.Linq.Expressions.Expression{System.Func{``0}},System.Action,System.Linq.Expressions.Expression{System.Func{System.Object}}[])">
+            <summary>
+            Sets the field and calls OnPropertyChanged when field value was changed. 
+            Executes specified Action if field value was changed
+            </summary>
+            <returns><c>true</c>, if field was changed, <c>false</c> otherwise.</returns>
+            <param name="field">Field.</param>
+            <param name="value">Value.</param>
+            <param name="propertyNameSelector">Property name selector expression.</param>
+            <param name="propertyChanged">Action if property was changed.</param>
+            <param name="additonalPropertiesToNotify">Additonal properties names to notify when changed.</param>
+            <typeparam name="T">Property type.</typeparam>
+        </member>
+        <member name="M:Xamvvm.BaseNotifyPropertyChanged.NotifyPropertyChanged``1(System.Linq.Expressions.Expression{System.Func{``0}})">
+            <summary>
+            Notifies the property has changed.
+            </summary>
+            <param name="propertyNameSelector">Property name selector expression.</param>
+            <typeparam name="T">Property type.</typeparam>
+        </member>
+        <member name="M:Xamvvm.BaseNotifyPropertyChanged.GetPropertyNameFromExpression``1(System.Linq.Expressions.Expression{System.Func{``0}})">
+            <summary>
+            Gets the property name from expression.
+            </summary>
+            <returns>The property name from expression.</returns>
+            <param name="propertyNameSelector">Property name selector.</param>
+            <typeparam name="T">Property type type parameter.</typeparam>
+        </member>
+        <member name="M:Xamvvm.BaseNotifyPropertyChanged.NotifyAllPropertiesChanged">
+            <summary>
+            Notifies that all properties have changed.
+            </summary>
+        </member>
+        <member name="T:Xamvvm.BasePageModel">
+            <summary>
+            xamvvm BasePageModel implementation.
+            </summary>
+        </member>
+        <member name="M:Xamvvm.BasePageModel.SetField``1(``0,System.String)">
+            <summary>
+            Sets the field and calls OnPropertyChanged when field value was changed. 
+            Uses internal dictionary for field storing
+            </summary>
+            <returns><c>true</c>, if field was changed, <c>false</c> otherwise.</returns>
+            <param name="value">Value.</param>
+            <param name="propertyName">Property name.</param>
+            <typeparam name="T">The property type.</typeparam>
+        </member>
+        <member name="M:Xamvvm.BasePageModel.SetField``1(``0,System.Linq.Expressions.Expression{System.Func{``0}},System.Linq.Expressions.Expression{System.Func{System.Object}}[])">
+            <summary>
+            Sets the field and calls OnPropertyChanged when field value was changed. 
+            Uses internal dictionary for field storing
+            </summary>
+            <returns><c>true</c>, if field was changed, <c>false</c> otherwise.</returns>
+            <param name="value">Value.</param>
+            <typeparam name="T">Property type.</typeparam>
+            <param name="propertyNameSelector">Property name selector.</param>
+            <param name="additonalPropertiesToNotify">Additonal properties to notify when changed.</param>
+        </member>
+        <member name="M:Xamvvm.BasePageModel.GetField``1(System.String)">
+            <summary>
+            Gets the field.
+            Uses internal dictionary to get field value
+            </summary>
+            <returns>The field.</returns>
+            <param name="propertyName">Property name.</param>
+            <typeparam name="T">The property type.</typeparam>
+        </member>
+        <member name="M:Xamvvm.BasePageModel.NavigationRemovingFromCache">
+            <summary>
+            Called when page is being removed from cache.
+            </summary>
+        </member>
+        <member name="M:Xamvvm.BasePageModel.NavigationCanPush">
+            <summary>
+            Determines if page can be pushed
+            </summary>
+            <returns><c>true</c>, if can ve pushed, <c>false</c> otherwise.</returns>
+        </member>
+        <member name="M:Xamvvm.BasePageModel.NavigationPushed">
+            <summary>
+            Called after page is pushed to navigation
+            </summary>
+        </member>
+        <member name="M:Xamvvm.BasePageModel.NavigationCanPop">
+            <summary>
+            Determines if page can be popped
+            </summary>
+            <returns><c>true</c>, if can be popped, <c>false</c> otherwise.</returns>
+        </member>
+        <member name="M:Xamvvm.BasePageModel.NavigationPopped">
+            <summary>
+            Called after page is popped from navigation
+            </summary>
+        </member>
+        <member name="M:Xamvvm.BasePageModel.NavigationCanInsert">
+            <summary>
+            Determines if page can be inserted
+            </summary>
+            <returns><c>true</c>, if can be inserted, <c>false</c> otherwise.</returns>
+        </member>
+        <member name="M:Xamvvm.BasePageModel.NavigationInserted">
+            <summary>
+            Called after page is inserted to navigation
+            </summary>
+        </member>
+        <member name="M:Xamvvm.BasePageModel.NavigationCanRemove">
+            <summary>
+            Determines if page can be removed
+            </summary>
+            <returns><c>true</c>, if can be removed, <c>false</c> otherwise.</returns>
+        </member>
+        <member name="M:Xamvvm.BasePageModel.NavigationRemoved">
+            <summary>
+            Called after page is removed from navigation
+            </summary>
+        </member>
+        <member name="M:Xamvvm.BasePageModel.OnAppearing">
+            <summary>
+            Called when page is appearing.
+            </summary>
+        </member>
+        <member name="M:Xamvvm.BasePageModel.OnDisappearing">
+            <summary>
+            Called when page is disappearing.
+            </summary>
+        </member>
+        <member name="T:Xamvvm.BaseViewModel">
+            <summary>
+            Base view model.
+            </summary>
+        </member>
+        <member name="T:Xamvvm.IBaseCommand">
+            <summary>
+            IBaseCommand.
+            </summary>
+        </member>
+        <member name="M:Xamvvm.IBaseCommand.RaiseCanExecuteChanged">
+            <summary>
+            Raises the can execute changed.
+            </summary>
+        </member>
+        <member name="T:Xamvvm.IBaseFactory">
+            <summary>
+            Xamvvm
+            </summary>
+        </member>
+        <member name="M:Xamvvm.IBaseFactory.GetPageByModel``1(``0)">
+            <summary>
+            Gets the page by model.
+            </summary>
+            <returns>The page by model.</returns>
+            <param name="pageModel">Page model.</param>
+            <typeparam name="TPageModel">The 1st type parameter.</typeparam>
+        </member>
+        <member name="M:Xamvvm.IBaseFactory.GetPageModel``1(Xamvvm.IBasePage{``0})">
+            <summary>
+            Gets the Page PageModel.
+            </summary>
+            <returns>The page model.</returns>
+            <param name="page">Page.</param>
+            <typeparam name="TPageModel">The 1st type parameter.</typeparam>
+        </member>
+        <member name="M:Xamvvm.IBaseFactory.SetPageModel``1(Xamvvm.IBasePage{``0},``0)">
+            <summary>
+            Replaces the Page PageModel.
+            </summary>
+            <param name = "page">Page.</param>
+            <param name="newPageModel">New page model.</param>
+            <typeparam name="TPageModel">Page model type.</typeparam>
+        </member>
+        <member name="T:Xamvvm.IBaseFactoryCaching">
+            <summary>
+            IBaseFactory caching.
+            </summary>
+        </member>
+        <member name="M:Xamvvm.IBaseFactoryCaching.GetPageFromCache``1(``0,System.String)">
+            <summary>
+            Gets the page from cache. Creates a new page instances if not exists.
+            Optionally provide a page model (else will be set automatically)
+            </summary>
+            <returns>The page from cache.</returns>
+            <param name="setPageModel">Page model.</param>
+            <param name="cacheKey">Cache key.</param>
+            <typeparam name="TPageModel">Page model type.</typeparam>
+        </member>
+        <member name="M:Xamvvm.IBaseFactoryCaching.GetPageFromCache(System.Type,System.String)">
+            <summary>
+            Gets the page from cache. Creates a new page instances if not exists.
+            Optionally provide a page model (else will be set automatically)
+            </summary>
+            <returns>The page from cache.</returns>
+            <param name="pageModelType">Page model type.</param>
+            <param name="cacheKey">Cache key.</param>
+        </member>
+        <member name="M:Xamvvm.IBaseFactoryCaching.GetPageAsNewInstance``1(``0)">
+            <summary>
+            Gets the page as new instance.
+            Optionally provide a page model (else will be set automatically)
+            </summary>
+            <returns>The page as new instance.</returns>
+            <param name="setPageModel">Page model.</param>
+            <typeparam name="TPageModel">The 1st type parameter.</typeparam>
+        </member>
+        <member name="M:Xamvvm.IBaseFactoryCaching.GetPageAsNewInstance(System.Type)">
+            <summary>
+            Gets the page as new instance.
+            Optionally provide a page model (else will be set automatically)
+            </summary>
+            <returns>The page as new instance.</returns>
+            <param name="pageModelType">Page model type.</param>
+        </member>
+        <member name="M:Xamvvm.IBaseFactoryCaching.RemovePageTypeFromCache``1(System.String)">
+            <summary>
+            Removes the page from cache.
+            </summary>
+            <returns><c>true</c>, if page was removed from cache, <c>false</c> otherwise (eg. if page type doesn't exist in cache).</returns>
+            <typeparam name="TPageModel">Page model type.</typeparam>
+        </member>
+        <member name="M:Xamvvm.IBaseFactoryCaching.ClearPageCache">
+            <summary>
+            Clears pages cache.
+            </summary>
+        </member>
+        <member name="T:Xamvvm.IBaseFactoryNavigation">
+            <summary>
+            IBaseFactory navigation.
+            </summary>
+        </member>
+        <member name="M:Xamvvm.IBaseFactoryNavigation.PushPageAsync``2(Xamvvm.IBasePage{``0},Xamvvm.IBasePage{``1},System.Boolean)">
+            <summary>
+            Pushes the page into navigation stack.
+            </summary>
+            <returns><c>true</c>, if page was pushed, push was not interrupted, <c>false</c> otherwise (eg. PageFactoryPushing returned <c>false</c>)</returns>
+            <param name="currentPage">Current page.</param>
+            <param name="pageToPush">Page to push.</param>
+            <param name="animated">If set to <c>true</c> animation enabled.</param>
+        </member>
+        <member name="M:Xamvvm.IBaseFactoryNavigation.PushModalPageAsync``2(Xamvvm.IBasePage{``0},Xamvvm.IBasePage{``1},System.Boolean)">
+            <summary>
+            Pushes the page as modal.
+            </summary>
+            <returns><c>true</c>, if page was pushed, push was not interrupted, <c>false</c> otherwise (eg. PageFactoryPushing returned <c>false</c>)</returns>
+            <param name="currentPage">Current page.</param>
+            <param name="pageToPush">Page to push.</param>
+            <param name="animated">If set to <c>true</c> animation enabled.</param>
+        </member>
+        <member name="M:Xamvvm.IBaseFactoryNavigation.InsertPageBeforeAsync``2(Xamvvm.IBasePage{``0},Xamvvm.IBasePage{``1})">
+            <summary>
+            Inserts the page before another page into navigation stack.
+            </summary>
+            <returns><c>true</c>, if page was insert was not interrupted, <c>false</c> otherwise (eg. PageFactoryInserting returned <c>false</c>)</returns>
+            <param name="pageToInsert">Page to insert</param>
+            <param name="beforePage">Before page</param>
+        </member>
+        <member name="M:Xamvvm.IBaseFactoryNavigation.PopPageAsync``1(Xamvvm.IBasePage{``0},System.Boolean)">
+            <summary>
+            Pops the page from navigation stack.
+            </summary>
+            <param name="currentPage">Current page.</param>
+            <returns><c>true</c>, if page was pop was not interrupted, <c>false</c> otherwise (eg. PageFactoryPopping returned <c>false</c>)</returns>
+            <param name="animated">If set to <c>true</c> animation enabled.</param>
+        </member>
+        <member name="M:Xamvvm.IBaseFactoryNavigation.PopModalPageAsync``1(Xamvvm.IBasePage{``0},System.Boolean)">
+            <summary>
+            Pops the modal page.
+            </summary>
+            <param name="currentPage">Current page.</param>
+            <returns><c>true</c>, if page pop was not interrupted, <c>false</c> otherwise (eg. PageFactoryPopping returned <c>false</c>)</returns>
+            <param name="animated">If set to <c>true</c> animation enabled.</param>
+        </member>
+        <member name="M:Xamvvm.IBaseFactoryNavigation.RemovePageAsync``2(Xamvvm.IBasePage{``0},Xamvvm.IBasePage{``1})">
+            <summary>
+            Removes the page from navigation stack.
+            </summary>
+            <param name="currentPage">Current page.</param>
+            <returns><c>true</c>, if page remove was not interrupted, <c>false</c> otherwise (eg. PageFactoryRemoving returned <c>false</c>)</returns>
+            <param name="pageToRemove">Page to remove.</param>
+        </member>
+        <member name="M:Xamvvm.IBaseFactoryNavigation.PopPagesToRootAsync``1(Xamvvm.IBasePage{``0},System.Boolean,System.Boolean)">
+            <summary>
+            Pops the pages to root.
+            </summary>
+            <param name="currentPage">Current page.</param>
+            <param name="clearCache">If set to <c>true</c> clears cache.</param>
+            <param name="animated">If set to <c>true</c> animation enabled.</param>
+        </member>
+        <member name="M:Xamvvm.IBaseFactoryNavigation.SetNewRootAndResetAsync``1(Xamvvm.IBasePage{``0},System.Boolean)">
+            <summary>
+            Sets the new root and resets.
+            </summary>
+            <returns>The new root and reset async.</returns>
+            <param name="newRootPage">New root page.</param>
+            <param name="clearCache">If set to <c>true</c> clear cache.</param>
+            <typeparam name="TPageModelOfNewRoot">New root type.</typeparam>
+        </member>
+        <member name="M:Xamvvm.IBaseFactoryNavigation.SetNewRootAndResetAsync``1(System.Boolean)">
+            <summary>
+            Sets the new root and resets based on PageModel
+            </summary>
+            <returns>The new root and reset async.</returns>
+            <param name="clearCache">If set to <c>true</c> clear cache.</param>
+            <typeparam name="TPageModelOfNewRoot">The 1nd type parameter.</typeparam>
+        </member>
+        <member name="T:Xamvvm.IBaseLogger">
+            <summary>
+            Base logger.
+            </summary>
+        </member>
+        <member name="M:Xamvvm.IBaseLogger.LogDebug(System.Object,System.String)">
+            <summary>
+            Logs the debug.
+            </summary>
+            <param name="sender">Sender.</param>
+            <param name="message">Message.</param>
+        </member>
+        <member name="M:Xamvvm.IBaseLogger.LogInfo(System.Object,System.String)">
+            <summary>
+            Logs the info.
+            </summary>
+            <param name="sender">Sender.</param>
+            <param name="message">Message.</param>
+        </member>
+        <member name="M:Xamvvm.IBaseLogger.LogError(System.Object,System.Exception,System.String)">
+            <summary>
+            Logs the error.
+            </summary>
+            <param name="sender">Sender.</param>
+            <param name="ex">Ex.</param>
+            <param name="message">Message.</param>
+        </member>
+        <member name="T:Xamvvm.IBasePage`1">
+            <summary>
+            Base page.
+            </summary>
+        </member>
+        <member name="T:Xamvvm.IBasePageModel">
+            <summary>
+            Base page model.
+            </summary>
+        </member>
+        <member name="T:Xamvvm.IBaseView`1">
+            <summary>
+            Base view.
+            </summary>
+        </member>
+        <member name="T:Xamvvm.IBaseViewModel">
+            <summary>
+            Base view model.
+            </summary>
+        </member>
+        <member name="T:Xamvvm.INavigationInterceptors">
+            <summary>
+            IBasePage / IBasePageModel navigation events.
+            </summary>
+        </member>
+        <member name="T:Xamvvm.INavigationRemovingFromCache">
+            <summary>
+            INavigationRemovingFromCache.
+            </summary>
+        </member>
+        <member name="M:Xamvvm.INavigationRemovingFromCache.NavigationRemovingFromCache">
+            <summary>
+            Triggered when removing from cache.
+            </summary>
+        </member>
+        <member name="T:Xamvvm.INavigationCanPush">
+            <summary>
+            INavigationPushing.
+            </summary>
+        </member>
+        <member name="M:Xamvvm.INavigationCanPush.NavigationCanPush">
+            <summary>
+            Triggered when pushing. If <c>false</c>returned push is cancelled.
+            </summary>
+        </member>
+        <member name="T:Xamvvm.INavigationPushed">
+            <summary>
+            INavigationPushed.
+            </summary>
+        </member>
+        <member name="M:Xamvvm.INavigationPushed.NavigationPushed">
+            <summary>
+            Triggered when pushed.
+            </summary>
+        </member>
+        <member name="T:Xamvvm.INavigationCanPop">
+            <summary>
+            INavigationPopping.
+            </summary>
+        </member>
+        <member name="M:Xamvvm.INavigationCanPop.NavigationCanPop">
+            <summary>
+            Triggered when popping. If <c>false</c>returned pop is cancelled.
+            </summary>
+        </member>
+        <member name="T:Xamvvm.INavigationPopped">
+            <summary>
+            INavigationPopped.
+            </summary>
+        </member>
+        <member name="M:Xamvvm.INavigationPopped.NavigationPopped">
+            <summary>
+            Triggered when popped.
+            </summary>
+        </member>
+        <member name="T:Xamvvm.INavigationCanInsert">
+            <summary>
+            INavigationInserting.
+            </summary>
+        </member>
+        <member name="M:Xamvvm.INavigationCanInsert.NavigationCanInsert">
+            <summary>
+            Triggered when inserting. If <c>false</c>returned insert is cancelled.
+            </summary>
+        </member>
+        <member name="T:Xamvvm.INavigationInserted">
+            <summary>
+            INavigationInserted.
+            </summary>
+        </member>
+        <member name="M:Xamvvm.INavigationInserted.NavigationInserted">
+            <summary>
+            Triggered when inserted.
+            </summary>
+        </member>
+        <member name="T:Xamvvm.INavigationCanRemove">
+            <summary>
+            INavigationRemoving.
+            </summary>
+        </member>
+        <member name="M:Xamvvm.INavigationCanRemove.NavigationCanRemove">
+            <summary>
+            Triggered when removing. If <c>false</c>returned remove is cancelled.
+            </summary>
+        </member>
+        <member name="T:Xamvvm.INavigationRemoved">
+            <summary>
+            INavigationRemoved.
+            </summary>
+        </member>
+        <member name="M:Xamvvm.INavigationRemoved.NavigationRemoved">
+            <summary>
+            Triggered when removed.
+            </summary>
+        </member>
+        <member name="M:Xamvvm.IPageVisibilityChange.OnAppearing">
+            <summary>
+            Called when page is appearing.
+            </summary>
+        </member>
+        <member name="M:Xamvvm.IPageVisibilityChange.OnDisappearing">
+            <summary>
+            Called when page is disappearing.
+            </summary>
+        </member>
+        <member name="T:Xamvvm.XamvvmCore">
+            <summary>
+            Page factory.
+            </summary>
+        </member>
+        <member name="P:Xamvvm.XamvvmCore.Logger">
+            <summary>
+            Gets or sets the logger.
+            </summary>
+            <value>The logger.</value>
+        </member>
+        <member name="P:Xamvvm.XamvvmCore.CurrentFactory">
+            <summary>
+            Gets the Factory instance.
+            </summary>
+            <value>The factory.</value>
+        </member>
+        <member name="M:Xamvvm.XamvvmCore.SetCurrentFactory(Xamvvm.IBaseFactory)">
+            <summary>
+            Initializes Factory.
+            </summary>
+            <param name="factory">Factory.</param>
+        </member>
+        <member name="M:TinyIoC.TypeExtensions.GetGenericMethod(System.Type,TinyIoC.BindingFlags,System.String,System.Type[],System.Type[])">
+            <summary>
+            Gets a generic method from a type given the method name, binding flags, generic types and parameter types
+            </summary>
+            <param name="sourceType">Source type</param>
+            <param name="bindingFlags">Binding flags</param>
+            <param name="methodName">Name of the method</param>
+            <param name="genericTypes">Generic types to use to make the method generic</param>
+            <param name="parameterTypes">Method parameters</param>
+            <returns>MethodInfo or null if no matches found</returns>
+            <exception cref="T:System.Reflection.AmbiguousMatchException"/>
+            <exception cref="T:System.ArgumentException"/>
+        </member>
+        <member name="T:TinyIoC.NamedParameterOverloads">
+            <summary>
+            Name/Value pairs for specifying "user" parameters when resolving
+            </summary>
+        </member>
+        <member name="F:TinyIoC.UnregisteredResolutionActions.AttemptResolve">
+            <summary>
+            Attempt to resolve type, even if the type isn't registered.
+            
+            Registered types/options will always take precedence.
+            </summary>
+        </member>
+        <member name="F:TinyIoC.UnregisteredResolutionActions.Fail">
+            <summary>
+            Fail resolution if type not explicitly registered
+            </summary>
+        </member>
+        <member name="F:TinyIoC.UnregisteredResolutionActions.GenericsOnly">
+            <summary>
+            Attempt to resolve unregistered type if requested type is generic
+            and no registration exists for the specific generic parameters used.
+            
+            Registered types/options will always take precedence.
+            </summary>
+        </member>
+        <member name="T:TinyIoC.ResolveOptions">
+            <summary>
+            Resolution settings
+            </summary>
+        </member>
+        <member name="P:TinyIoC.ResolveOptions.Default">
+            <summary>
+            Gets the default options (attempt resolution of unregistered types, fail on named resolution if name not found)
+            </summary>
+        </member>
+        <member name="P:TinyIoC.ResolveOptions.FailNameNotFoundOnly">
+            <summary>
+            Preconfigured option for attempting resolution of unregistered types and failing on named resolution if name not found
+            </summary>
+        </member>
+        <member name="P:TinyIoC.ResolveOptions.FailUnregisteredAndNameNotFound">
+            <summary>
+            Preconfigured option for failing on resolving unregistered types and on named resolution if name not found
+            </summary>
+        </member>
+        <member name="P:TinyIoC.ResolveOptions.FailUnregisteredOnly">
+            <summary>
+            Preconfigured option for failing on resolving unregistered types, but attempting unnamed resolution if name not found
+            </summary>
+        </member>
+        <member name="T:TinyIoC.TinyIoCContainer.RegisterOptions">
+            <summary>
+            Registration options for "fluent" API
+            </summary>
+        </member>
+        <member name="M:TinyIoC.TinyIoCContainer.RegisterOptions.AsSingleton">
+            <summary>
+            Make registration a singleton (single instance) if possible
+            </summary>
+            <returns>RegisterOptions</returns>
+            <exception cref="T:TinyIoC.TinyIoCRegistrationException"></exception>
+        </member>
+        <member name="M:TinyIoC.TinyIoCContainer.RegisterOptions.AsMultiInstance">
+            <summary>
+            Make registration multi-instance if possible
+            </summary>
+            <returns>RegisterOptions</returns>
+            <exception cref="T:TinyIoC.TinyIoCRegistrationException"></exception>
+        </member>
+        <member name="M:TinyIoC.TinyIoCContainer.RegisterOptions.WithWeakReference">
+            <summary>
+            Make registration hold a weak reference if possible
+            </summary>
+            <returns>RegisterOptions</returns>
+            <exception cref="T:TinyIoC.TinyIoCRegistrationException"></exception>
+        </member>
+        <member name="M:TinyIoC.TinyIoCContainer.RegisterOptions.WithStrongReference">
+            <summary>
+            Make registration hold a strong reference if possible
+            </summary>
+            <returns>RegisterOptions</returns>
+            <exception cref="T:TinyIoC.TinyIoCRegistrationException"></exception>
+        </member>
+        <member name="M:TinyIoC.TinyIoCContainer.RegisterOptions.ToCustomLifetimeManager(TinyIoC.TinyIoCContainer.RegisterOptions,TinyIoC.TinyIoCContainer.ITinyIoCObjectLifetimeProvider,System.String)">
+            <summary>
+            Switches to a custom lifetime manager factory if possible.
+            
+            Usually used for RegisterOptions "To*" extension methods such as the ASP.Net per-request one.
+            </summary>
+            <param name="instance">RegisterOptions instance</param>
+            <param name="lifetimeProvider">Custom lifetime manager</param>
+            <param name="errorString">Error string to display if switch fails</param>
+            <returns>RegisterOptions</returns>
+        </member>
+        <member name="T:TinyIoC.TinyIoCContainer.MultiRegisterOptions">
+            <summary>
+            Registration options for "fluent" API when registering multiple implementations
+            </summary>
+        </member>
+        <member name="M:TinyIoC.TinyIoCContainer.MultiRegisterOptions.#ctor(System.Collections.Generic.IEnumerable{TinyIoC.TinyIoCContainer.RegisterOptions})">
+            <summary>
+            Initializes a new instance of the MultiRegisterOptions class.
+            </summary>
+            <param name="registerOptions">Registration options</param>
+        </member>
+        <member name="M:TinyIoC.TinyIoCContainer.MultiRegisterOptions.AsSingleton">
+            <summary>
+            Make registration a singleton (single instance) if possible
+            </summary>
+            <returns>RegisterOptions</returns>
+            <exception cref="T:TinyIoC.TinyIoCRegistrationException"></exception>
+        </member>
+        <member name="M:TinyIoC.TinyIoCContainer.MultiRegisterOptions.AsMultiInstance">
+            <summary>
+            Make registration multi-instance if possible
+            </summary>
+            <returns>MultiRegisterOptions</returns>
+            <exception cref="T:TinyIoC.TinyIoCRegistrationException"></exception>
+        </member>
+        <member name="M:TinyIoC.TinyIoCContainer.MultiRegisterOptions.ToCustomLifetimeManager(TinyIoC.TinyIoCContainer.MultiRegisterOptions,TinyIoC.TinyIoCContainer.ITinyIoCObjectLifetimeProvider,System.String)">
+            <summary>
+            Switches to a custom lifetime manager factory if possible.
+            
+            Usually used for RegisterOptions "To*" extension methods such as the ASP.Net per-request one.
+            </summary>
+            <param name="instance">MultiRegisterOptions instance</param>
+            <param name="lifetimeProvider">Custom lifetime manager</param>
+            <param name="errorString">Error string to display if switch fails</param>
+            <returns>MultiRegisterOptions</returns>
+        </member>
+        <member name="M:TinyIoC.TinyIoCContainer.AutoRegister">
+            <summary>
+            Attempt to automatically register all non-generic classes and interfaces in the current app domain.
+            
+            If more than one class implements an interface then only one implementation will be registered
+            although no error will be thrown.
+            </summary>
+        </member>
+        <member name="M:TinyIoC.TinyIoCContainer.AutoRegister(System.Func{System.Type,System.Boolean})">
+            <summary>
+            Attempt to automatically register all non-generic classes and interfaces in the current app domain.
+            Types will only be registered if they pass the supplied registration predicate.
+            
+            If more than one class implements an interface then only one implementation will be registered
+            although no error will be thrown.
+            </summary>
+            <param name="registrationPredicate">Predicate to determine if a particular type should be registered</param>
+        </member>
+        <member name="M:TinyIoC.TinyIoCContainer.AutoRegister(TinyIoC.DuplicateImplementationActions)">
+            <summary>
+            Attempt to automatically register all non-generic classes and interfaces in the current app domain.
+            </summary>
+            <param name="duplicateAction">What action to take when encountering duplicate implementations of an interface/base class.</param>
+            <exception cref="T:TinyIoC.TinyIoCAutoRegistrationException"/>
+        </member>
+        <member name="M:TinyIoC.TinyIoCContainer.AutoRegister(TinyIoC.DuplicateImplementationActions,System.Func{System.Type,System.Boolean})">
+            <summary>
+            Attempt to automatically register all non-generic classes and interfaces in the current app domain.
+            Types will only be registered if they pass the supplied registration predicate.
+            </summary>
+            <param name="duplicateAction">What action to take when encountering duplicate implementations of an interface/base class.</param>
+            <param name="registrationPredicate">Predicate to determine if a particular type should be registered</param>
+            <exception cref="T:TinyIoC.TinyIoCAutoRegistrationException"/>
+        </member>
+        <member name="M:TinyIoC.TinyIoCContainer.AutoRegister(System.Collections.Generic.IEnumerable{System.Reflection.Assembly})">
+            <summary>
+            Attempt to automatically register all non-generic classes and interfaces in the specified assemblies
+            
+            If more than one class implements an interface then only one implementation will be registered
+            although no error will be thrown.
+            </summary>
+            <param name="assemblies">Assemblies to process</param>
+        </member>
+        <member name="M:TinyIoC.TinyIoCContainer.AutoRegister(System.Collections.Generic.IEnumerable{System.Reflection.Assembly},System.Func{System.Type,System.Boolean})">
+            <summary>
+            Attempt to automatically register all non-generic classes and interfaces in the specified assemblies
+            Types will only be registered if they pass the supplied registration predicate.
+            
+            If more than one class implements an interface then only one implementation will be registered
+            although no error will be thrown.
+            </summary>
+            <param name="assemblies">Assemblies to process</param>
+            <param name="registrationPredicate">Predicate to determine if a particular type should be registered</param>
+        </member>
+        <member name="M:TinyIoC.TinyIoCContainer.AutoRegister(System.Collections.Generic.IEnumerable{System.Reflection.Assembly},TinyIoC.DuplicateImplementationActions)">
+            <summary>
+            Attempt to automatically register all non-generic classes and interfaces in the specified assemblies
+            </summary>
+            <param name="assemblies">Assemblies to process</param>
+            <param name="duplicateAction">What action to take when encountering duplicate implementations of an interface/base class.</param>
+            <exception cref="T:TinyIoC.TinyIoCAutoRegistrationException"/>
+        </member>
+        <member name="M:TinyIoC.TinyIoCContainer.AutoRegister(System.Collections.Generic.IEnumerable{System.Reflection.Assembly},TinyIoC.DuplicateImplementationActions,System.Func{System.Type,System.Boolean})">
+            <summary>
+            Attempt to automatically register all non-generic classes and interfaces in the specified assemblies
+            Types will only be registered if they pass the supplied registration predicate.
+            </summary>
+            <param name="assemblies">Assemblies to process</param>
+            <param name="duplicateAction">What action to take when encountering duplicate implementations of an interface/base class.</param>
+            <param name="registrationPredicate">Predicate to determine if a particular type should be registered</param>
+            <exception cref="T:TinyIoC.TinyIoCAutoRegistrationException"/>
+        </member>
+        <member name="M:TinyIoC.TinyIoCContainer.Register(System.Type)">
+            <summary>
+            Creates/replaces a container class registration with default options.
+            </summary>
+            <param name="registerType">Type to register</param>
+            <returns>RegisterOptions for fluent API</returns>
+        </member>
+        <member name="M:TinyIoC.TinyIoCContainer.Register(System.Type,System.String)">
+            <summary>
+            Creates/replaces a named container class registration with default options.
+            </summary>
+            <param name="registerType">Type to register</param>
+            <param name="name">Name of registration</param>
+            <returns>RegisterOptions for fluent API</returns>
+        </member>
+        <member name="M:TinyIoC.TinyIoCContainer.Register(System.Type,System.Type)">
+            <summary>
+            Creates/replaces a container class registration with a given implementation and default options.
+            </summary>
+            <param name="registerType">Type to register</param>
+            <param name="registerImplementation">Type to instantiate that implements RegisterType</param>
+            <returns>RegisterOptions for fluent API</returns>
+        </member>
+        <member name="M:TinyIoC.TinyIoCContainer.Register(System.Type,System.Type,System.String)">
+            <summary>
+            Creates/replaces a named container class registration with a given implementation and default options.
+            </summary>
+            <param name="registerType">Type to register</param>
+            <param name="registerImplementation">Type to instantiate that implements RegisterType</param>
+            <param name="name">Name of registration</param>
+            <returns>RegisterOptions for fluent API</returns>
+        </member>
+        <member name="M:TinyIoC.TinyIoCContainer.Register(System.Type,System.Object)">
+            <summary>
+            Creates/replaces a container class registration with a specific, strong referenced, instance.
+            </summary>
+            <param name="registerType">Type to register</param>
+            <param name="instance">Instance of RegisterType to register</param>
+            <returns>RegisterOptions for fluent API</returns>
+        </member>
+        <member name="M:TinyIoC.TinyIoCContainer.Register(System.Type,System.Object,System.String)">
+            <summary>
+            Creates/replaces a named container class registration with a specific, strong referenced, instance.
+            </summary>
+            <param name="registerType">Type to register</param>
+            <param name="instance">Instance of RegisterType to register</param>
+            <param name="name">Name of registration</param>
+            <returns>RegisterOptions for fluent API</returns>
+        </member>
+        <member name="M:TinyIoC.TinyIoCContainer.Register(System.Type,System.Type,System.Object)">
+            <summary>
+            Creates/replaces a container class registration with a specific, strong referenced, instance.
+            </summary>
+            <param name="registerType">Type to register</param>
+            <param name="registerImplementation">Type of instance to register that implements RegisterType</param>
+            <param name="instance">Instance of RegisterImplementation to register</param>
+            <returns>RegisterOptions for fluent API</returns>
+        </member>
+        <member name="M:TinyIoC.TinyIoCContainer.Register(System.Type,System.Type,System.Object,System.String)">
+            <summary>
+            Creates/replaces a named container class registration with a specific, strong referenced, instance.
+            </summary>
+            <param name="registerType">Type to register</param>
+            <param name="registerImplementation">Type of instance to register that implements RegisterType</param>
+            <param name="instance">Instance of RegisterImplementation to register</param>
+            <param name="name">Name of registration</param>
+            <returns>RegisterOptions for fluent API</returns>
+        </member>
+        <member name="M:TinyIoC.TinyIoCContainer.Register(System.Type,System.Func{TinyIoC.TinyIoCContainer,TinyIoC.NamedParameterOverloads,System.Object})">
+            <summary>
+            Creates/replaces a container class registration with a user specified factory
+            </summary>
+            <param name="registerType">Type to register</param>
+            <param name="factory">Factory/lambda that returns an instance of RegisterType</param>
+            <returns>RegisterOptions for fluent API</returns>
+        </member>
+        <member name="M:TinyIoC.TinyIoCContainer.Register(System.Type,System.Func{TinyIoC.TinyIoCContainer,TinyIoC.NamedParameterOverloads,System.Object},System.String)">
+            <summary>
+            Creates/replaces a container class registration with a user specified factory
+            </summary>
+            <param name="registerType">Type to register</param>
+            <param name="factory">Factory/lambda that returns an instance of RegisterType</param>
+            <param name="name">Name of registation</param>
+            <returns>RegisterOptions for fluent API</returns>
+        </member>
+        <member name="M:TinyIoC.TinyIoCContainer.Register``1">
+            <summary>
+            Creates/replaces a container class registration with default options.
+            </summary>
+            <typeparam name="RegisterType">Type to register</typeparam>
+            <returns>RegisterOptions for fluent API</returns>
+        </member>
+        <member name="M:TinyIoC.TinyIoCContainer.Register``1(System.String)">
+            <summary>
+            Creates/replaces a named container class registration with default options.
+            </summary>
+            <typeparam name="RegisterType">Type to register</typeparam>
+            <param name="name">Name of registration</param>
+            <returns>RegisterOptions for fluent API</returns>
+        </member>
+        <member name="M:TinyIoC.TinyIoCContainer.Register``2">
+            <summary>
+            Creates/replaces a container class registration with a given implementation and default options.
+            </summary>
+            <typeparam name="RegisterType">Type to register</typeparam>
+            <typeparam name="RegisterImplementation">Type to instantiate that implements RegisterType</typeparam>
+            <returns>RegisterOptions for fluent API</returns>
+        </member>
+        <member name="M:TinyIoC.TinyIoCContainer.Register``2(System.String)">
+            <summary>
+            Creates/replaces a named container class registration with a given implementation and default options.
+            </summary>
+            <typeparam name="RegisterType">Type to register</typeparam>
+            <typeparam name="RegisterImplementation">Type to instantiate that implements RegisterType</typeparam>
+            <param name="name">Name of registration</param>
+            <returns>RegisterOptions for fluent API</returns>
+        </member>
+        <member name="M:TinyIoC.TinyIoCContainer.Register``1(``0)">
+            <summary>
+            Creates/replaces a container class registration with a specific, strong referenced, instance.
+            </summary>
+            <typeparam name="RegisterType">Type to register</typeparam>
+            <param name="instance">Instance of RegisterType to register</param>
+            <returns>RegisterOptions for fluent API</returns>
+        </member>
+        <member name="M:TinyIoC.TinyIoCContainer.Register``1(``0,System.String)">
+            <summary>
+            Creates/replaces a named container class registration with a specific, strong referenced, instance.
+            </summary>
+            <typeparam name="RegisterType">Type to register</typeparam>
+            <param name="instance">Instance of RegisterType to register</param>
+            <param name="name">Name of registration</param>
+            <returns>RegisterOptions for fluent API</returns>
+        </member>
+        <member name="M:TinyIoC.TinyIoCContainer.Register``2(``1)">
+            <summary>
+            Creates/replaces a container class registration with a specific, strong referenced, instance.
+            </summary>
+            <typeparam name="RegisterType">Type to register</typeparam>
+            <typeparam name="RegisterImplementation">Type of instance to register that implements RegisterType</typeparam>
+            <param name="instance">Instance of RegisterImplementation to register</param>
+            <returns>RegisterOptions for fluent API</returns>
+        </member>
+        <member name="M:TinyIoC.TinyIoCContainer.Register``2(``1,System.String)">
+            <summary>
+            Creates/replaces a named container class registration with a specific, strong referenced, instance.
+            </summary>
+            <typeparam name="RegisterType">Type to register</typeparam>
+            <typeparam name="RegisterImplementation">Type of instance to register that implements RegisterType</typeparam>
+            <param name="instance">Instance of RegisterImplementation to register</param>
+            <param name="name">Name of registration</param>
+            <returns>RegisterOptions for fluent API</returns>
+        </member>
+        <member name="M:TinyIoC.TinyIoCContainer.Register``1(System.Func{TinyIoC.TinyIoCContainer,TinyIoC.NamedParameterOverloads,``0})">
+            <summary>
+            Creates/replaces a container class registration with a user specified factory
+            </summary>
+            <typeparam name="RegisterType">Type to register</typeparam>
+            <param name="factory">Factory/lambda that returns an instance of RegisterType</param>
+            <returns>RegisterOptions for fluent API</returns>
+        </member>
+        <member name="M:TinyIoC.TinyIoCContainer.Register``1(System.Func{TinyIoC.TinyIoCContainer,TinyIoC.NamedParameterOverloads,``0},System.String)">
+            <summary>
+            Creates/replaces a named container class registration with a user specified factory
+            </summary>
+            <typeparam name="RegisterType">Type to register</typeparam>
+            <param name="factory">Factory/lambda that returns an instance of RegisterType</param>
+            <param name="name">Name of registation</param>
+            <returns>RegisterOptions for fluent API</returns>
+        </member>
+        <member name="M:TinyIoC.TinyIoCContainer.RegisterMultiple``1(System.Collections.Generic.IEnumerable{System.Type})">
+            <summary>
+            Register multiple implementations of a type.
+            
+            Internally this registers each implementation using the full name of the class as its registration name.
+            </summary>
+            <typeparam name="RegisterType">Type that each implementation implements</typeparam>
+            <param name="implementationTypes">Types that implement RegisterType</param>
+            <returns>MultiRegisterOptions for the fluent API</returns>
+        </member>
+        <member name="M:TinyIoC.TinyIoCContainer.RegisterMultiple(System.Type,System.Collections.Generic.IEnumerable{System.Type})">
+            <summary>
+            Register multiple implementations of a type.
+            
+            Internally this registers each implementation using the full name of the class as its registration name.
+            </summary>
+            <param name="registrationType">Type that each implementation implements</param>
+            <param name="implementationTypes">Types that implement RegisterType</param>
+            <returns>MultiRegisterOptions for the fluent API</returns>
+        </member>
+        <member name="M:TinyIoC.TinyIoCContainer.Unregister``1">
+            <summary>
+            Remove a container class registration.
+            </summary>
+            <typeparam name="RegisterType">Type to unregister</typeparam>
+            <returns>true if the registration is successfully found and removed; otherwise, false.</returns>
+        </member>
+        <member name="M:TinyIoC.TinyIoCContainer.Unregister``1(System.String)">
+            <summary>
+            Remove a named container class registration.
+            </summary>
+            <typeparam name="RegisterType">Type to unregister</typeparam>
+            <param name="name">Name of registration</param>
+            <returns>true if the registration is successfully found and removed; otherwise, false.</returns>
+        </member>
+        <member name="M:TinyIoC.TinyIoCContainer.Unregister(System.Type)">
+            <summary>
+            Remove a container class registration.
+            </summary>
+            <param name="registerType">Type to unregister</param>
+            <returns>true if the registration is successfully found and removed; otherwise, false.</returns>
+        </member>
+        <member name="M:TinyIoC.TinyIoCContainer.Unregister(System.Type,System.String)">
+            <summary>
+            Remove a named container class registration.
+            </summary>
+            <param name="registerType">Type to unregister</param>
+            <param name="name">Name of registration</param>
+            <returns>true if the registration is successfully found and removed; otherwise, false.</returns>
+        </member>
+        <member name="M:TinyIoC.TinyIoCContainer.Resolve(System.Type)">
+            <summary>
+            Attempts to resolve a type using default options.
+            </summary>
+            <param name="resolveType">Type to resolve</param>
+            <returns>Instance of type</returns>
+            <exception cref="T:TinyIoC.TinyIoCResolutionException">Unable to resolve the type.</exception>
+        </member>
+        <member name="M:TinyIoC.TinyIoCContainer.Resolve(System.Type,TinyIoC.ResolveOptions)">
+            <summary>
+            Attempts to resolve a type using specified options.
+            </summary>
+            <param name="resolveType">Type to resolve</param>
+            <param name="options">Resolution options</param>
+            <returns>Instance of type</returns>
+            <exception cref="T:TinyIoC.TinyIoCResolutionException">Unable to resolve the type.</exception>
+        </member>
+        <member name="M:TinyIoC.TinyIoCContainer.Resolve(System.Type,System.String)">
+             <summary>
+             Attempts to resolve a type using default options and the supplied name.
+            
+             Parameters are used in conjunction with normal container resolution to find the most suitable constructor (if one exists).
+             All user supplied parameters must exist in at least one resolvable constructor of RegisterType or resolution will fail.
+             </summary>
+             <param name="resolveType">Type to resolve</param>
+             <param name="name">Name of registration</param>
+             <returns>Instance of type</returns>
+             <exception cref="T:TinyIoC.TinyIoCResolutionException">Unable to resolve the type.</exception>
+        </member>
+        <member name="M:TinyIoC.TinyIoCContainer.Resolve(System.Type,System.String,TinyIoC.ResolveOptions)">
+             <summary>
+             Attempts to resolve a type using supplied options and  name.
+            
+             Parameters are used in conjunction with normal container resolution to find the most suitable constructor (if one exists).
+             All user supplied parameters must exist in at least one resolvable constructor of RegisterType or resolution will fail.
+             </summary>
+             <param name="resolveType">Type to resolve</param>
+             <param name="name">Name of registration</param>
+             <param name="options">Resolution options</param>
+             <returns>Instance of type</returns>
+             <exception cref="T:TinyIoC.TinyIoCResolutionException">Unable to resolve the type.</exception>
+        </member>
+        <member name="M:TinyIoC.TinyIoCContainer.Resolve(System.Type,TinyIoC.NamedParameterOverloads)">
+             <summary>
+             Attempts to resolve a type using default options and the supplied constructor parameters.
+            
+             Parameters are used in conjunction with normal container resolution to find the most suitable constructor (if one exists).
+             All user supplied parameters must exist in at least one resolvable constructor of RegisterType or resolution will fail.
+             </summary>
+             <param name="resolveType">Type to resolve</param>
+             <param name="parameters">User specified constructor parameters</param>
+             <returns>Instance of type</returns>
+             <exception cref="T:TinyIoC.TinyIoCResolutionException">Unable to resolve the type.</exception>
+        </member>
+        <member name="M:TinyIoC.TinyIoCContainer.Resolve(System.Type,TinyIoC.NamedParameterOverloads,TinyIoC.ResolveOptions)">
+             <summary>
+             Attempts to resolve a type using specified options and the supplied constructor parameters.
+            
+             Parameters are used in conjunction with normal container resolution to find the most suitable constructor (if one exists).
+             All user supplied parameters must exist in at least one resolvable constructor of RegisterType or resolution will fail.
+             </summary>
+             <param name="resolveType">Type to resolve</param>
+             <param name="parameters">User specified constructor parameters</param>
+             <param name="options">Resolution options</param>
+             <returns>Instance of type</returns>
+             <exception cref="T:TinyIoC.TinyIoCResolutionException">Unable to resolve the type.</exception>
+        </member>
+        <member name="M:TinyIoC.TinyIoCContainer.Resolve(System.Type,System.String,TinyIoC.NamedParameterOverloads)">
+             <summary>
+             Attempts to resolve a type using default options and the supplied constructor parameters and name.
+            
+             Parameters are used in conjunction with normal container resolution to find the most suitable constructor (if one exists).
+             All user supplied parameters must exist in at least one resolvable constructor of RegisterType or resolution will fail.
+             </summary>
+             <param name="resolveType">Type to resolve</param>
+             <param name="parameters">User specified constructor parameters</param>
+             <param name="name">Name of registration</param>
+             <returns>Instance of type</returns>
+             <exception cref="T:TinyIoC.TinyIoCResolutionException">Unable to resolve the type.</exception>
+        </member>
+        <member name="M:TinyIoC.TinyIoCContainer.Resolve(System.Type,System.String,TinyIoC.NamedParameterOverloads,TinyIoC.ResolveOptions)">
+             <summary>
+             Attempts to resolve a named type using specified options and the supplied constructor parameters.
+            
+             Parameters are used in conjunction with normal container resolution to find the most suitable constructor (if one exists).
+             All user supplied parameters must exist in at least one resolvable constructor of RegisterType or resolution will fail.
+             </summary>
+             <param name="resolveType">Type to resolve</param>
+             <param name="name">Name of registration</param>
+             <param name="parameters">User specified constructor parameters</param>
+             <param name="options">Resolution options</param>
+             <returns>Instance of type</returns>
+             <exception cref="T:TinyIoC.TinyIoCResolutionException">Unable to resolve the type.</exception>
+        </member>
+        <member name="M:TinyIoC.TinyIoCContainer.Resolve``1">
+            <summary>
+            Attempts to resolve a type using default options.
+            </summary>
+            <typeparam name="ResolveType">Type to resolve</typeparam>
+            <returns>Instance of type</returns>
+            <exception cref="T:TinyIoC.TinyIoCResolutionException">Unable to resolve the type.</exception>
+        </member>
+        <member name="M:TinyIoC.TinyIoCContainer.Resolve``1(TinyIoC.ResolveOptions)">
+            <summary>
+            Attempts to resolve a type using specified options.
+            </summary>
+            <typeparam name="ResolveType">Type to resolve</typeparam>
+            <param name="options">Resolution options</param>
+            <returns>Instance of type</returns>
+            <exception cref="T:TinyIoC.TinyIoCResolutionException">Unable to resolve the type.</exception>
+        </member>
+        <member name="M:TinyIoC.TinyIoCContainer.Resolve``1(System.String)">
+             <summary>
+             Attempts to resolve a type using default options and the supplied name.
+            
+             Parameters are used in conjunction with normal container resolution to find the most suitable constructor (if one exists).
+             All user supplied parameters must exist in at least one resolvable constructor of RegisterType or resolution will fail.
+             </summary>
+             <typeparam name="ResolveType">Type to resolve</typeparam>
+             <param name="name">Name of registration</param>
+             <returns>Instance of type</returns>
+             <exception cref="T:TinyIoC.TinyIoCResolutionException">Unable to resolve the type.</exception>
+        </member>
+        <member name="M:TinyIoC.TinyIoCContainer.Resolve``1(System.String,TinyIoC.ResolveOptions)">
+             <summary>
+             Attempts to resolve a type using supplied options and  name.
+            
+             Parameters are used in conjunction with normal container resolution to find the most suitable constructor (if one exists).
+             All user supplied parameters must exist in at least one resolvable constructor of RegisterType or resolution will fail.
+             </summary>
+             <typeparam name="ResolveType">Type to resolve</typeparam>
+             <param name="name">Name of registration</param>
+             <param name="options">Resolution options</param>
+             <returns>Instance of type</returns>
+             <exception cref="T:TinyIoC.TinyIoCResolutionException">Unable to resolve the type.</exception>
+        </member>
+        <member name="M:TinyIoC.TinyIoCContainer.Resolve``1(TinyIoC.NamedParameterOverloads)">
+             <summary>
+             Attempts to resolve a type using default options and the supplied constructor parameters.
+            
+             Parameters are used in conjunction with normal container resolution to find the most suitable constructor (if one exists).
+             All user supplied parameters must exist in at least one resolvable constructor of RegisterType or resolution will fail.
+             </summary>
+             <typeparam name="ResolveType">Type to resolve</typeparam>
+             <param name="parameters">User specified constructor parameters</param>
+             <returns>Instance of type</returns>
+             <exception cref="T:TinyIoC.TinyIoCResolutionException">Unable to resolve the type.</exception>
+        </member>
+        <member name="M:TinyIoC.TinyIoCContainer.Resolve``1(TinyIoC.NamedParameterOverloads,TinyIoC.ResolveOptions)">
+             <summary>
+             Attempts to resolve a type using specified options and the supplied constructor parameters.
+            
+             Parameters are used in conjunction with normal container resolution to find the most suitable constructor (if one exists).
+             All user supplied parameters must exist in at least one resolvable constructor of RegisterType or resolution will fail.
+             </summary>
+             <typeparam name="ResolveType">Type to resolve</typeparam>
+             <param name="parameters">User specified constructor parameters</param>
+             <param name="options">Resolution options</param>
+             <returns>Instance of type</returns>
+             <exception cref="T:TinyIoC.TinyIoCResolutionException">Unable to resolve the type.</exception>
+        </member>
+        <member name="M:TinyIoC.TinyIoCContainer.Resolve``1(System.String,TinyIoC.NamedParameterOverloads)">
+             <summary>
+             Attempts to resolve a type using default options and the supplied constructor parameters and name.
+            
+             Parameters are used in conjunction with normal container resolution to find the most suitable constructor (if one exists).
+             All user supplied parameters must exist in at least one resolvable constructor of RegisterType or resolution will fail.
+             </summary>
+             <typeparam name="ResolveType">Type to resolve</typeparam>
+             <param name="parameters">User specified constructor parameters</param>
+             <param name="name">Name of registration</param>
+             <returns>Instance of type</returns>
+             <exception cref="T:TinyIoC.TinyIoCResolutionException">Unable to resolve the type.</exception>
+        </member>
+        <member name="M:TinyIoC.TinyIoCContainer.Resolve``1(System.String,TinyIoC.NamedParameterOverloads,TinyIoC.ResolveOptions)">
+             <summary>
+             Attempts to resolve a named type using specified options and the supplied constructor parameters.
+            
+             Parameters are used in conjunction with normal container resolution to find the most suitable constructor (if one exists).
+             All user supplied parameters must exist in at least one resolvable constructor of RegisterType or resolution will fail.
+             </summary>
+             <typeparam name="ResolveType">Type to resolve</typeparam>
+             <param name="name">Name of registration</param>
+             <param name="parameters">User specified constructor parameters</param>
+             <param name="options">Resolution options</param>
+             <returns>Instance of type</returns>
+             <exception cref="T:TinyIoC.TinyIoCResolutionException">Unable to resolve the type.</exception>
+        </member>
+        <member name="M:TinyIoC.TinyIoCContainer.CanResolve(System.Type)">
+             <summary>
+             Attempts to predict whether a given type can be resolved with default options.
+            
+             Note: Resolution may still fail if user defined factory registations fail to construct objects when called.
+             </summary>
+             <param name="resolveType">Type to resolve</param>
+             <returns>Bool indicating whether the type can be resolved</returns>
+        </member>
+        <member name="M:TinyIoC.TinyIoCContainer.CanResolve(System.Type,System.String)">
+             <summary>
+             Attempts to predict whether a given named type can be resolved with default options.
+            
+             Note: Resolution may still fail if user defined factory registations fail to construct objects when called.
+             </summary>
+             <param name="resolveType">Type to resolve</param>
+             <param name="name">Name of registration</param>
+             <returns>Bool indicating whether the type can be resolved</returns>
+        </member>
+        <member name="M:TinyIoC.TinyIoCContainer.CanResolve(System.Type,TinyIoC.ResolveOptions)">
+             <summary>
+             Attempts to predict whether a given type can be resolved with the specified options.
+            
+             Note: Resolution may still fail if user defined factory registations fail to construct objects when called.
+             </summary>
+             <param name="resolveType">Type to resolve</param>
+             <param name="options">Resolution options</param>
+             <returns>Bool indicating whether the type can be resolved</returns>
+        </member>
+        <member name="M:TinyIoC.TinyIoCContainer.CanResolve(System.Type,System.String,TinyIoC.ResolveOptions)">
+             <summary>
+             Attempts to predict whether a given named type can be resolved with the specified options.
+            
+             Note: Resolution may still fail if user defined factory registations fail to construct objects when called.
+             </summary>
+             <param name="resolveType">Type to resolve</param>
+             <param name="name">Name of registration</param>
+             <param name="options">Resolution options</param>
+             <returns>Bool indicating whether the type can be resolved</returns>
+        </member>
+        <member name="M:TinyIoC.TinyIoCContainer.CanResolve(System.Type,TinyIoC.NamedParameterOverloads)">
+             <summary>
+             Attempts to predict whether a given type can be resolved with the supplied constructor parameters and default options.
+            
+             Parameters are used in conjunction with normal container resolution to find the most suitable constructor (if one exists).
+             All user supplied parameters must exist in at least one resolvable constructor of RegisterType or resolution will fail.
+             
+             Note: Resolution may still fail if user defined factory registations fail to construct objects when called.
+             </summary>
+             <param name="resolveType">Type to resolve</param>
+             <param name="parameters">User supplied named parameter overloads</param>
+             <returns>Bool indicating whether the type can be resolved</returns>
+        </member>
+        <member name="M:TinyIoC.TinyIoCContainer.CanResolve(System.Type,System.String,TinyIoC.NamedParameterOverloads)">
+             <summary>
+             Attempts to predict whether a given named type can be resolved with the supplied constructor parameters and default options.
+            
+             Parameters are used in conjunction with normal container resolution to find the most suitable constructor (if one exists).
+             All user supplied parameters must exist in at least one resolvable constructor of RegisterType or resolution will fail.
+             
+             Note: Resolution may still fail if user defined factory registations fail to construct objects when called.
+             </summary>
+             <param name="resolveType">Type to resolve</param>
+             <param name="name">Name of registration</param>
+             <param name="parameters">User supplied named parameter overloads</param>
+             <returns>Bool indicating whether the type can be resolved</returns>
+        </member>
+        <member name="M:TinyIoC.TinyIoCContainer.CanResolve(System.Type,TinyIoC.NamedParameterOverloads,TinyIoC.ResolveOptions)">
+             <summary>
+             Attempts to predict whether a given type can be resolved with the supplied constructor parameters options.
+            
+             Parameters are used in conjunction with normal container resolution to find the most suitable constructor (if one exists).
+             All user supplied parameters must exist in at least one resolvable constructor of RegisterType or resolution will fail.
+             
+             Note: Resolution may still fail if user defined factory registations fail to construct objects when called.
+             </summary>
+             <param name="resolveType">Type to resolve</param>
+             <param name="parameters">User supplied named parameter overloads</param>
+             <param name="options">Resolution options</param>
+             <returns>Bool indicating whether the type can be resolved</returns>
+        </member>
+        <member name="M:TinyIoC.TinyIoCContainer.CanResolve(System.Type,System.String,TinyIoC.NamedParameterOverloads,TinyIoC.ResolveOptions)">
+             <summary>
+             Attempts to predict whether a given named type can be resolved with the supplied constructor parameters options.
+            
+             Parameters are used in conjunction with normal container resolution to find the most suitable constructor (if one exists).
+             All user supplied parameters must exist in at least one resolvable constructor of RegisterType or resolution will fail.
+             
+             Note: Resolution may still fail if user defined factory registations fail to construct objects when called.
+             </summary>
+             <param name="resolveType">Type to resolve</param>
+             <param name="name">Name of registration</param>
+             <param name="parameters">User supplied named parameter overloads</param>
+             <param name="options">Resolution options</param>
+             <returns>Bool indicating whether the type can be resolved</returns>
+        </member>
+        <member name="M:TinyIoC.TinyIoCContainer.CanResolve``1">
+             <summary>
+             Attempts to predict whether a given type can be resolved with default options.
+            
+             Note: Resolution may still fail if user defined factory registations fail to construct objects when called.
+             </summary>
+             <typeparam name="ResolveType">Type to resolve</typeparam>
+             <returns>Bool indicating whether the type can be resolved</returns>
+        </member>
+        <member name="M:TinyIoC.TinyIoCContainer.CanResolve``1(System.String)">
+             <summary>
+             Attempts to predict whether a given named type can be resolved with default options.
+            
+             Note: Resolution may still fail if user defined factory registations fail to construct objects when called.
+             </summary>
+             <typeparam name="ResolveType">Type to resolve</typeparam>
+             <returns>Bool indicating whether the type can be resolved</returns>
+        </member>
+        <member name="M:TinyIoC.TinyIoCContainer.CanResolve``1(TinyIoC.ResolveOptions)">
+             <summary>
+             Attempts to predict whether a given type can be resolved with the specified options.
+            
+             Note: Resolution may still fail if user defined factory registations fail to construct objects when called.
+             </summary>
+             <typeparam name="ResolveType">Type to resolve</typeparam>
+             <param name="options">Resolution options</param>
+             <returns>Bool indicating whether the type can be resolved</returns>
+        </member>
+        <member name="M:TinyIoC.TinyIoCContainer.CanResolve``1(System.String,TinyIoC.ResolveOptions)">
+             <summary>
+             Attempts to predict whether a given named type can be resolved with the specified options.
+            
+             Note: Resolution may still fail if user defined factory registations fail to construct objects when called.
+             </summary>
+             <typeparam name="ResolveType">Type to resolve</typeparam>
+             <param name="name">Name of registration</param>
+             <param name="options">Resolution options</param>
+             <returns>Bool indicating whether the type can be resolved</returns>
+        </member>
+        <member name="M:TinyIoC.TinyIoCContainer.CanResolve``1(TinyIoC.NamedParameterOverloads)">
+             <summary>
+             Attempts to predict whether a given type can be resolved with the supplied constructor parameters and default options.
+            
+             Parameters are used in conjunction with normal container resolution to find the most suitable constructor (if one exists).
+             All user supplied parameters must exist in at least one resolvable constructor of RegisterType or resolution will fail.
+             
+             Note: Resolution may still fail if user defined factory registations fail to construct objects when called.
+             </summary>
+             <typeparam name="ResolveType">Type to resolve</typeparam>
+             <param name="parameters">User supplied named parameter overloads</param>
+             <returns>Bool indicating whether the type can be resolved</returns>
+        </member>
+        <member name="M:TinyIoC.TinyIoCContainer.CanResolve``1(System.String,TinyIoC.NamedParameterOverloads)">
+             <summary>
+             Attempts to predict whether a given named type can be resolved with the supplied constructor parameters and default options.
+            
+             Parameters are used in conjunction with normal container resolution to find the most suitable constructor (if one exists).
+             All user supplied parameters must exist in at least one resolvable constructor of RegisterType or resolution will fail.
+             
+             Note: Resolution may still fail if user defined factory registations fail to construct objects when called.
+             </summary>
+             <typeparam name="ResolveType">Type to resolve</typeparam>
+             <param name="name">Name of registration</param>
+             <param name="parameters">User supplied named parameter overloads</param>
+             <returns>Bool indicating whether the type can be resolved</returns>
+        </member>
+        <member name="M:TinyIoC.TinyIoCContainer.CanResolve``1(TinyIoC.NamedParameterOverloads,TinyIoC.ResolveOptions)">
+             <summary>
+             Attempts to predict whether a given type can be resolved with the supplied constructor parameters options.
+            
+             Parameters are used in conjunction with normal container resolution to find the most suitable constructor (if one exists).
+             All user supplied parameters must exist in at least one resolvable constructor of RegisterType or resolution will fail.
+             
+             Note: Resolution may still fail if user defined factory registations fail to construct objects when called.
+             </summary>
+             <typeparam name="ResolveType">Type to resolve</typeparam>
+             <param name="parameters">User supplied named parameter overloads</param>
+             <param name="options">Resolution options</param>
+             <returns>Bool indicating whether the type can be resolved</returns>
+        </member>
+        <member name="M:TinyIoC.TinyIoCContainer.CanResolve``1(System.String,TinyIoC.NamedParameterOverloads,TinyIoC.ResolveOptions)">
+             <summary>
+             Attempts to predict whether a given named type can be resolved with the supplied constructor parameters options.
+            
+             Parameters are used in conjunction with normal container resolution to find the most suitable constructor (if one exists).
+             All user supplied parameters must exist in at least one resolvable constructor of RegisterType or resolution will fail.
+             
+             Note: Resolution may still fail if user defined factory registations fail to construct objects when called.
+             </summary>
+             <typeparam name="ResolveType">Type to resolve</typeparam>
+             <param name="name">Name of registration</param>
+             <param name="parameters">User supplied named parameter overloads</param>
+             <param name="options">Resolution options</param>
+             <returns>Bool indicating whether the type can be resolved</returns>
+        </member>
+        <member name="M:TinyIoC.TinyIoCContainer.TryResolve(System.Type,System.Object@)">
+            <summary>
+            Attemps to resolve a type using the default options
+            </summary>
+            <param name="resolveType">Type to resolve</param>
+            <param name="resolvedType">Resolved type or default if resolve fails</param>
+            <returns>True if resolved sucessfully, false otherwise</returns>
+        </member>
+        <member name="M:TinyIoC.TinyIoCContainer.TryResolve(System.Type,TinyIoC.ResolveOptions,System.Object@)">
+            <summary>
+            Attemps to resolve a type using the given options
+            </summary>
+            <param name="resolveType">Type to resolve</param>
+            <param name="options">Resolution options</param>
+            <param name="resolvedType">Resolved type or default if resolve fails</param>
+            <returns>True if resolved sucessfully, false otherwise</returns>
+        </member>
+        <member name="M:TinyIoC.TinyIoCContainer.TryResolve(System.Type,System.String,System.Object@)">
+            <summary>
+            Attemps to resolve a type using the default options and given name
+            </summary>
+            <param name="resolveType">Type to resolve</param>
+            <param name="name">Name of registration</param>
+            <param name="resolvedType">Resolved type or default if resolve fails</param>
+            <returns>True if resolved sucessfully, false otherwise</returns>
+        </member>
+        <member name="M:TinyIoC.TinyIoCContainer.TryResolve(System.Type,System.String,TinyIoC.ResolveOptions,System.Object@)">
+            <summary>
+            Attemps to resolve a type using the given options and name
+            </summary>
+            <param name="resolveType">Type to resolve</param>
+            <param name="name">Name of registration</param>
+            <param name="options">Resolution options</param>
+            <param name="resolvedType">Resolved type or default if resolve fails</param>
+            <returns>True if resolved sucessfully, false otherwise</returns>
+        </member>
+        <member name="M:TinyIoC.TinyIoCContainer.TryResolve(System.Type,TinyIoC.NamedParameterOverloads,System.Object@)">
+            <summary>
+            Attemps to resolve a type using the default options and supplied constructor parameters
+            </summary>
+            <param name="resolveType">Type to resolve</param>
+            <param name="parameters">User specified constructor parameters</param>
+            <param name="resolvedType">Resolved type or default if resolve fails</param>
+            <returns>True if resolved sucessfully, false otherwise</returns>
+        </member>
+        <member name="M:TinyIoC.TinyIoCContainer.TryResolve(System.Type,System.String,TinyIoC.NamedParameterOverloads,System.Object@)">
+            <summary>
+            Attemps to resolve a type using the default options and supplied name and constructor parameters
+            </summary>
+            <param name="resolveType">Type to resolve</param>
+            <param name="name">Name of registration</param>
+            <param name="parameters">User specified constructor parameters</param>
+            <param name="resolvedType">Resolved type or default if resolve fails</param>
+            <returns>True if resolved sucessfully, false otherwise</returns>
+        </member>
+        <member name="M:TinyIoC.TinyIoCContainer.TryResolve(System.Type,TinyIoC.NamedParameterOverloads,TinyIoC.ResolveOptions,System.Object@)">
+            <summary>
+            Attemps to resolve a type using the supplied options and constructor parameters
+            </summary>
+            <param name="resolveType">Type to resolve</param>
+            <param name="parameters">User specified constructor parameters</param>
+            <param name="options">Resolution options</param>
+            <param name="resolvedType">Resolved type or default if resolve fails</param>
+            <returns>True if resolved sucessfully, false otherwise</returns>
+        </member>
+        <member name="M:TinyIoC.TinyIoCContainer.TryResolve(System.Type,System.String,TinyIoC.NamedParameterOverloads,TinyIoC.ResolveOptions,System.Object@)">
+            <summary>
+            Attemps to resolve a type using the supplied name, options and constructor parameters
+            </summary>
+            <param name="resolveType">Type to resolve</param>
+            <param name="name">Name of registration</param>
+            <param name="parameters">User specified constructor parameters</param>
+            <param name="options">Resolution options</param>
+            <param name="resolvedType">Resolved type or default if resolve fails</param>
+            <returns>True if resolved sucessfully, false otherwise</returns>
+        </member>
+        <member name="M:TinyIoC.TinyIoCContainer.TryResolve``1(``0@)">
+            <summary>
+            Attemps to resolve a type using the default options
+            </summary>
+            <typeparam name="ResolveType">Type to resolve</typeparam>
+            <param name="resolvedType">Resolved type or default if resolve fails</param>
+            <returns>True if resolved sucessfully, false otherwise</returns>
+        </member>
+        <member name="M:TinyIoC.TinyIoCContainer.TryResolve``1(TinyIoC.ResolveOptions,``0@)">
+            <summary>
+            Attemps to resolve a type using the given options
+            </summary>
+            <typeparam name="ResolveType">Type to resolve</typeparam>
+            <param name="options">Resolution options</param>
+            <param name="resolvedType">Resolved type or default if resolve fails</param>
+            <returns>True if resolved sucessfully, false otherwise</returns>
+        </member>
+        <member name="M:TinyIoC.TinyIoCContainer.TryResolve``1(System.String,``0@)">
+            <summary>
+            Attemps to resolve a type using the default options and given name
+            </summary>
+            <typeparam name="ResolveType">Type to resolve</typeparam>
+            <param name="name">Name of registration</param>
+            <param name="resolvedType">Resolved type or default if resolve fails</param>
+            <returns>True if resolved sucessfully, false otherwise</returns>
+        </member>
+        <member name="M:TinyIoC.TinyIoCContainer.TryResolve``1(System.String,TinyIoC.ResolveOptions,``0@)">
+            <summary>
+            Attemps to resolve a type using the given options and name
+            </summary>
+            <typeparam name="ResolveType">Type to resolve</typeparam>
+            <param name="name">Name of registration</param>
+            <param name="options">Resolution options</param>
+            <param name="resolvedType">Resolved type or default if resolve fails</param>
+            <returns>True if resolved sucessfully, false otherwise</returns>
+        </member>
+        <member name="M:TinyIoC.TinyIoCContainer.TryResolve``1(TinyIoC.NamedParameterOverloads,``0@)">
+            <summary>
+            Attemps to resolve a type using the default options and supplied constructor parameters
+            </summary>
+            <typeparam name="ResolveType">Type to resolve</typeparam>
+            <param name="parameters">User specified constructor parameters</param>
+            <param name="resolvedType">Resolved type or default if resolve fails</param>
+            <returns>True if resolved sucessfully, false otherwise</returns>
+        </member>
+        <member name="M:TinyIoC.TinyIoCContainer.TryResolve``1(System.String,TinyIoC.NamedParameterOverloads,``0@)">
+            <summary>
+            Attemps to resolve a type using the default options and supplied name and constructor parameters
+            </summary>
+            <typeparam name="ResolveType">Type to resolve</typeparam>
+            <param name="name">Name of registration</param>
+            <param name="parameters">User specified constructor parameters</param>
+            <param name="resolvedType">Resolved type or default if resolve fails</param>
+            <returns>True if resolved sucessfully, false otherwise</returns>
+        </member>
+        <member name="M:TinyIoC.TinyIoCContainer.TryResolve``1(TinyIoC.NamedParameterOverloads,TinyIoC.ResolveOptions,``0@)">
+            <summary>
+            Attemps to resolve a type using the supplied options and constructor parameters
+            </summary>
+            <typeparam name="ResolveType">Type to resolve</typeparam>
+            <param name="parameters">User specified constructor parameters</param>
+            <param name="options">Resolution options</param>
+            <param name="resolvedType">Resolved type or default if resolve fails</param>
+            <returns>True if resolved sucessfully, false otherwise</returns>
+        </member>
+        <member name="M:TinyIoC.TinyIoCContainer.TryResolve``1(System.String,TinyIoC.NamedParameterOverloads,TinyIoC.ResolveOptions,``0@)">
+            <summary>
+            Attemps to resolve a type using the supplied name, options and constructor parameters
+            </summary>
+            <typeparam name="ResolveType">Type to resolve</typeparam>
+            <param name="name">Name of registration</param>
+            <param name="parameters">User specified constructor parameters</param>
+            <param name="options">Resolution options</param>
+            <param name="resolvedType">Resolved type or default if resolve fails</param>
+            <returns>True if resolved sucessfully, false otherwise</returns>
+        </member>
+        <member name="M:TinyIoC.TinyIoCContainer.ResolveAll(System.Type,System.Boolean)">
+            <summary>
+            Returns all registrations of a type
+            </summary>
+            <param name="resolveType">Type to resolveAll</param>
+            <param name="includeUnnamed">Whether to include un-named (default) registrations</param>
+            <returns>IEnumerable</returns>
+        </member>
+        <member name="M:TinyIoC.TinyIoCContainer.ResolveAll(System.Type)">
+            <summary>
+            Returns all registrations of a type, both named and unnamed
+            </summary>
+            <param name="resolveType">Type to resolveAll</param>
+            <returns>IEnumerable</returns>
+        </member>
+        <member name="M:TinyIoC.TinyIoCContainer.ResolveAll``1(System.Boolean)">
+            <summary>
+            Returns all registrations of a type
+            </summary>
+            <typeparam name="ResolveType">Type to resolveAll</typeparam>
+            <param name="includeUnnamed">Whether to include un-named (default) registrations</param>
+            <returns>IEnumerable</returns>
+        </member>
+        <member name="M:TinyIoC.TinyIoCContainer.ResolveAll``1">
+            <summary>
+            Returns all registrations of a type, both named and unnamed
+            </summary>
+            <typeparam name="ResolveType">Type to resolveAll</typeparam>
+            <returns>IEnumerable</returns>
+        </member>
+        <member name="M:TinyIoC.TinyIoCContainer.BuildUp(System.Object)">
+            <summary>
+            Attempts to resolve all public property dependencies on the given object.
+            </summary>
+            <param name="input">Object to "build up"</param>
+        </member>
+        <member name="M:TinyIoC.TinyIoCContainer.BuildUp(System.Object,TinyIoC.ResolveOptions)">
+            <summary>
+            Attempts to resolve all public property dependencies on the given object using the given resolve options.
+            </summary>
+            <param name="input">Object to "build up"</param>
+            <param name="resolveOptions">Resolve options to use</param>
+        </member>
+        <member name="T:TinyIoC.TinyIoCContainer.ITinyIoCObjectLifetimeProvider">
+            <summary>
+            Provides custom lifetime management for ASP.Net per-request lifetimes etc.
+            </summary>
+        </member>
+        <member name="M:TinyIoC.TinyIoCContainer.ITinyIoCObjectLifetimeProvider.GetObject">
+            <summary>
+            Gets the stored object if it exists, or null if not
+            </summary>
+            <returns>Object instance or null</returns>
+        </member>
+        <member name="M:TinyIoC.TinyIoCContainer.ITinyIoCObjectLifetimeProvider.SetObject(System.Object)">
+            <summary>
+            Store the object
+            </summary>
+            <param name="value">Object to store</param>
+        </member>
+        <member name="M:TinyIoC.TinyIoCContainer.ITinyIoCObjectLifetimeProvider.ReleaseObject">
+            <summary>
+            Release the object
+            </summary>
+        </member>
+        <member name="P:TinyIoC.TinyIoCContainer.ObjectFactoryBase.AssumeConstruction">
+            <summary>
+            Whether to assume this factory sucessfully constructs its objects
+            
+            Generally set to true for delegate style factories as CanResolve cannot delve
+            into the delegates they contain.
+            </summary>
+        </member>
+        <member name="P:TinyIoC.TinyIoCContainer.ObjectFactoryBase.CreatesType">
+            <summary>
+            The type the factory instantiates
+            </summary>
+        </member>
+        <member name="P:TinyIoC.TinyIoCContainer.ObjectFactoryBase.Constructor">
+            <summary>
+            Constructor to use, if specified
+            </summary>
+        </member>
+        <member name="M:TinyIoC.TinyIoCContainer.ObjectFactoryBase.GetObject(System.Type,TinyIoC.TinyIoCContainer,TinyIoC.NamedParameterOverloads,TinyIoC.ResolveOptions)">
+            <summary>
+            Create the type
+            </summary>
+            <param name="requestedType">Type user requested to be resolved</param>
+            <param name="container">Container that requested the creation</param>
+            <param name="parameters">Any user parameters passed</param>
+            <param name="options"></param>
+            <returns></returns>
+        </member>
+        <member name="T:TinyIoC.TinyIoCContainer.MultiInstanceFactory">
+            <summary>
+            IObjectFactory that creates new instances of types for each resolution
+            </summary>
+        </member>
+        <member name="T:TinyIoC.TinyIoCContainer.DelegateFactory">
+            <summary>
+            IObjectFactory that invokes a specified delegate to construct the object
+            </summary>
+        </member>
+        <member name="T:TinyIoC.TinyIoCContainer.WeakDelegateFactory">
+            <summary>
+            IObjectFactory that invokes a specified delegate to construct the object
+            Holds the delegate using a weak reference
+            </summary>
+        </member>
+        <member name="T:TinyIoC.TinyIoCContainer.InstanceFactory">
+            <summary>
+            Stores an particular instance to return for a type
+            </summary>
+        </member>
+        <member name="T:TinyIoC.TinyIoCContainer.WeakInstanceFactory">
+            <summary>
+            Stores an particular instance to return for a type
+            
+            Stores the instance with a weak reference
+            </summary>
+        </member>
+        <member name="T:TinyIoC.TinyIoCContainer.SingletonFactory">
+            <summary>
+            A factory that lazy instantiates a type and always returns the same instance
+            </summary>
+        </member>
+        <member name="T:TinyIoC.TinyIoCContainer.CustomObjectLifetimeFactory">
+            <summary>
+            A factory that offloads lifetime to an external lifetime provider
+            </summary>
+        </member>
+        <member name="P:TinyIoC.TinyIoCContainer.Current">
+            <summary>
+            Lazy created Singleton instance of the container for simple scenarios
+            </summary>
+        </member>
+    </members>
+</doc>

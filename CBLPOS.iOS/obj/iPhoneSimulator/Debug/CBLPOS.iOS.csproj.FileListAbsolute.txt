@@ -1,0 +1,226 @@
+/Users/chonnikanbutbumrung/Projects/CBLPOS/CBLPOS.iOS/bin/iPhoneSimulator/Debug/CBLPOS.iOS.exe
+/Users/chonnikanbutbumrung/Projects/CBLPOS/CBLPOS.iOS/bin/iPhoneSimulator/Debug/CBLPOS.iOS.pdb
+/Users/chonnikanbutbumrung/Projects/CBLPOS/CBLPOS.iOS/bin/iPhoneSimulator/Debug/Microsoft.AppCenter.dll
+/Users/chonnikanbutbumrung/Projects/CBLPOS/CBLPOS.iOS/bin/iPhoneSimulator/Debug/Microsoft.AppCenter.iOS.Bindings.dll
+/Users/chonnikanbutbumrung/Projects/CBLPOS/CBLPOS.iOS/bin/iPhoneSimulator/Debug/Microsoft.AppCenter.Analytics.dll
+/Users/chonnikanbutbumrung/Projects/CBLPOS/CBLPOS.iOS/bin/iPhoneSimulator/Debug/Microsoft.AppCenter.Analytics.iOS.Bindings.dll
+/Users/chonnikanbutbumrung/Projects/CBLPOS/CBLPOS.iOS/bin/iPhoneSimulator/Debug/Newtonsoft.Json.dll
+/Users/chonnikanbutbumrung/Projects/CBLPOS/CBLPOS.iOS/bin/iPhoneSimulator/Debug/MvvmHelpers.dll
+/Users/chonnikanbutbumrung/Projects/CBLPOS/CBLPOS.iOS/bin/iPhoneSimulator/Debug/MvvmHelpers.pdb
+/Users/chonnikanbutbumrung/Projects/CBLPOS/CBLPOS.iOS/bin/iPhoneSimulator/Debug/SkiaSharp.dll
+/Users/chonnikanbutbumrung/Projects/CBLPOS/CBLPOS.iOS/bin/iPhoneSimulator/Debug/WebP.Touch.dll
+/Users/chonnikanbutbumrung/Projects/CBLPOS/CBLPOS.iOS/bin/iPhoneSimulator/Debug/Plugin.Connectivity.Abstractions.dll
+/Users/chonnikanbutbumrung/Projects/CBLPOS/CBLPOS.iOS/bin/iPhoneSimulator/Debug/Plugin.Connectivity.Abstractions.pdb
+/Users/chonnikanbutbumrung/Projects/CBLPOS/CBLPOS.iOS/bin/iPhoneSimulator/Debug/Plugin.Connectivity.dll
+/Users/chonnikanbutbumrung/Projects/CBLPOS/CBLPOS.iOS/bin/iPhoneSimulator/Debug/Plugin.Connectivity.pdb
+/Users/chonnikanbutbumrung/Projects/CBLPOS/CBLPOS.iOS/bin/iPhoneSimulator/Debug/Plugin.Settings.Abstractions.dll
+/Users/chonnikanbutbumrung/Projects/CBLPOS/CBLPOS.iOS/bin/iPhoneSimulator/Debug/Plugin.Settings.Abstractions.pdb
+/Users/chonnikanbutbumrung/Projects/CBLPOS/CBLPOS.iOS/bin/iPhoneSimulator/Debug/Plugin.Settings.dll
+/Users/chonnikanbutbumrung/Projects/CBLPOS/CBLPOS.iOS/bin/iPhoneSimulator/Debug/FFImageLoading.Platform.dll
+/Users/chonnikanbutbumrung/Projects/CBLPOS/CBLPOS.iOS/bin/iPhoneSimulator/Debug/FFImageLoading.Platform.pdb
+/Users/chonnikanbutbumrung/Projects/CBLPOS/CBLPOS.iOS/bin/iPhoneSimulator/Debug/FFImageLoading.dll
+/Users/chonnikanbutbumrung/Projects/CBLPOS/CBLPOS.iOS/bin/iPhoneSimulator/Debug/FFImageLoading.pdb
+/Users/chonnikanbutbumrung/Projects/CBLPOS/CBLPOS.iOS/bin/iPhoneSimulator/Debug/FFImageLoading.Forms.Platform.dll
+/Users/chonnikanbutbumrung/Projects/CBLPOS/CBLPOS.iOS/bin/iPhoneSimulator/Debug/FFImageLoading.Forms.Platform.pdb
+/Users/chonnikanbutbumrung/Projects/CBLPOS/CBLPOS.iOS/bin/iPhoneSimulator/Debug/FFImageLoading.Forms.dll
+/Users/chonnikanbutbumrung/Projects/CBLPOS/CBLPOS.iOS/bin/iPhoneSimulator/Debug/FFImageLoading.Forms.pdb
+/Users/chonnikanbutbumrung/Projects/CBLPOS/CBLPOS.iOS/bin/iPhoneSimulator/Debug/FFImageLoading.Svg.Platform.dll
+/Users/chonnikanbutbumrung/Projects/CBLPOS/CBLPOS.iOS/bin/iPhoneSimulator/Debug/FFImageLoading.Svg.Platform.pdb
+/Users/chonnikanbutbumrung/Projects/CBLPOS/CBLPOS.iOS/bin/iPhoneSimulator/Debug/FFImageLoading.Svg.Forms.dll
+/Users/chonnikanbutbumrung/Projects/CBLPOS/CBLPOS.iOS/bin/iPhoneSimulator/Debug/FFImageLoading.Svg.Forms.pdb
+/Users/chonnikanbutbumrung/Projects/CBLPOS/CBLPOS.iOS/bin/iPhoneSimulator/Debug/FFImageLoading.Transformations.dll
+/Users/chonnikanbutbumrung/Projects/CBLPOS/CBLPOS.iOS/bin/iPhoneSimulator/Debug/FFImageLoading.Transformations.pdb
+/Users/chonnikanbutbumrung/Projects/CBLPOS/CBLPOS.iOS/bin/iPhoneSimulator/Debug/Xamarin.Forms.Core.dll
+/Users/chonnikanbutbumrung/Projects/CBLPOS/CBLPOS.iOS/bin/iPhoneSimulator/Debug/Xamarin.Forms.Core.pdb
+/Users/chonnikanbutbumrung/Projects/CBLPOS/CBLPOS.iOS/bin/iPhoneSimulator/Debug/Xamarin.Forms.Platform.dll
+/Users/chonnikanbutbumrung/Projects/CBLPOS/CBLPOS.iOS/bin/iPhoneSimulator/Debug/Xamarin.Forms.Platform.iOS.dll
+/Users/chonnikanbutbumrung/Projects/CBLPOS/CBLPOS.iOS/bin/iPhoneSimulator/Debug/Xamarin.Forms.Platform.iOS.pdb
+/Users/chonnikanbutbumrung/Projects/CBLPOS/CBLPOS.iOS/bin/iPhoneSimulator/Debug/Xamarin.Forms.Xaml.dll
+/Users/chonnikanbutbumrung/Projects/CBLPOS/CBLPOS.iOS/bin/iPhoneSimulator/Debug/Xamarin.Forms.Xaml.pdb
+/Users/chonnikanbutbumrung/Projects/CBLPOS/CBLPOS.iOS/bin/iPhoneSimulator/Debug/ar/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/chonnikanbutbumrung/Projects/CBLPOS/CBLPOS.iOS/bin/iPhoneSimulator/Debug/ca/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/chonnikanbutbumrung/Projects/CBLPOS/CBLPOS.iOS/bin/iPhoneSimulator/Debug/cs/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/chonnikanbutbumrung/Projects/CBLPOS/CBLPOS.iOS/bin/iPhoneSimulator/Debug/da/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/chonnikanbutbumrung/Projects/CBLPOS/CBLPOS.iOS/bin/iPhoneSimulator/Debug/de/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/chonnikanbutbumrung/Projects/CBLPOS/CBLPOS.iOS/bin/iPhoneSimulator/Debug/el/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/chonnikanbutbumrung/Projects/CBLPOS/CBLPOS.iOS/bin/iPhoneSimulator/Debug/es/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/chonnikanbutbumrung/Projects/CBLPOS/CBLPOS.iOS/bin/iPhoneSimulator/Debug/fi/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/chonnikanbutbumrung/Projects/CBLPOS/CBLPOS.iOS/bin/iPhoneSimulator/Debug/fr/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/chonnikanbutbumrung/Projects/CBLPOS/CBLPOS.iOS/bin/iPhoneSimulator/Debug/he/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/chonnikanbutbumrung/Projects/CBLPOS/CBLPOS.iOS/bin/iPhoneSimulator/Debug/hi/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/chonnikanbutbumrung/Projects/CBLPOS/CBLPOS.iOS/bin/iPhoneSimulator/Debug/hr/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/chonnikanbutbumrung/Projects/CBLPOS/CBLPOS.iOS/bin/iPhoneSimulator/Debug/hu/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/chonnikanbutbumrung/Projects/CBLPOS/CBLPOS.iOS/bin/iPhoneSimulator/Debug/id/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/chonnikanbutbumrung/Projects/CBLPOS/CBLPOS.iOS/bin/iPhoneSimulator/Debug/it/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/chonnikanbutbumrung/Projects/CBLPOS/CBLPOS.iOS/bin/iPhoneSimulator/Debug/ja/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/chonnikanbutbumrung/Projects/CBLPOS/CBLPOS.iOS/bin/iPhoneSimulator/Debug/ko/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/chonnikanbutbumrung/Projects/CBLPOS/CBLPOS.iOS/bin/iPhoneSimulator/Debug/ms/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/chonnikanbutbumrung/Projects/CBLPOS/CBLPOS.iOS/bin/iPhoneSimulator/Debug/nb/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/chonnikanbutbumrung/Projects/CBLPOS/CBLPOS.iOS/bin/iPhoneSimulator/Debug/nl/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/chonnikanbutbumrung/Projects/CBLPOS/CBLPOS.iOS/bin/iPhoneSimulator/Debug/pl/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/chonnikanbutbumrung/Projects/CBLPOS/CBLPOS.iOS/bin/iPhoneSimulator/Debug/pt-BR/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/chonnikanbutbumrung/Projects/CBLPOS/CBLPOS.iOS/bin/iPhoneSimulator/Debug/pt/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/chonnikanbutbumrung/Projects/CBLPOS/CBLPOS.iOS/bin/iPhoneSimulator/Debug/ro/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/chonnikanbutbumrung/Projects/CBLPOS/CBLPOS.iOS/bin/iPhoneSimulator/Debug/ru/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/chonnikanbutbumrung/Projects/CBLPOS/CBLPOS.iOS/bin/iPhoneSimulator/Debug/sk/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/chonnikanbutbumrung/Projects/CBLPOS/CBLPOS.iOS/bin/iPhoneSimulator/Debug/sv/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/chonnikanbutbumrung/Projects/CBLPOS/CBLPOS.iOS/bin/iPhoneSimulator/Debug/th/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/chonnikanbutbumrung/Projects/CBLPOS/CBLPOS.iOS/bin/iPhoneSimulator/Debug/tr/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/chonnikanbutbumrung/Projects/CBLPOS/CBLPOS.iOS/bin/iPhoneSimulator/Debug/uk/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/chonnikanbutbumrung/Projects/CBLPOS/CBLPOS.iOS/bin/iPhoneSimulator/Debug/vi/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/chonnikanbutbumrung/Projects/CBLPOS/CBLPOS.iOS/bin/iPhoneSimulator/Debug/zh-HK/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/chonnikanbutbumrung/Projects/CBLPOS/CBLPOS.iOS/bin/iPhoneSimulator/Debug/zh-Hans/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/chonnikanbutbumrung/Projects/CBLPOS/CBLPOS.iOS/bin/iPhoneSimulator/Debug/zh-Hant/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/chonnikanbutbumrung/Projects/CBLPOS/CBLPOS.iOS/bin/iPhoneSimulator/Debug/CardView.dll
+/Users/chonnikanbutbumrung/Projects/CBLPOS/CBLPOS.iOS/bin/iPhoneSimulator/Debug/CBLPOS.dll
+/Users/chonnikanbutbumrung/Projects/CBLPOS/CBLPOS.iOS/bin/iPhoneSimulator/Debug/DLToolkit.Forms.Controls.FlowListView.dll
+/Users/chonnikanbutbumrung/Projects/CBLPOS/CBLPOS.iOS/bin/iPhoneSimulator/Debug/Xamvvm.Core.dll
+/Users/chonnikanbutbumrung/Projects/CBLPOS/CBLPOS.iOS/bin/iPhoneSimulator/Debug/Xamvvm.Forms.dll
+/Users/chonnikanbutbumrung/Projects/CBLPOS/CBLPOS.iOS/bin/iPhoneSimulator/Debug/CBLPOS.pdb
+/Users/chonnikanbutbumrung/Projects/CBLPOS/CBLPOS.iOS/bin/iPhoneSimulator/Debug/Xamvvm.Core.xml
+/Users/chonnikanbutbumrung/Projects/CBLPOS/CBLPOS.iOS/bin/iPhoneSimulator/Debug/DLToolkit.Forms.Controls.FlowListView.xml
+/Users/chonnikanbutbumrung/Projects/CBLPOS/CBLPOS.iOS/obj/iPhoneSimulator/Debug/CBLPOS.iOS.csprojAssemblyReference.cache
+/Users/chonnikanbutbumrung/Projects/CBLPOS/CBLPOS.iOS/obj/iPhoneSimulator/Debug/XamlC.stamp
+/Users/chonnikanbutbumrung/Projects/CBLPOS/CBLPOS.iOS/obj/iPhoneSimulator/Debug/CBLPOS.iOS.csproj.CopyComplete
+/Users/chonnikanbutbumrung/Projects/CBLPOS/CBLPOS.iOS/obj/iPhoneSimulator/Debug/CBLPOS.iOS.exe
+/Users/chonnikanbutbumrung/Projects/CBLPOS/CBLPOS.iOS/obj/iPhoneSimulator/Debug/CBLPOS.iOS.pdb
+/Users/chonnikanbutbumrung/Projects/CBLPOS/CBLPOS.iOS/obj/iPhoneSimulator/Debug/device-builds/ipad6.4-13.0/ibtool/_BundleResourceWithLogicalName.items
+/Users/chonnikanbutbumrung/Projects/CBLPOS/CBLPOS.iOS/obj/iPhoneSimulator/Debug/device-builds/ipad6.4-13.0/actool/_PartialAppManifest.items
+/Users/chonnikanbutbumrung/Projects/CBLPOS/CBLPOS.iOS/obj/iPhoneSimulator/Debug/device-builds/ipad6.4-13.0/actool/_BundleResourceWithLogicalName.items
+/Users/chonnikanbutbumrung/Projects/CBLPOS/CBLPOS.iOS/obj/iPhoneSimulator/Debug/device-builds/ipad6.4-13.0/coremlc/_PartialAppManifest.items
+/Users/chonnikanbutbumrung/Projects/CBLPOS/CBLPOS.iOS/obj/iPhoneSimulator/Debug/device-builds/ipad6.4-13.0/coremlc/_BundleResourceWithLogicalName.items
+/Users/chonnikanbutbumrung/Projects/CBLPOS/CBLPOS.iOS/obj/iPhoneSimulator/Debug/device-builds/ipad6.4-13.0/optimized/Cart.png
+/Users/chonnikanbutbumrung/Projects/CBLPOS/CBLPOS.iOS/obj/iPhoneSimulator/Debug/device-builds/ipad6.4-13.0/optimized/CartIcon.png
+/Users/chonnikanbutbumrung/Projects/CBLPOS/CBLPOS.iOS/obj/iPhoneSimulator/Debug/device-builds/ipad6.4-13.0/optimized/checkborder.png
+/Users/chonnikanbutbumrung/Projects/CBLPOS/CBLPOS.iOS/obj/iPhoneSimulator/Debug/device-builds/ipad6.4-13.0/optimized/checkborder@2x.png
+/Users/chonnikanbutbumrung/Projects/CBLPOS/CBLPOS.iOS/obj/iPhoneSimulator/Debug/device-builds/ipad6.4-13.0/optimized/checkborder@3x.png
+/Users/chonnikanbutbumrung/Projects/CBLPOS/CBLPOS.iOS/obj/iPhoneSimulator/Debug/device-builds/ipad6.4-13.0/optimized/checkcheckedbg.png
+/Users/chonnikanbutbumrung/Projects/CBLPOS/CBLPOS.iOS/obj/iPhoneSimulator/Debug/device-builds/ipad6.4-13.0/optimized/checkcheckedbg@2x.png
+/Users/chonnikanbutbumrung/Projects/CBLPOS/CBLPOS.iOS/obj/iPhoneSimulator/Debug/device-builds/ipad6.4-13.0/optimized/checkcheckedbg@3x.png
+/Users/chonnikanbutbumrung/Projects/CBLPOS/CBLPOS.iOS/obj/iPhoneSimulator/Debug/device-builds/ipad6.4-13.0/optimized/checkcheckmark.png
+/Users/chonnikanbutbumrung/Projects/CBLPOS/CBLPOS.iOS/obj/iPhoneSimulator/Debug/device-builds/ipad6.4-13.0/optimized/checkcheckmark@2x.png
+/Users/chonnikanbutbumrung/Projects/CBLPOS/CBLPOS.iOS/obj/iPhoneSimulator/Debug/device-builds/ipad6.4-13.0/optimized/checkcheckmark@3x.png
+/Users/chonnikanbutbumrung/Projects/CBLPOS/CBLPOS.iOS/obj/iPhoneSimulator/Debug/device-builds/ipad6.4-13.0/optimized/download_icon.png
+/Users/chonnikanbutbumrung/Projects/CBLPOS/CBLPOS.iOS/obj/iPhoneSimulator/Debug/device-builds/ipad6.4-13.0/optimized/Items.png
+/Users/chonnikanbutbumrung/Projects/CBLPOS/CBLPOS.iOS/obj/iPhoneSimulator/Debug/device-builds/ipad6.4-13.0/optimized/placeholder.png
+/Users/chonnikanbutbumrung/Projects/CBLPOS/CBLPOS.iOS/obj/iPhoneSimulator/Debug/device-builds/ipad6.4-13.0/optimized/slideout.png
+/Users/chonnikanbutbumrung/Projects/CBLPOS/CBLPOS.iOS/obj/iPhoneSimulator/Debug/device-builds/ipad6.4-13.0/optimized/tab_about.png
+/Users/chonnikanbutbumrung/Projects/CBLPOS/CBLPOS.iOS/obj/iPhoneSimulator/Debug/device-builds/ipad6.4-13.0/optimized/tab_about@2x.png
+/Users/chonnikanbutbumrung/Projects/CBLPOS/CBLPOS.iOS/obj/iPhoneSimulator/Debug/device-builds/ipad6.4-13.0/optimized/tab_about@3x.png
+/Users/chonnikanbutbumrung/Projects/CBLPOS/CBLPOS.iOS/obj/iPhoneSimulator/Debug/device-builds/ipad6.4-13.0/optimized/tab_feed.png
+/Users/chonnikanbutbumrung/Projects/CBLPOS/CBLPOS.iOS/obj/iPhoneSimulator/Debug/device-builds/ipad6.4-13.0/optimized/tab_feed@2x.png
+/Users/chonnikanbutbumrung/Projects/CBLPOS/CBLPOS.iOS/obj/iPhoneSimulator/Debug/device-builds/ipad6.4-13.0/optimized/tab_feed@3x.png
+/Users/chonnikanbutbumrung/Projects/CBLPOS/CBLPOS.iOS/obj/iPhoneSimulator/Debug/device-builds/ipad6.4-13.0/optimized/dp.png
+/Users/chonnikanbutbumrung/Projects/CBLPOS/CBLPOS.iOS/obj/iPhoneSimulator/Debug/device-builds/ipad6.4-13.0/optimized/image_error.png
+/Users/chonnikanbutbumrung/Projects/CBLPOS/CBLPOS.iOS/obj/iPhoneSimulator/Debug/device-builds/ipad6.4-13.0/optimized/image_loading.png
+/Users/chonnikanbutbumrung/Projects/CBLPOS/CBLPOS.iOS/obj/iPhoneSimulator/Debug/device-builds/ipad6.4-13.0/optimized/iconcart.png
+/Users/chonnikanbutbumrung/Projects/CBLPOS/CBLPOS.iOS/obj/iPhoneSimulator/Debug/device-builds/ipad6.4-13.0/optimized/header_main.png
+/Users/chonnikanbutbumrung/Projects/CBLPOS/CBLPOS.iOS/obj/iPhoneSimulator/Debug/device-builds/ipad6.4-13.0/optimized/bgcaballo.png
+/Users/chonnikanbutbumrung/Projects/CBLPOS/CBLPOS.iOS/obj/iPhoneSimulator/Debug/device-builds/ipad6.4-13.0/optimized/home.png
+/Users/chonnikanbutbumrung/Projects/CBLPOS/CBLPOS.iOS/obj/iPhoneSimulator/Debug/device-builds/ipad6.4-13.0/optimized/logout.png
+/Users/chonnikanbutbumrung/Projects/CBLPOS/CBLPOS.iOS/obj/iPhoneSimulator/Debug/device-builds/ipad6.4-13.0/optimized/setting.png
+/Users/chonnikanbutbumrung/Projects/CBLPOS/CBLPOS.iOS/obj/iPhoneSimulator/Debug/device-builds/ipad6.4-13.0/optimized/order.png
+/Users/chonnikanbutbumrung/Projects/CBLPOS/CBLPOS.iOS/obj/iPhoneSimulator/Debug/device-builds/ipad6.4-13.0/optimized/customers.png
+/Users/chonnikanbutbumrung/Projects/CBLPOS/CBLPOS.iOS/obj/iPhoneSimulator/Debug/device-builds/ipad6.4-13.0/optimized/back.png
+/Users/chonnikanbutbumrung/Projects/CBLPOS/CBLPOS.iOS/obj/iPhoneSimulator/Debug/device-builds/ipad6.4-13.0/optimized/
+D:\Project caballo หน้าร้าน\CBLPOS\CBLPOS.iOS\bin\iPhoneSimulator\Debug\CBLPOS.iOS.exe
+D:\Project caballo หน้าร้าน\CBLPOS\CBLPOS.iOS\bin\iPhoneSimulator\Debug\CBLPOS.iOS.pdb
+D:\Project caballo หน้าร้าน\CBLPOS\CBLPOS.iOS\bin\iPhoneSimulator\Debug\CardView.dll
+D:\Project caballo หน้าร้าน\CBLPOS\CBLPOS.iOS\bin\iPhoneSimulator\Debug\CBLPOS.dll
+D:\Project caballo หน้าร้าน\CBLPOS\CBLPOS.iOS\bin\iPhoneSimulator\Debug\DLToolkit.Forms.Controls.FlowListView.dll
+D:\Project caballo หน้าร้าน\CBLPOS\CBLPOS.iOS\bin\iPhoneSimulator\Debug\FFImageLoading.dll
+D:\Project caballo หน้าร้าน\CBLPOS\CBLPOS.iOS\bin\iPhoneSimulator\Debug\FFImageLoading.Forms.dll
+D:\Project caballo หน้าร้าน\CBLPOS\CBLPOS.iOS\bin\iPhoneSimulator\Debug\FFImageLoading.Forms.Platform.dll
+D:\Project caballo หน้าร้าน\CBLPOS\CBLPOS.iOS\bin\iPhoneSimulator\Debug\FFImageLoading.Platform.dll
+D:\Project caballo หน้าร้าน\CBLPOS\CBLPOS.iOS\bin\iPhoneSimulator\Debug\FFImageLoading.Svg.Forms.dll
+D:\Project caballo หน้าร้าน\CBLPOS\CBLPOS.iOS\bin\iPhoneSimulator\Debug\FFImageLoading.Svg.Platform.dll
+D:\Project caballo หน้าร้าน\CBLPOS\CBLPOS.iOS\bin\iPhoneSimulator\Debug\FFImageLoading.Transformations.dll
+D:\Project caballo หน้าร้าน\CBLPOS\CBLPOS.iOS\bin\iPhoneSimulator\Debug\Newtonsoft.Json.dll
+D:\Project caballo หน้าร้าน\CBLPOS\CBLPOS.iOS\bin\iPhoneSimulator\Debug\SkiaSharp.dll
+D:\Project caballo หน้าร้าน\CBLPOS\CBLPOS.iOS\bin\iPhoneSimulator\Debug\WebP.Touch.dll
+D:\Project caballo หน้าร้าน\CBLPOS\CBLPOS.iOS\bin\iPhoneSimulator\Debug\Xamarin.Forms.Core.dll
+D:\Project caballo หน้าร้าน\CBLPOS\CBLPOS.iOS\bin\iPhoneSimulator\Debug\Xamarin.Forms.Platform.dll
+D:\Project caballo หน้าร้าน\CBLPOS\CBLPOS.iOS\bin\iPhoneSimulator\Debug\Xamarin.Forms.Platform.iOS.dll
+D:\Project caballo หน้าร้าน\CBLPOS\CBLPOS.iOS\bin\iPhoneSimulator\Debug\Xamarin.Forms.Xaml.dll
+D:\Project caballo หน้าร้าน\CBLPOS\CBLPOS.iOS\bin\iPhoneSimulator\Debug\Xamvvm.Core.dll
+D:\Project caballo หน้าร้าน\CBLPOS\CBLPOS.iOS\bin\iPhoneSimulator\Debug\Xamvvm.Forms.dll
+D:\Project caballo หน้าร้าน\CBLPOS\CBLPOS.iOS\bin\iPhoneSimulator\Debug\MvvmHelpers.dll
+D:\Project caballo หน้าร้าน\CBLPOS\CBLPOS.iOS\bin\iPhoneSimulator\Debug\Plugin.Settings.Abstractions.dll
+D:\Project caballo หน้าร้าน\CBLPOS\CBLPOS.iOS\bin\iPhoneSimulator\Debug\Plugin.Connectivity.dll
+D:\Project caballo หน้าร้าน\CBLPOS\CBLPOS.iOS\bin\iPhoneSimulator\Debug\Plugin.Connectivity.Abstractions.dll
+D:\Project caballo หน้าร้าน\CBLPOS\CBLPOS.iOS\bin\iPhoneSimulator\Debug\Plugin.Settings.dll
+D:\Project caballo หน้าร้าน\CBLPOS\CBLPOS.iOS\bin\iPhoneSimulator\Debug\CBLPOS.pdb
+D:\Project caballo หน้าร้าน\CBLPOS\CBLPOS.iOS\bin\iPhoneSimulator\Debug\Xamvvm.Core.xml
+D:\Project caballo หน้าร้าน\CBLPOS\CBLPOS.iOS\bin\iPhoneSimulator\Debug\WebP.Touch.xml
+D:\Project caballo หน้าร้าน\CBLPOS\CBLPOS.iOS\bin\iPhoneSimulator\Debug\FFImageLoading.pdb
+D:\Project caballo หน้าร้าน\CBLPOS\CBLPOS.iOS\bin\iPhoneSimulator\Debug\FFImageLoading.xml
+D:\Project caballo หน้าร้าน\CBLPOS\CBLPOS.iOS\bin\iPhoneSimulator\Debug\FFImageLoading.Platform.pdb
+D:\Project caballo หน้าร้าน\CBLPOS\CBLPOS.iOS\bin\iPhoneSimulator\Debug\FFImageLoading.Platform.xml
+D:\Project caballo หน้าร้าน\CBLPOS\CBLPOS.iOS\bin\iPhoneSimulator\Debug\DLToolkit.Forms.Controls.FlowListView.xml
+D:\Project caballo หน้าร้าน\CBLPOS\CBLPOS.iOS\bin\iPhoneSimulator\Debug\FFImageLoading.Forms.pdb
+D:\Project caballo หน้าร้าน\CBLPOS\CBLPOS.iOS\bin\iPhoneSimulator\Debug\FFImageLoading.Forms.xml
+D:\Project caballo หน้าร้าน\CBLPOS\CBLPOS.iOS\bin\iPhoneSimulator\Debug\FFImageLoading.Forms.Platform.pdb
+D:\Project caballo หน้าร้าน\CBLPOS\CBLPOS.iOS\bin\iPhoneSimulator\Debug\FFImageLoading.Forms.Platform.xml
+D:\Project caballo หน้าร้าน\CBLPOS\CBLPOS.iOS\bin\iPhoneSimulator\Debug\FFImageLoading.Transformations.pdb
+D:\Project caballo หน้าร้าน\CBLPOS\CBLPOS.iOS\bin\iPhoneSimulator\Debug\FFImageLoading.Transformations.xml
+D:\Project caballo หน้าร้าน\CBLPOS\CBLPOS.iOS\bin\iPhoneSimulator\Debug\SkiaSharp.xml
+D:\Project caballo หน้าร้าน\CBLPOS\CBLPOS.iOS\bin\iPhoneSimulator\Debug\FFImageLoading.Svg.Platform.pdb
+D:\Project caballo หน้าร้าน\CBLPOS\CBLPOS.iOS\bin\iPhoneSimulator\Debug\FFImageLoading.Svg.Platform.xml
+D:\Project caballo หน้าร้าน\CBLPOS\CBLPOS.iOS\bin\iPhoneSimulator\Debug\FFImageLoading.Svg.Forms.pdb
+D:\Project caballo หน้าร้าน\CBLPOS\CBLPOS.iOS\bin\iPhoneSimulator\Debug\FFImageLoading.Svg.Forms.xml
+D:\Project caballo หน้าร้าน\CBLPOS\CBLPOS.iOS\bin\iPhoneSimulator\Debug\Newtonsoft.Json.xml
+D:\Project caballo หน้าร้าน\CBLPOS\CBLPOS.iOS\bin\iPhoneSimulator\Debug\Xamarin.Forms.Core.pdb
+D:\Project caballo หน้าร้าน\CBLPOS\CBLPOS.iOS\bin\iPhoneSimulator\Debug\Xamarin.Forms.Core.xml
+D:\Project caballo หน้าร้าน\CBLPOS\CBLPOS.iOS\bin\iPhoneSimulator\Debug\Xamarin.Forms.Platform.iOS.pdb
+D:\Project caballo หน้าร้าน\CBLPOS\CBLPOS.iOS\bin\iPhoneSimulator\Debug\Xamarin.Forms.Xaml.pdb
+D:\Project caballo หน้าร้าน\CBLPOS\CBLPOS.iOS\bin\iPhoneSimulator\Debug\Xamarin.Forms.Xaml.xml
+D:\Project caballo หน้าร้าน\CBLPOS\CBLPOS.iOS\bin\iPhoneSimulator\Debug\MvvmHelpers.pdb
+D:\Project caballo หน้าร้าน\CBLPOS\CBLPOS.iOS\bin\iPhoneSimulator\Debug\Plugin.Settings.Abstractions.pdb
+D:\Project caballo หน้าร้าน\CBLPOS\CBLPOS.iOS\bin\iPhoneSimulator\Debug\Plugin.Connectivity.pdb
+D:\Project caballo หน้าร้าน\CBLPOS\CBLPOS.iOS\bin\iPhoneSimulator\Debug\Plugin.Connectivity.Abstractions.pdb
+D:\Project caballo หน้าร้าน\CBLPOS\CBLPOS.iOS\bin\iPhoneSimulator\Debug\ar\Xamarin.Forms.Platform.iOS.resources.dll
+D:\Project caballo หน้าร้าน\CBLPOS\CBLPOS.iOS\bin\iPhoneSimulator\Debug\ca\Xamarin.Forms.Platform.iOS.resources.dll
+D:\Project caballo หน้าร้าน\CBLPOS\CBLPOS.iOS\bin\iPhoneSimulator\Debug\cs\Xamarin.Forms.Platform.iOS.resources.dll
+D:\Project caballo หน้าร้าน\CBLPOS\CBLPOS.iOS\bin\iPhoneSimulator\Debug\da\Xamarin.Forms.Platform.iOS.resources.dll
+D:\Project caballo หน้าร้าน\CBLPOS\CBLPOS.iOS\bin\iPhoneSimulator\Debug\de\Xamarin.Forms.Platform.iOS.resources.dll
+D:\Project caballo หน้าร้าน\CBLPOS\CBLPOS.iOS\bin\iPhoneSimulator\Debug\el\Xamarin.Forms.Platform.iOS.resources.dll
+D:\Project caballo หน้าร้าน\CBLPOS\CBLPOS.iOS\bin\iPhoneSimulator\Debug\es\Xamarin.Forms.Platform.iOS.resources.dll
+D:\Project caballo หน้าร้าน\CBLPOS\CBLPOS.iOS\bin\iPhoneSimulator\Debug\fi\Xamarin.Forms.Platform.iOS.resources.dll
+D:\Project caballo หน้าร้าน\CBLPOS\CBLPOS.iOS\bin\iPhoneSimulator\Debug\fr\Xamarin.Forms.Platform.iOS.resources.dll
+D:\Project caballo หน้าร้าน\CBLPOS\CBLPOS.iOS\bin\iPhoneSimulator\Debug\he\Xamarin.Forms.Platform.iOS.resources.dll
+D:\Project caballo หน้าร้าน\CBLPOS\CBLPOS.iOS\bin\iPhoneSimulator\Debug\hi\Xamarin.Forms.Platform.iOS.resources.dll
+D:\Project caballo หน้าร้าน\CBLPOS\CBLPOS.iOS\bin\iPhoneSimulator\Debug\hr\Xamarin.Forms.Platform.iOS.resources.dll
+D:\Project caballo หน้าร้าน\CBLPOS\CBLPOS.iOS\bin\iPhoneSimulator\Debug\hu\Xamarin.Forms.Platform.iOS.resources.dll
+D:\Project caballo หน้าร้าน\CBLPOS\CBLPOS.iOS\bin\iPhoneSimulator\Debug\id\Xamarin.Forms.Platform.iOS.resources.dll
+D:\Project caballo หน้าร้าน\CBLPOS\CBLPOS.iOS\bin\iPhoneSimulator\Debug\it\Xamarin.Forms.Platform.iOS.resources.dll
+D:\Project caballo หน้าร้าน\CBLPOS\CBLPOS.iOS\bin\iPhoneSimulator\Debug\ja\Xamarin.Forms.Platform.iOS.resources.dll
+D:\Project caballo หน้าร้าน\CBLPOS\CBLPOS.iOS\bin\iPhoneSimulator\Debug\ko\Xamarin.Forms.Platform.iOS.resources.dll
+D:\Project caballo หน้าร้าน\CBLPOS\CBLPOS.iOS\bin\iPhoneSimulator\Debug\ms\Xamarin.Forms.Platform.iOS.resources.dll
+D:\Project caballo หน้าร้าน\CBLPOS\CBLPOS.iOS\bin\iPhoneSimulator\Debug\nb\Xamarin.Forms.Platform.iOS.resources.dll
+D:\Project caballo หน้าร้าน\CBLPOS\CBLPOS.iOS\bin\iPhoneSimulator\Debug\nl\Xamarin.Forms.Platform.iOS.resources.dll
+D:\Project caballo หน้าร้าน\CBLPOS\CBLPOS.iOS\bin\iPhoneSimulator\Debug\pl\Xamarin.Forms.Platform.iOS.resources.dll
+D:\Project caballo หน้าร้าน\CBLPOS\CBLPOS.iOS\bin\iPhoneSimulator\Debug\pt\Xamarin.Forms.Platform.iOS.resources.dll
+D:\Project caballo หน้าร้าน\CBLPOS\CBLPOS.iOS\bin\iPhoneSimulator\Debug\pt-BR\Xamarin.Forms.Platform.iOS.resources.dll
+D:\Project caballo หน้าร้าน\CBLPOS\CBLPOS.iOS\bin\iPhoneSimulator\Debug\ro\Xamarin.Forms.Platform.iOS.resources.dll
+D:\Project caballo หน้าร้าน\CBLPOS\CBLPOS.iOS\bin\iPhoneSimulator\Debug\ru\Xamarin.Forms.Platform.iOS.resources.dll
+D:\Project caballo หน้าร้าน\CBLPOS\CBLPOS.iOS\bin\iPhoneSimulator\Debug\sk\Xamarin.Forms.Platform.iOS.resources.dll
+D:\Project caballo หน้าร้าน\CBLPOS\CBLPOS.iOS\bin\iPhoneSimulator\Debug\sv\Xamarin.Forms.Platform.iOS.resources.dll
+D:\Project caballo หน้าร้าน\CBLPOS\CBLPOS.iOS\bin\iPhoneSimulator\Debug\th\Xamarin.Forms.Platform.iOS.resources.dll
+D:\Project caballo หน้าร้าน\CBLPOS\CBLPOS.iOS\bin\iPhoneSimulator\Debug\tr\Xamarin.Forms.Platform.iOS.resources.dll
+D:\Project caballo หน้าร้าน\CBLPOS\CBLPOS.iOS\bin\iPhoneSimulator\Debug\uk\Xamarin.Forms.Platform.iOS.resources.dll
+D:\Project caballo หน้าร้าน\CBLPOS\CBLPOS.iOS\bin\iPhoneSimulator\Debug\vi\Xamarin.Forms.Platform.iOS.resources.dll
+D:\Project caballo หน้าร้าน\CBLPOS\CBLPOS.iOS\bin\iPhoneSimulator\Debug\zh-Hans\Xamarin.Forms.Platform.iOS.resources.dll
+D:\Project caballo หน้าร้าน\CBLPOS\CBLPOS.iOS\bin\iPhoneSimulator\Debug\zh-Hant\Xamarin.Forms.Platform.iOS.resources.dll
+D:\Project caballo หน้าร้าน\CBLPOS\CBLPOS.iOS\bin\iPhoneSimulator\Debug\zh-HK\Xamarin.Forms.Platform.iOS.resources.dll
+D:\Project caballo หน้าร้าน\CBLPOS\CBLPOS.iOS\obj\iPhoneSimulator\Debug\ibtool\_BundleResourceWithLogicalName.items
+D:\Project caballo หน้าร้าน\CBLPOS\CBLPOS.iOS\obj\iPhoneSimulator\Debug\actool\_PartialAppManifest.items
+D:\Project caballo หน้าร้าน\CBLPOS\CBLPOS.iOS\obj\iPhoneSimulator\Debug\actool\_BundleResourceWithLogicalName.items
+D:\Project caballo หน้าร้าน\CBLPOS\CBLPOS.iOS\obj\iPhoneSimulator\Debug\coremlc\_PartialAppManifest.items
+D:\Project caballo หน้าร้าน\CBLPOS\CBLPOS.iOS\obj\iPhoneSimulator\Debug\coremlc\_BundleResourceWithLogicalName.items
+D:\Project caballo หน้าร้าน\CBLPOS\CBLPOS.iOS\obj\iPhoneSimulator\Debug\optimized\
+D:\Project caballo หน้าร้าน\CBLPOS\CBLPOS.iOS\obj\iPhoneSimulator\Debug\CBLPOS.iOS.csprojAssemblyReference.cache
+D:\Project caballo หน้าร้าน\CBLPOS\CBLPOS.iOS\obj\iPhoneSimulator\Debug\CBLPOS.iOS.csproj.CoreCompileInputs.cache
+D:\Project caballo หน้าร้าน\CBLPOS\CBLPOS.iOS\obj\iPhoneSimulator\Debug\XamlC.stamp
+D:\Project caballo หน้าร้าน\CBLPOS\CBLPOS.iOS\obj\iPhoneSimulator\Debug\CBLPOS.iOS.csproj.CopyComplete
+D:\Project caballo หน้าร้าน\CBLPOS\CBLPOS.iOS\obj\iPhoneSimulator\Debug\CBLPOS.iOS.exe
+D:\Project caballo หน้าร้าน\CBLPOS\CBLPOS.iOS\obj\iPhoneSimulator\Debug\CBLPOS.iOS.pdb

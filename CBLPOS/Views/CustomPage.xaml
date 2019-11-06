@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" 
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+             xmlns:local="clr-namespace:CBLPOS.Layout" 
+             Title="ScreenPage"
+             x:Class="CBLPOS.Views.CustomPage">
+
+    <ContentPage.Padding>
+        <OnPlatform x:TypeArguments="Thickness">
+            <On Platform="iOS" Value="0, 20, 0, 0" />
+        </OnPlatform>
+    </ContentPage.Padding>
+    
+    <ScrollView Margin="0,20,0,20">
+        <local:WrapLayout x:Name="wrapLayout" />
+    </ScrollView>
+</ContentPage>

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    x:Class="CBLPOS.Views.IndexPage"
+    Title="HOME"
+    xmlns:ffimageloading="clr-namespace:FFImageLoading.Forms;assembly=FFImageLoading.Forms"
+    xmlns:flv="clr-namespace:DLToolkit.Forms.Controls;assembly=DLToolkit.Forms.Controls.FlowListView">
+
+    <ContentPage.Content>
+
+        <flv:FlowListView
+            SeparatorVisibility="None"
+            HasUnevenRows="true"
+            FlowColumnMinWidth="300"
+            FlowItemTappedCommand="{Binding ItemTappedCommand}"
+            FlowLastTappedItem="{Binding LastTappedItem}"
+            FlowItemsSource="{Binding Items}">
+
+            <flv:FlowListView.FlowColumnTemplate>
+
+                <DataTemplate>
+
+                    <Grid
+                        Padding="3">
+
+                        <Grid.RowDefinitions>
+
+                            <RowDefinition
+                                Height="*" />
+                            <RowDefinition
+                                Height="Auto" />
+
+                        </Grid.RowDefinitions>
+                        <Grid.ColumnDefinitions>
+
+                            <ColumnDefinition
+                                Width="*" />
+
+                        </Grid.ColumnDefinitions>
+                        
+                       
+                        <ffimageloading:CachedImage Grid.RowSpan="2" HeightRequest="300" WidthRequest="100" Aspect="Fill"
+                            DownsampleHeight="100" DownsampleUseDipUnits="false" x:Name="Image"
+                            LoadingPlaceholder="image_loading.png" ErrorPlaceholder="image_error.png"
+                            Source="{Binding ImageUrl}"/>
+                        
+                        
+       
+                        <StackLayout
+                            Grid.Row="1"
+                            BackgroundColor="#80000000"
+                            Padding="12">
+
+                            <Label
+                                x:Name="Label"
+                                HorizontalOptions="Center"
+                                HorizontalTextAlignment="Center"
+                                VerticalOptions="End"
+                                TextColor="White"
+                                FontSize="Large"
+                                FontAttributes="Bold"
+                                Text="{Binding FileName}" />
+
+                        </StackLayout>
+
+                    </Grid>
+
+                </DataTemplate>
+
+            </flv:FlowListView.FlowColumnTemplate>
+
+        </flv:FlowListView>
+
+        </ContentPage.Content>
+
+</ContentPage>

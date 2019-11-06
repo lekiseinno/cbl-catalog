@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" 
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="CBLPOS.Views.CartDetailPage"
+             x:Name="CartDetailPage"
+             BackgroundColor="#2196F3"
+             Title="Cart Order">
+    
+    <ContentPage.Content >
+        
+        <StackLayout  Padding="20">
+            
+             <Frame OutlineColor="Accent" Padding="10"  >
+               
+              <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*"/>
+                         <ColumnDefinition  Width= "3*"/>
+                    </Grid.ColumnDefinitions>
+                    <Grid.RowDefinitions>
+                        <RowDefinition />
+                         <RowDefinition />
+                         <RowDefinition />
+                    </Grid.RowDefinitions>
+                    
+                    
+                    
+             <Label Grid.ColumnSpan="2" Text="Detail" FontSize="Large" HorizontalOptions ="Center" TextColor="#f35e20"  FontAttributes="Bold"/>
+  
+            <Label Grid.Row="1" Grid.Column="0"  Text="Customer name: " FontSize="Medium" FontAttributes="Bold" TextColor="Blue" VerticalOptions="Start" />
+           
+            <Label Grid.Row="1" Grid.Column="1"  x:Name="lblcusname"  FontSize="Medium" VerticalOptions="Start" />
+
+            <Label Grid.Row="2" Grid.Column="0"  Text="Employee name: " FontSize="Medium" FontAttributes="Bold" TextColor="Blue" VerticalOptions="Start" />
+            
+             <Label Grid.Row="2" Grid.Column="1"  x:Name="lblempname"  FontSize="Medium" VerticalOptions="Start" />
+
+             </Grid>
+            </Frame> 
+            
+        
+           <StackLayout IsVisible="{Binding NoItemsInCart}" Padding="5" HorizontalOptions="Center" VerticalOptions="CenterAndExpand">
+                <Label Text="There are no items in the cart" FontSize="Medium" VerticalOptions="Center" />
+            </StackLayout>
+        
+        
+        
+        <ListView x:Name="ItemsListView"
+                 
+                  RowHeight="70"
+                    ItemsSource="{Binding Shopingcarts}"
+                    IsVisible="{Binding ItemsInCart}"
+                          HasUnevenRows="True"
+                          VerticalOptions="FillAndExpand"
+                          HorizontalOptions="FillAndExpand"
+                          BackgroundColor="White"
+                          SeparatorVisibility="Default">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <ViewCell>
+                            <StackLayout Orientation="Horizontal" BackgroundColor="White">
+                                <Label Text="{Binding Orders_tmp_Descriptions}" HorizontalTextAlignment="Start" VerticalOptions="CenterAndExpand" TextColor="Black" Margin="0,2,0,0" WidthRequest="550" />
+                                <Entry     WidthRequest="50" HorizontalOptions="CenterAndExpand" Text="{Binding Orders_tmp_Qty}" Keyboard="Numeric"/>
+                                <Button Text="Update"  FontSize="Small" HorizontalOptions="EndAndExpand" BackgroundColor="Green" TextColor="White" FontAttributes="Bold" Margin="10" HeightRequest="1"
+                                        WidthRequest="70" x:Name="BtnUpdate" Clicked="BtnUpdate_OnClicked" />
+                                <Button Text="Remove"  FontSize="Small" HorizontalOptions="EndAndExpand" BackgroundColor="Red" TextColor="White" FontAttributes="Bold" Margin="10" HeightRequest="1"
+                                        WidthRequest="70" x:Name="BtnRemove" Clicked="BtnRemove_OnClicked" />
+
+                            </StackLayout>
+                        </ViewCell>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+ 
+ 
+         <StackLayout  IsVisible="{Binding ItemsInCart}" >
+            
+
+            <Grid Margin="0,10,0,20">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition />
+                            <ColumnDefinition />
+                        </Grid.ColumnDefinitions>
+                        
+                        <Button Text="Cancel"
+                                BackgroundColor="Red"
+                                TextColor="White"
+                                Command="{Binding RemoveAllButton}"
+                                x:Name="btnRemoveAll" />
+                        <Button Text="Confirm"
+                                BackgroundColor="Green"
+                                TextColor="White"
+                                Grid.Column="1"
+                                Command="{Binding ConfirmButton}"
+                                x:Name="btnConfirm" />
+                        
+                        <ActivityIndicator Grid.Column="1"
+                                           IsVisible="False"
+                                           IsRunning="True"
+                                           x:Name="indicator"/>
+                        
+                    </Grid>
+            
+            </StackLayout>
+ 
+        
+      
+      
+  </StackLayout> 
+      </ContentPage.Content> 
+</ContentPage>

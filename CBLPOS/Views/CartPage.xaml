@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    x:Class="CBLPOS.Views.CartPage"
+    xmlns:ctrls="clr-namespace:CBLPOS.Controls"
+    xmlns:customContentView="clr-namespace:CBLPOS.ContentView;assembly=CBLPOS" 
+    x:Name="CartPage"> 
+    <ContentPage.Content>
+   <StackLayout
+        Padding="0,20,0,0"> 
+          <StackLayout IsVisible="{Binding IsNotBusy}">
+                <customContentView:CustomNavigationBar x:Name="NavigationBarView" Title="{Binding Title}" />
+           </StackLayout>
+    <Grid>
+      
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition
+                Width="*" />
+            <ColumnDefinition
+                Width="3*" />
+        </Grid.ColumnDefinitions>
+   
+        <StackLayout
+            x:Name="stackPanel"
+            Grid.Column="0"
+            Grid.Row="0">
+            <Label  Text="Type"
+                FontSize="20"
+                FontAttributes="Bold" />
+            <ListView  x:Name="TypeListView"
+                HorizontalOptions="FillAndExpand"
+                VerticalOptions="FillAndExpand"
+                SeparatorVisibility="None"
+                HasUnevenRows="True"
+                BackgroundColor="Transparent"
+                ItemsSource="{Binding TypeList}"
+                Margin="5"
+                HeightRequest="200">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <ViewCell>
+                            <StackLayout
+                                Padding="5">
+                                <ctrls:CheckBox  x:Name="cbtype"
+                                    Title="{Binding Item_Type_Name_EN}"
+                                    IsChecked="{Binding IsSelected}"
+                                    BorderImageSource="checkborder"
+                                    CheckedBackgroundImageSource="checkcheckedbg"
+                                    CheckmarkImageSource="checkcheckmark" />
+                            </StackLayout>
+                        </ViewCell>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+            <Label  Text="Size"
+                FontSize="20"
+                FontAttributes="Bold" />
+            <ListView   x:Name="SizeListView"
+                HorizontalOptions="FillAndExpand"
+                VerticalOptions="FillAndExpand"
+                SeparatorVisibility="None"
+                HasUnevenRows="True"
+                BackgroundColor="Transparent"
+                ItemSelected="OnItemSizeSelected"
+                ItemTapped="OnItemSizeTapped"
+                ItemsSource="{Binding SizeList}"
+                Margin="5"
+                HeightRequest="200">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <ViewCell>
+                            <StackLayout
+                                Padding="5">
+                                <ctrls:CheckBox
+                                    x:Name="cbsize"
+                                    Title="{Binding Item_Size_Name_EN}"
+                                    IsChecked="{Binding IsSelected}"
+                                    BorderImageSource="checkborder"
+                                    CheckedBackgroundImageSource="checkcheckedbg"
+                                    CheckmarkImageSource="checkcheckmark" />
+                            </StackLayout>
+                        </ViewCell>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+            <Label
+                Text="Color"
+                FontSize="20"
+                FontAttributes="Bold" />
+            <ListView
+                x:Name="ColorListView"
+                HorizontalOptions="FillAndExpand"
+                VerticalOptions="FillAndExpand"
+                SeparatorVisibility="None"
+                HasUnevenRows="True"
+                BackgroundColor="Transparent"
+                ItemSelected="OnItemColSelected"
+                ItemTapped="OnItemColTapped"
+                ItemsSource="{Binding ColorList}"
+                Margin="5"
+                HeightRequest="200">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <ViewCell>
+                            <StackLayout
+                                Padding="5">
+                                <ctrls:CheckBox
+                                    x:Name="cbcolor"
+                                    Title="{Binding Item_Color_Name_EN}"
+                                    IsChecked="{Binding IsSelected}"
+                                    BorderImageSource="checkborder"
+                                    CheckedBackgroundImageSource="checkcheckedbg"
+                                    CheckmarkImageSource="checkcheckmark" />
+                            </StackLayout>
+                        </ViewCell>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+            <Button
+                x:Name="btnselect"
+                Text="Select"
+                TextColor="White"
+                FontAttributes="Bold"
+                VerticalOptions="CenterAndExpand"
+                BackgroundColor="#f35e20" />
+        </StackLayout>
+      
+            <StackLayout
+            Grid.Column="1"
+            Grid.Row="0"
+            Orientation="Vertical"
+            BackgroundColor="White">
+                    
+                                        
+         <Image x:Name="imageview"
+               Aspect="AspectFill"
+                HeightRequest="300"
+                HorizontalOptions="Center"
+                VerticalOptions="CenterAndExpand"
+              /> 
+                            
+                
+                    
+            <ListView
+                x:Name="ItemsListView"
+                BackgroundColor="White"
+                IsVisible="{Binding IsNotBusy}"
+                VerticalOptions="FillAndExpand"
+                HorizontalOptions="FillAndExpand"
+                ItemsSource="{Binding ItemList}"
+                SeparatorVisibility="None">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <ViewCell>                                 
+                <Grid>
+           <Grid.ColumnDefinitions>
+            <ColumnDefinition
+                Width="3*" />
+            <ColumnDefinition
+                Width="*" />
+            <ColumnDefinition
+                Width="*" />
+        </Grid.ColumnDefinitions>
+              <Label Text="{Binding Description}" Grid.Column="0"  TextColor="#f35e20" HorizontalTextAlignment="Start" HorizontalOptions="StartAndExpand" VerticalOptions="Center"  Margin="0,4,0,0" FontSize="Medium" LineBreakMode="TailTruncation" />
+                                <Label Text="{Binding No_}"  IsVisible="false" />
+                                <Entry Text="{Binding Qty}" Grid.Column="1" WidthRequest="50"  HorizontalOptions="EndAndExpand" VerticalOptions="CenterAndExpand" Keyboard="Numeric"/>
+                                <Button Text="{Binding ButtonText}" Grid.Column="2" FontSize="Small" HorizontalOptions="EndAndExpand" BackgroundColor="{Binding ColorText}"
+                                         TextColor="White" FontAttributes="Bold" Margin="10" HeightRequest="1"  
+                                         WidthRequest="100"  x:Name="BtnIncrement"  Clicked="BtnIncrement_OnClicked"></Button>
+                                    
+                </Grid>
+                                    
+                             <!--<StackLayout Orientation="Horizontal"
+                                               HeightRequest="50">
+                               
+                                <Label Text="{Binding Description}"   TextColor="#f35e20" HorizontalTextAlignment="Start" HorizontalOptions="StartAndExpand" VerticalOptions="Center"  Margin="0,4,0,0" FontSize="Medium" LineBreakMode="TailTruncation" />
+                                 <Label Text="{Binding No_}"  IsVisible="false" />
+                                <Entry    Text="1"  WidthRequest="50"  HorizontalOptions="EndAndExpand" VerticalOptions="CenterAndExpand" Keyboard="Numeric"/>
+                                <Button Text="{Binding ButtonText}" FontSize="Small" HorizontalOptions="EndAndExpand" BackgroundColor="#808080" TextColor="White" FontAttributes="Bold" Margin="10" HeightRequest="1"  
+                                         WidthRequest="100"  x:Name="BtnIncrement" Clicked="BtnIncrement_OnClicked"></Button>
+                                    
+                               </StackLayout>   -->                    
+                         
+                        </ViewCell>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+   
+        </StackLayout>
+    </Grid>
+  </StackLayout>
+ </ContentPage.Content>
+</ContentPage>

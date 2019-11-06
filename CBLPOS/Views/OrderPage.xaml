@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+          xmlns:cardView="clr-namespace:CardView;assembly=CardViewNewTest"
+             Title="Order All"
+             x:Class="CBLPOS.Views.OrderPage">
+
+    <ListView SeparatorVisibility="None" ItemsSource="{Binding OrderList}" RowHeight="150" HasUnevenRows="True" x:Name="OrderListview">
+        <ListView.ItemTemplate>
+            <DataTemplate>
+                <ViewCell>
+                 <Frame Padding="10"  Margin="5">
+                            <Grid BackgroundColor="#FFCC66">
+                                <Grid.RowDefinitions>
+                                    <RowDefinition Height="*" />
+                                    <RowDefinition Height="*"/>
+                                    <RowDefinition Height="*"/>
+                                    <RowDefinition Height="*"/>
+                                </Grid.RowDefinitions>
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="100"/>
+                                    <ColumnDefinition Width="*"/>
+                                    <ColumnDefinition Width="*"/>
+                                    <ColumnDefinition Width="*"/>
+                                </Grid.ColumnDefinitions>
+                                <StackLayout Grid.RowSpan="4" Grid.Column="0" BackgroundColor= "#FF6600" VerticalOptions="FillAndExpand">
+                                    <Label Text="{Binding Orders_No}" Rotation="270" TextColor="White" FontAttributes="Bold" VerticalOptions="EndAndExpand" VerticalTextAlignment="Start" Margin="0,0,0,30"></Label>
+                                </StackLayout>
+                                <Label Grid.Column="2" Grid.Row="0" Grid.ColumnSpan="2" Text="{Binding Orders_Date, StringFormat='Date: \{0: dd MMMM yyyy}'}" FontSize="Medium"  TextColor="White" FontAttributes="Bold" HorizontalOptions="EndAndExpand" VerticalOptions="CenterAndExpand" />
+                                <Label Grid.Column="1" Grid.Row="1" Text="{Binding Orders_Qty , StringFormat='Qty: \{0}'}" FontSize="20" FontAttributes="Bold" TextColor="Black" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand"></Label>
+                                <Label Grid.Column="2" Grid.Row="1"  Text="Customer Name" TextColor="#FF6600" FontAttributes="Bold"> </Label>
+                                <Label Grid.Column="2" Grid.Row="2" Grid.ColumnSpan="2" Text="{Binding Customer_name}" TextColor="Maroon" FontAttributes="Bold"> </Label>
+                     
+                        </Grid>
+                 </Frame>
+                </ViewCell>
+            </DataTemplate>
+        </ListView.ItemTemplate>
+    </ListView>
+</ContentPage>
